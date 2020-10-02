@@ -35,7 +35,7 @@ Astuces:
 | 11   | 300117782 |http://erna161707791.wordpress.com                                                 | 10.13.237.38 | 10.13.2.32 |
 | 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | 10.13.237.77 | 10.13.2.70| 
 |
-| 13   | 300117806 | https://marketing376655173.wordpress.com                                          | 10.13.237.!  | 10.13.!. !|
+| 13   | 300117806 | https://marketing376655173.wordpress.com                                          | 10.13.237.5  | 10.13.2.59|
 | 14   | 300118524 |                                                                                   | 10.13.237.?  | 10.13.?.?  |
 
 
