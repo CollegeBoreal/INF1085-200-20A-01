@@ -11,8 +11,8 @@
 
 :three: Créer sa machine virtuelle
 
-- [ ] [AWS](https://github.com/CollegeBoreal/Tutoriels/tree/master/2.Virtualisation/4.Cloud/2.Public/1.AWS/deployment)
+- [ ] [AWS](https://github.com/CollegeBoreal/Tutoriels/tree/master/2.Virtualisation/4.Cloud/2.Public/1.AWS)
 
-- [ ] [Azure](https://github.com/CollegeBoreal/Tutoriels/tree/master/2.Virtualisation/4.Cloud/2.Public/2.Azure/deployment)
+- [ ] [Azure](https://github.com/CollegeBoreal/Tutoriels/tree/master/2.Virtualisation/4.Cloud/2.Public/2.Azure)
 
 
