@@ -30,7 +30,7 @@ Astuces:
 | 06   | 300116685 |                                                                                   | 10.13.237.?  | 10.13.?.?  |
 | 07   | 300116973 | https://nathalielinux.wordpress.com/2020/09/14/example-post/                      | 10.13.237.23 |10.13.2.24  |
 | 08   | 300117178 | https://kblinuxca.wordpress.com/2020/09/16/comment-installer-linux-server-20-04   | 10.13.237.15 | 10.13.0.15 |
-| 09   | 300117314 |  https://wordpress.com/home/mortilinuxserver.wordpress.com                        | 10.13.237.100| 10.13.2.100|
+| 09   | 300117314 |  https://mortilinuxserver.wordpress.com/wp-admin/post.php?post=49&action=edit     | 10.13.237.100| 10.13.2.100|
 | 10   | 300117444 |https://dido05327.wordpress.com/blog/                                              | 10.13.237.?  | 10.13.0.20 |
 | 11   | 300117782 |http://erna161707791.wordpress.com                                                 | 10.13.237.38 | 10.13.2.32 |
 | 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | 10.13.237.77 | 10.13.2.70 | 
