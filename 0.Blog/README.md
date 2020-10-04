@@ -28,13 +28,13 @@ Astuces:
 | 04   | 300115140 | https://blogzacklinux.wordpress.com                                               | 10.13.237.117|10.13.32.50 |
 | 05   | 300116670 | https://auriane790987616.wordpress.com/blog                                       | 10.13.237.?  | 10.13.?.?  |
 | 06   | 300116685 |                                                                                   | 10.13.237.?  | 10.13.?.?  |
-| 07   | 300116973 | https://nathalielinux.wordpress.com/2020/09/14/example-post/                      | 10.13.237.23 |10.13.2.24 |
-| 08   | 300117178 | https://kblinuxca.wordpress.com/2020/09/16/comment-installer-linux-server-20-04   | 10.13.237.15  | 10.13.0.15 |
-| 09   | 300117314 |                                                                                   | 10.13.237.100  | 10.13.2.100  |
-| 10   | 300117444 |https://dido05327.wordpress.com/blog/                                              | 10.13.237.?  | 10.13.0.20  |
+| 07   | 300116973 | https://nathalielinux.wordpress.com/2020/09/14/example-post/                      | 10.13.237.23 |10.13.2.24  |
+| 08   | 300117178 | https://kblinuxca.wordpress.com/2020/09/16/comment-installer-linux-server-20-04   | 10.13.237.15 | 10.13.0.15 |
+| 09   | 300117314 |  https://wordpress.com/home/mortilinuxserver.wordpress.com                        | 10.13.237.100| 10.13.2.100|
+| 10   | 300117444 |https://dido05327.wordpress.com/blog/                                              | 10.13.237.?  | 10.13.0.20 |
 | 11   | 300117782 |http://erna161707791.wordpress.com                                                 | 10.13.237.38 | 10.13.2.32 |
-| 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | 10.13.237.77 | 10.13.2.70| 
-| 13   | 300117806 | https://marketing376655173.wordpress.com                                          | 10.13.237.76  | 10.13.2.99|
+| 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | 10.13.237.77 | 10.13.2.70 | 
+| 13   | 300117806 | https://marketing376655173.wordpress.com                                          | 10.13.237.76 | 10.13.2.99 |
 | 14   | 300118524 |                                                                                   | 10.13.237.?  | 10.13.?.?  |
 
 
