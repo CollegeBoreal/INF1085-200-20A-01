@@ -46,6 +46,8 @@ Astuces:
 
 ## References
 
+:one: Reseau Externe
+
 http://jodies.de/ipcalc?host=10.13.0.0&mask1=20
 
        Address:   10.13.0.1             00001010.00001101.0000 0000.00000001
@@ -57,6 +59,8 @@ http://jodies.de/ipcalc?host=10.13.0.0&mask1=20
        HostMin:   10.13.0.1             00001010.00001101.0000 0000.00000001
        HostMax:   10.13.15.254          00001010.00001101.0000 1111.11111110
        Hosts/Net: 4094                  (Private Internet)
+
+:one: Reseau Interne
 
 http://jodies.de/ipcalc?host=10.13.237.0&mask1=25
 
