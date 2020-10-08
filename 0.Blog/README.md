@@ -16,7 +16,11 @@ Astuces:
 
 * Installer la machine dans le laboratoire:
 
-       Choisir une adresse dans la plage de réseau: 10.13.237.0/28
+       Choisir une adresse dans la plage de réseau:
+       
+       - interne: 10.13.237.0/25
+       
+       - externe: 10.13.0.0/20
        
 ## Liste des blogs
 
