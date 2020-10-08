@@ -20,7 +20,7 @@ Astuces:
        
 ## Liste des blogs
 
-|:hash:| :id:      |   Blog (https://wordpress.com)                                                    | Serveur Local| [Serveur Ext.](README.md#references) |
+|:hash:| :id:      |   Blog (https://wordpress.com)                                                    | [Reseau Interne](README.md#two-reseau-interne)| [Reseau Ext.](README.md#one-reseau-externe) |
 |------|-----------|-----------------------------------------------------------------------------------|--------------|--------------|
 | 01   | 300111441 |                                                                                   | 10.13.237.?  | 10.13.?.?  |
 | 02   | 300111824 |                                                                                   | 10.13.237.?  | 10.13.?.?  |
