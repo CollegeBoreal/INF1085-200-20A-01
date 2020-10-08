@@ -20,7 +20,7 @@ Astuces:
        
 ## Liste des blogs
 
-|:hash:| :id:      |   Blog (https://wordpress.com)                                                    | Serveur Local| Serveur Ext. |
+|:hash:| :id:      |   Blog (https://wordpress.com)                                                    | Serveur Local| [Serveur Ext.](README.md#references) |
 |------|-----------|-----------------------------------------------------------------------------------|--------------|--------------|
 | 01   | 300111441 |                                                                                   | 10.13.237.?  | 10.13.?.?  |
 | 02   | 300111824 |                                                                                   | 10.13.237.?  | 10.13.?.?  |
@@ -44,7 +44,7 @@ Astuces:
 | 300098957 | https://setrar.wordpress.com/2015/01/10/bitstamp/       | 
 
 
-## Reference
+## References
 
 http://jodies.de/ipcalc?host=10.13.0.1&mask1=20&mask2=
 
