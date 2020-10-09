@@ -34,7 +34,7 @@ Astuces:
 
 ## Liste des blogs
 
-|:hash:| :id:      |   Blog (https://wordpress.com)                                                    | VPN  | [Check](README.md#legende) | [Reseau Interne](README.md#two-reseau-interne)| [Reseau Ext.](README.md#one-reseau-externe) |
+|:hash:| :id:      |   Blog (https://wordpress.com)                                                    | [VPN](https://github.com/CollegeBoreal/Tutoriels/tree/master/V.VPN)  | [Check](README.md#legende) | [Reseau Interne](README.md#two-reseau-interne)| [Reseau Ext.](README.md#one-reseau-externe) |
 |------|-----------|-----------------------------------------------------------------------------------|------|---------|---------------|--------------|
 | 01   | 300111441 |                                                                                   | :-1: | :zero:  | 10.13.237.?   | 10.13.?.?    |
 | 02   | 300111824 |                                                                                   | :-1: | :zero:  | 10.13.237.?   | 10.13.?.?    |
