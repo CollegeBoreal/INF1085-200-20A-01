@@ -30,11 +30,11 @@ Astuces:
 | :one:  | Blog Créé |
 | :two:  | Blog et Réseau Interne créé |
 | :three: | Blog, Réseau Interne et Externe Créé |
-| :heavy_check_mark: | Prêt à être noté |
+| :+1:   | Prêt à être noté |
 
 ## Liste des blogs
 
-|:hash:| :id:      |   Blog (https://wordpress.com)                                                    | VPN  | Check | [Reseau Interne](README.md#two-reseau-interne)| [Reseau Ext.](README.md#one-reseau-externe) |
+|:hash:| :id:      |   Blog (https://wordpress.com)                                                    | VPN  | [Check](README.md#legende) | [Reseau Interne](README.md#two-reseau-interne)| [Reseau Ext.](README.md#one-reseau-externe) |
 |------|-----------|-----------------------------------------------------------------------------------|------|---------|---------------|--------------|
 | 01   | 300111441 |                                                                                   | :-1: | :zero:  | 10.13.237.?   | 10.13.?.?    |
 | 02   | 300111824 |                                                                                   | :-1: | :zero:  | 10.13.237.?   | 10.13.?.?    |
