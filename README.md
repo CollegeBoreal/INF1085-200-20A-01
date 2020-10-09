@@ -5,7 +5,7 @@ Administration Linux
 
 |No| Date   | Cours                       | Intitulé                                |  Pratique .                            |
 |--|--------|:----------------------------|:----------------------------------------|:---------------------------------------|
-| 1|20-09-25| [0.Blog](./0.Blog)          | Installer Ubuntu 20.04                  | Démontrer l'installation par un blog (i.e. http://wordpress.com  ) |
+| 1|20-10-16| [0.Blog](./0.Blog)          | Installer Ubuntu 20.04                  | Démontrer l'installation par un blog (i.e. http://wordpress.com  ) |
 
 
 ## Resultats d'Apprentissage du Cours
