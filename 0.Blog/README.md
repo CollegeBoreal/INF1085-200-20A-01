@@ -22,6 +22,16 @@ Astuces:
        
        - externe: 10.13.0.0/20
        
+## Legende
+
+| :hash: | Commentaire         |
+|--------|---------------------|
+| :zero: | Aucune installation, ne peut pas être véfifié |
+| :one:  | Blog Créé |
+| :two:  | Blog et Réseau Interne créé |
+| :three: | Blog, Réseau Interne et Externe Créé |
+| :heavy_check_mark: | Prêt à être noté |
+
 ## Liste des blogs
 
 |:hash:| :id:      |   Blog (https://wordpress.com)                                                    | [Reseau Interne](README.md#two-reseau-interne)| [Reseau Ext.](README.md#one-reseau-externe) | Check |
