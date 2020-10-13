@@ -18,38 +18,36 @@ Astuces:
 
        Choisir une adresse dans la plage de réseau:
        
-       - interne: 10.13.237.0/25
+       - Externe: 10.13.237.0/24
        
-       - externe: 10.13.0.0/20
        
 ## Legende
 
-| :hash: | Commentaire         |
-|--------|---------------------|
+| :hash: | Commentaire                                   |
+|--------|-----------------------------------------------|
 | :zero: | Aucune installation, ne peut pas être véfifié |
-| :one:  | Blog Créé |
-| :two:  | Blog et Réseau Interne créé |
-| :three: | Blog, Réseau Interne et Externe Créé |
-| :+1:   | Prêt à être noté |
+| :one:  | Blog Créé                                     |
+| :two:  | Blog et Réseau Externe créé                   |
+| :+1:   | Prêt à être noté                              |
 
 ## Liste des blogs
 
-|:hash:| :id:      |   Blog (https://wordpress.com)                                                    | [VPN](https://github.com/CollegeBoreal/Tutoriels/tree/master/V.VPN)  | [Check](README.md#legende) | [Reseau Interne](README.md#two-reseau-interne)| [Reseau Ext.](README.md#one-reseau-externe) (Optionnelle )|
-|------|-----------|-----------------------------------------------------------------------------------|------|---------|---------------|--------------|
-| 01   | 300111441 |                                                                                   | :-1: | :zero:  | 10.13.237.?   | 10.13.?.?    |
-| 02   | 300111824 |                                                                                   | :-1: | :zero:  | 10.13.237.?   | 10.13.?.?    |
-| 03   | 300115065 | https://fadde99.wordpress.com/                                                    | :-1: | :zero:  | 10.13.237.?   | 10.13.?.?    |
-| 04   | 300115140 | https://blogzacklinux.wordpress.com                                               | :-1: | :zero:  | 10.13.237.117 | 10.13.32.50  |
-| 05   | 300116670 | https://auriane790987616.wordpress.com/blog                                       | :+1: | :zero:  | 10.13.237.25  | 10.13.2.70   |
-| 06   | 300116685 | https://Amirlinux.wordpress.com/blog                                              | :-1: | :zero:  | 10.13.237.51  | 10.13.2.59   |
-| 07   | 300116973 | https://nathalielinux.wordpress.com/2020/09/14/example-post/                      | :+1: | :one:   | 10.13.237.23  | 10.13.2.24   |
-| 08   | 300117178 | https://kblinuxca.wordpress.com/2020/09/16/comment-installer-linux-server-20-04   | :-1: | :zero:  | 10.13.237.15  | 10.13.0.15   |
-| 09   | 300117314 |  https://mortilinuxserver.wordpress.com/wp-admin/post.php?post=49&action=edit     | :-1: | :zero:  | 10.13.237.100 | 10.13.2.100  |
-| 10   | 300117444 |https://dido05327.wordpress.com/blog/                                              | :-1: | :zero:  | 10.13.237.?   | 10.13.0.20   |
-| 11   | 300117782 |http://erna161707791.wordpress.com                                                 | :+1: | :zero:  | 10.13.237.85  | 10.13.2.77   |
-| 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | :-1: | :zero:  | 10.13.237.77  | 10.13.2.70   |
-| 13   | 300117806 | https://marketing376655173.wordpress.com                                          | :-1: | :zero:  | 10.13.237.76  | 10.13.2.99   |
-| 14   | 300118524 |                                                                                   | :-1: | :zero:  | 10.13.237.?   | 10.13.?.?    |
+|:hash:| :id:      |   Blog (https://wordpress.com)                                                    | [VPN](https://github.com/CollegeBoreal/Tutoriels/tree/master/V.VPN)  | [Check](README.md#legende) | [Reseau Externe](README.md#one-reseau-externe)|
+|------|-----------|-----------------------------------------------------------------------------------|------|---------|---------------|
+| 01   | 300111441 |                                                                                   | :-1: | :zero:  | 10.13.237.?   |
+| 02   | 300111824 |                                                                                   | :-1: | :zero:  | 10.13.237.?   |
+| 03   | 300115065 | https://fadde99.wordpress.com/                                                    | :-1: | :zero:  | 10.13.237.?   |
+| 04   | 300115140 | https://blogzacklinux.wordpress.com                                               | :-1: | :zero:  | 10.13.237.117 |
+| 05   | 300116670 | https://auriane790987616.wordpress.com/blog                                       | :+1: | :zero:  | 10.13.237.25  |
+| 06   | 300116685 | https://Amirlinux.wordpress.com/blog                                              | :-1: | :zero:  | 10.13.237.51  |
+| 07   | 300116973 | https://nathalielinux.wordpress.com/2020/09/14/example-post/                      | :+1: | :one:   | 10.13.237.23  |
+| 08   | 300117178 | https://kblinuxca.wordpress.com/2020/09/16/comment-installer-linux-server-20-04   | :-1: | :zero:  | 10.13.237.15  |
+| 09   | 300117314 |  https://mortilinuxserver.wordpress.com/wp-admin/post.php?post=49&action=edit     | :-1: | :zero:  | 10.13.237.100 |
+| 10   | 300117444 |https://dido05327.wordpress.com/blog/                                              | :-1: | :zero:  | 10.13.237.?   |
+| 11   | 300117782 |http://erna161707791.wordpress.com                                                 | :+1: | :zero:  | 10.13.237.85  |
+| 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | :-1: | :zero:  | 10.13.237.77  |
+| 13   | 300117806 | https://marketing376655173.wordpress.com                                          | :-1: | :zero:  | 10.13.237.76  |
+| 14   | 300118524 |                                                                                   | :-1: | :zero:  | 10.13.237.?   |
 
 
 #### Example
@@ -61,6 +59,20 @@ Astuces:
 ## References
 
 ### :one: Reseau Externe
+
+http://jodies.de/ipcalc?host=10.13.237.0&mask1=25
+
+       Address:   10.13.237.0           00001010.00001101.11101101.0 0000000
+       Netmask:   255.255.255.128 = 25  11111111.11111111.11111111.1 0000000
+       Wildcard:  0.0.0.127             00000000.00000000.00000000.0 1111111
+       =>
+       Network:   10.13.237.0/25        00001010.00001101.11101101.0 0000000 (Class A)
+       Broadcast: 10.13.237.127         00001010.00001101.11101101.0 1111111
+       HostMin:   10.13.237.1           00001010.00001101.11101101.0 0000001
+       HostMax:   10.13.237.126         00001010.00001101.11101101.0 1111110
+       Hosts/Net: 126                   (Private Internet)
+
+### :x: Reseau Interne
 
 http://jodies.de/ipcalc?host=10.13.0.0&mask1=20
 
@@ -74,16 +86,3 @@ http://jodies.de/ipcalc?host=10.13.0.0&mask1=20
        HostMax:   10.13.15.254          00001010.00001101.0000 1111.11111110
        Hosts/Net: 4094                  (Private Internet)
 
-### :two: Reseau Interne
-
-http://jodies.de/ipcalc?host=10.13.237.0&mask1=25
-
-       Address:   10.13.237.0           00001010.00001101.11101101.0 0000000
-       Netmask:   255.255.255.128 = 25  11111111.11111111.11111111.1 0000000
-       Wildcard:  0.0.0.127             00000000.00000000.00000000.0 1111111
-       =>
-       Network:   10.13.237.0/25        00001010.00001101.11101101.0 0000000 (Class A)
-       Broadcast: 10.13.237.127         00001010.00001101.11101101.0 1111111
-       HostMin:   10.13.237.1           00001010.00001101.11101101.0 0000001
-       HostMax:   10.13.237.126         00001010.00001101.11101101.0 1111110
-       Hosts/Net: 126                   (Private Internet)
