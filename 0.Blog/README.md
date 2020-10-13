@@ -23,31 +23,31 @@ Astuces:
        
 ## Legende
 
-| :hash: | Commentaire                                   |
-|--------|-----------------------------------------------|
-| :zero: | Aucune installation, ne peut pas être véfifié |
-| :one:  | Blog Créé                                     |
-| :two:  | Blog et Réseau Externe créé                   |
-| :+1:   | Prêt à être noté                              |
+| :hash:             | Commentaires                                  |
+|--------------------|-----------------------------------------------|
+| :zero:             | Aucune installation, ne peut pas être véfifié |
+| :one:              | Blog Créé                                     |
+| :two:              | Blog et Réseau Externe créé                   |
+| :heavy_check_mark: | Prêt à être noté                              |
 
 ## Liste des blogs
 
 |:hash:| :id:      |   Blog (https://wordpress.com)                                                    | [VPN](https://github.com/CollegeBoreal/Tutoriels/tree/master/V.VPN)  | [Check](README.md#legende) | [Reseau Externe](README.md#one-reseau-externe)|
-|------|-----------|-----------------------------------------------------------------------------------|------|---------|---------------|
-| 01   | 300111441 |                                                                                   | :-1: | :zero:  | 10.13.237.?   |
-| 02   | 300111824 |                                                                                   | :-1: | :zero:  | 10.13.237.?   |
-| 03   | 300115065 | https://fadde99.wordpress.com/                                                    | :-1: | :zero:  | 10.13.237.?   |
-| 04   | 300115140 | https://blogzacklinux.wordpress.com                                               | :-1: | :zero:  | 10.13.237.117 |
-| 05   | 300116670 | https://auriane790987616.wordpress.com/blog                                       | :+1: | :zero:  | 10.13.237.25  |
-| 06   | 300116685 | https://Amirlinux.wordpress.com/blog                                              | :-1: | :zero:  | 10.13.237.51  |
-| 07   | 300116973 | https://nathalielinux.wordpress.com/2020/09/14/example-post/                      | :+1: | :one:   | 10.13.237.23  |
-| 08   | 300117178 | https://kblinuxca.wordpress.com/2020/09/16/comment-installer-linux-server-20-04   | :-1: | :zero:  | 10.13.237.15  |
-| 09   | 300117314 |  https://mortilinuxserver.wordpress.com/wp-admin/post.php?post=49&action=edit     | :-1: | :zero:  | 10.13.237.100 |
-| 10   | 300117444 |https://dido05327.wordpress.com/blog/                                              | :-1: | :zero:  | 10.13.237.?   |
-| 11   | 300117782 |http://erna161707791.wordpress.com                                                 | :+1: | :zero:  | 10.13.237.85  |
-| 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | :-1: | :zero:  | 10.13.237.77  |
-| 13   | 300117806 | https://marketing376655173.wordpress.com                                          | :-1: | :zero:  | 10.13.237.76  |
-| 14   | 300118524 |                                                                                   | :-1: | :zero:  | 10.13.237.?   |
+|------|-----------|-----------------------------------------------------------------------------------|------|--------------------|---------------|
+| 01   | 300111441 |                                                                                   | :-1: | :zero:             | 10.13.237.?   |
+| 02   | 300111824 |                                                                                   | :-1: | :zero:             | 10.13.237.?   |
+| 03   | 300115065 | https://fadde99.wordpress.com/                                                    | :-1: | :zero:             | 10.13.237.?   |
+| 04   | 300115140 | https://blogzacklinux.wordpress.com                                               | :-1: | :zero:             | 10.13.237.117 |
+| 05   | 300116670 | https://auriane790987616.wordpress.com/blog                                       | :+1: | :zero:             | 10.13.237.25  |
+| 06   | 300116685 | https://Amirlinux.wordpress.com/blog                                              | :-1: | :zero:             | 10.13.237.51  |
+| 07   | 300116973 | https://nathalielinux.wordpress.com/2020/09/14/example-post/                      | :+1: | :heavy_check_mark: | 10.13.237.23  |
+| 08   | 300117178 | https://kblinuxca.wordpress.com/2020/09/16/comment-installer-linux-server-20-04   | :-1: | :zero:             | 10.13.237.15  |
+| 09   | 300117314 |  https://mortilinuxserver.wordpress.com/wp-admin/post.php?post=49&action=edit     | :-1: | :zero:             | 10.13.237.100 |
+| 10   | 300117444 |https://dido05327.wordpress.com/blog/                                              | :-1: | :zero:             | 10.13.237.?   |
+| 11   | 300117782 |http://erna161707791.wordpress.com                                                 | :+1: | :zero:             | 10.13.237.85  |
+| 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | :-1: | :zero:             | 10.13.237.77  |
+| 13   | 300117806 | https://marketing376655173.wordpress.com                                          | :-1: | :zero:             | 10.13.237.76  |
+| 14   | 300118524 |                                                                                   | :-1: | :zero:             | 10.13.237.?   |
 
 
 #### Example
