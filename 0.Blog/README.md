@@ -42,7 +42,7 @@ Astuces:
 | 06   | 300116685 | https://Amirlinux.wordpress.com/blog                                              | :-1: | :zero:             | 10.13.237.88  |
 | 07   | 300116973 | https://nathalielinux.wordpress.com/2020/09/14/example-post/                      | :+1: | :heavy_check_mark: | 10.13.237.23  |
 | 08   | 300117178 | https://kblinuxca.wordpress.com/2020/09/16/comment-installer-linux-server-20-04   | :-1: | :zero:             | 10.13.237.15  |
-| 09   | 300117314 |  https://mortilinuxserver.wordpress.com/wp-admin/post.php?post=49&action=edit     | :-1: | :zero:             | 10.13.237.100 |
+| 09   | 300117314 | https://mortilinuxserver.wordpress.com/wp-admin/post.php?post=6&action=edit    | :-1: | :zero:             | 10.13.237.100 |
 | 10   | 300117444 |https://dido05327.wordpress.com/blog/                                              | :-1: | :zero:             | 10.13.237.?   |
 | 11   | 300117782 |http://erna161707791.wordpress.com                                                 | :+1: | :zero:             | 10.13.237.85  |
 | 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | :-1: | :zero:             | 10.13.237.77  |
