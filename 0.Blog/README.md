@@ -46,7 +46,7 @@ Astuces:
 | 10   | 300117444 |https://dido05327.wordpress.com/2020/10/15/comment-installer-linux-serverubuntu-18-04-lts/| :-1: | :zero:             | 10.13.237.97   |
 | 11   | 300117782 |http://erna161707791.wordpress.com                                                 | :+1: | :zero:             | 10.13.237.85  |
 | 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | :+1: | :heavy_check_mark: | 10.13.237.77  |
-| 13   | 300117806 | https://marketing376655173.wordpress.com                                          | :-1: | :zero:             | 10.13.237.76  |
+| 13   | 300117806 | https://marketing376655173.wordpress.com                                          | :+1: | :heavy_check_mark: | 10.13.237.76  |
 | 14   | 300118524 |https://zoureni.wordpress.com/                                                     | :+1: | :heavy_check_mark: | 10.13.237.19  |
 
 
