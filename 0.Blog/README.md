@@ -47,7 +47,7 @@ Astuces:
 | 11   | 300117782 |http://erna161707791.wordpress.com                                                 | :+1: | :zero:             | 10.13.237.85  |
 | 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | :+1: | :heavy_check_mark: | 10.13.237.77  |
 | 13   | 300117806 | https://marketing376655173.wordpress.com                                          | :-1: | :zero:             | 10.13.237.76  |
-| 14   | 300118524 |                                                                                   | :-1: | :zero:             | 10.13.237.?   |
+| 14   | 300118524 |https://zoureni.wordpress.com/                                                     | :-1: | :zero:             | 10.13.237.19  |
 
 
 #### Example
