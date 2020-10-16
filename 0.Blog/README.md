@@ -34,7 +34,7 @@ Astuces:
 
 |:hash:| :id:      |   Blog (https://wordpress.com)                                                    | [VPN](https://github.com/CollegeBoreal/Tutoriels/tree/master/V.VPN)  | [Check](README.md#legende) | [Reseau Externe](README.md#one-reseau-externe)|
 |------|-----------|-----------------------------------------------------------------------------------|------|--------------------|---------------|
-| 01   | 300111441 |                                                                                   | :-1: | :x:                | 10.13.237.?   |
+| 01   | 300111441 |https://wordpress.com/post/luxuryking698719002.wordpress.com/37                    | :-1: | :x:                | 10.13.237.?   |
 | 02   | 300111824 |https://com954371267.wordpress.com/2020/10/12/installation-de-ubuntu-20-04-lts/    | :-1: | :x:                | 10.13.237.?   |
 | 03   | 300115065 | https://fadde99.wordpress.com                                                     | :+1: | :heavy_check_mark: | 10.13.237.98   |
 | 04   | 300115140 | https://blogzacklinux.wordpress.com                                               | :+1: | :heavy_check_mark: | 10.13.237.117 |
