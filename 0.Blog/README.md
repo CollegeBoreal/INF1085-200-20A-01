@@ -38,7 +38,7 @@ Astuces:
 | 02   | 300111824 |                                                                                   | :-1: | :zero:             | 10.13.237.?   |
 | 03   | 300115065 | https://fadde99.wordpress.com/                                                    | :-1: | :zero:             | 10.13.237.?   |
 | 04   | 300115140 | https://blogzacklinux.wordpress.com                                               | :-1: | :zero:             | 10.13.237.117 |
-| 05   | 300116670 | https://auriane790987616.wordpress.com/blog                                       | :+1: | :zero:             | 10.13.237.25  |
+| 05   | 300116670 |https://auriane790987616.wordpress.com/2020/10/16/installer-ubuntu-server-en-quelques-etapes/|:+1: | :zero:    | 10.13.237.25  |
 | 06   | 300116685 | https://Amirlinux.wordpress.com/blog                                              | :-1: | :zero:             | 10.13.237.88  |
 | 07   | 300116973 | https://nathalielinux.wordpress.com/2020/09/14/example-post/                      | :+1: | :heavy_check_mark: | 10.13.237.23  |
 | 08   | 300117178 | https://kblinuxca.wordpress.com/2020/09/16/comment-installer-linux-server-20-04   | :-1: | :zero:             | 10.13.237.15  |
