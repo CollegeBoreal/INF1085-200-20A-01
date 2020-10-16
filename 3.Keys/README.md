@@ -36,11 +36,11 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD2pLhMqFGKffSdYvNCMAyM7598oBY+m/3q5AMXmb7I
 | 04   | 300116670 - <image src="https://avatars0.githubusercontent.com/u/55238107?s=460&v=4" width=20 height=20></image> | `ssh ???@10.13.237.??`   |:x:               |:x:               |
 | 06   | 300116685 - <image src="https://avatars0.githubusercontent.com/u/54910751?s=460&v=4" width=20 height=20></image> | `ssh ???@10.13.237.??`   |:x:               |:x:               |
 | 07   | 300116973 - <image src="https://avatars0.githubusercontent.com/u/54910252?s=460&v=4" width=20 height=20></image> | `ssh nathalie@10.13.237.23`   |:x:               |:x:               |
-| 08   | 300117178 - <image src="https://avatars0.githubusercontent.com/u/54910937?s=460&v=4" width=20 height=20></image> | `ssh ???@10.13.237.??`   |:x:               |:x:               |
+| 08   | 300117178 - <image src="https://avatars0.githubusercontent.com/u/54910937?s=460&v=4" width=20 height=20></image> | `ssh boris@10.13.237.15`   |:x:               |:x:               |
 | 09   | 300117314 - <image src="https://avatars0.githubusercontent.com/u/54910700?s=460&v=4" width=20 height=20></image> | `ssh ???@10.13.237.??`   |:x:               |:x:               |
 | 10   | 300117444 - <image src="https://avatars0.githubusercontent.com/u/54910261?s=460&v=4" width=20 height=20></image> | `ssh ???@10.13.237.??`   |:x:               |:x:               |
 | 11   | 300117782 - <image src="https://avatars0.githubusercontent.com/u/56364697?s=460&v=4" width=20 height=20></image> | `ssh ???@10.13.237.??`   |:x:               |:x:               |
-| 12   | 300117784 - <image src="https://avatars0.githubusercontent.com/u/54910102?s=460&v=4" width=20 height=20></image> | `ssh bertrand@10.13.237.77`   |:x:               |:x:               |
+| 12   | 300117784 - <image src="https://avatars0.githubusercontent.com/u/54910102?s=460&v=4" width=20 height=20></image> | `ssh ???@10.13.237.??`   |:x:               |:x:               |
 | 13   | 300117806 - <image src="https://avatars0.githubusercontent.com/u/54910103?s=460&v=4" width=20 height=20></image> | `ssh ???@10.13.237.??`   |:x:               |:x:               |
 | 14   | 300118524 - <image src="https://avatars0.githubusercontent.com/u/56364857?s=460&v=4" width=20 height=20></image> | `ssh ???@10.13.237.??`   |:x:               |:x:               |
 
