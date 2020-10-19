@@ -34,8 +34,8 @@ Astuces:
 
 |:hash:| :id:      |   Blog (https://wordpress.com)                                                    | [VPN](https://github.com/CollegeBoreal/Tutoriels/tree/master/V.VPN)  | [Check](README.md#legende) | [Reseau Externe](README.md#one-reseau-externe)|
 |------|-----------|-----------------------------------------------------------------------------------|------|--------------------|---------------|
-| 01   | 300111441 | https://luxuryking698719002.wordpress.com/2020/10/16/support-linux-server/        | :-1: | :two:              | 10.13.237.18   |
-| 02   | 300111824 |https://com954371267.wordpress.com/2020/10/12/installation-de-ubuntu-20-04-lts/    | :-1: | :x:                | 10.13.237.54   |
+| 01   | 300111441 | https://luxuryking698719002.wordpress.com/2020/10/16/support-linux-server/        | :x: | :two:              | 10.13.237.18   |
+| 02   | 300111824 |https://com954371267.wordpress.com/2020/10/12/installation-de-ubuntu-20-04-lts/    | :x: | :x:                | 10.13.237.54   |
 | 03   | 300115065 | https://fadde99.wordpress.com                                                     | :+1: | :heavy_check_mark: | 10.13.237.98   |
 | 04   | 300115140 | https://blogzacklinux.wordpress.com                                               | :+1: | :heavy_check_mark: | 10.13.237.117 |
 | 05   | 300116670 |https://auriane790987616.wordpress.com/2020/10/16/installer-ubuntu-server-en-quelques-etapes/| :+1: | :heavy_check_mark:  | 10.13.237.25  |
@@ -46,7 +46,7 @@ Astuces:
 | 10   | 300117444 |https://dido05327.wordpress.com/2020/10/15/comment-installer-linux-serverubuntu-18-04-lts/| :+1: | :heavy_check_mark: | 10.13.237.97   |
 | 11   | 300117782 |https://erna161707791.wordpress.com/2020/10/17/installation-de-ubuntu-serveur-20-04-1-lts-demarche-a-suivre/ | :+1: | :heavy_check_mark:    | 10.13.237.85  |
 | 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | :+1: | :heavy_check_mark: | 10.13.237.77  |
-| 13   | 300117806 | https://marketing376655173.wordpress.com/blog/                                    | :-1: | :heavy_check_mark: | 10.13.237.76  |
+| 13   | 300117806 | https://marketing376655173.wordpress.com/blog/                                    | :x: | :heavy_check_mark: | 10.13.237.76  |
 | 14   | 300118524 | https://zoureni.wordpress.com/                                                    | :+1: | :heavy_check_mark: | 10.13.237.19  |
 
 
