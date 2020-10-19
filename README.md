@@ -6,7 +6,7 @@ Administration Linux
 |No| Date   | Cours              | Intitulé                                |  Pratique                                                        |
 |--|--------|:-------------------|:----------------------------------------|:-----------------------------------------------------------------|
 |01|20-10-16| [0.Blog](./0.Blog) | Installer Ubuntu 20.04                  | Démontrer l'installation par un blog (i.e. http://wordpress.com) |
-|02|20-10-23| [2.Keys](./2.Keys) | Installer la clé publique du prof       | Démontrer l'installation d'une clé publique                      |
+|02|20-10-23| [3.Keys](./3.Keys) | Installer la clé publique du prof       | Démontrer l'installation d'une clé publique                      |
 
 
 ## Resultats d'Apprentissage du Cours
