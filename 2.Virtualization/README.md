@@ -1,7 +1,7 @@
 # Virtualization
 
 
-:one: S'enregistrer sur une plateforme infonuagique
+:one: S'enregistrer sur une plateforme infonuagique publique
 
 - [ ] [AWS](https://github.com/CollegeBoreal/Tutoriels/tree/master/E.Education/N.Nuages/1.AWS)
 
