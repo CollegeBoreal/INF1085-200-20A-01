@@ -44,7 +44,7 @@ Astuces:
 | 08   | 300117178 | https://kblinuxca.wordpress.com/2020/09/16/comment-installer-linux-server-20-04   | :+1: | :heavy_check_mark: | 10.13.237.15  |
 | 09   | 300117314 | https://mortilinuxserver.wordpress.com/blog/                                      | :+1: | :heavy_check_mark: | 10.13.237.100 |
 | 10   | 300117444 |https://dido05327.wordpress.com/2020/10/15/comment-installer-linux-serverubuntu-18-04-lts/| :+1: | :heavy_check_mark: | 10.13.237.97   |
-| 11   | 300117782 |https://erna161707791.wordpress.com/2020/10/17/installation-de-ubuntu-serveur-20-04-1-lts-demarche-a-suivre/(ouvre un nouvel onglet) | :+1: | :heavy_check_mark:    | 10.13.237.85  |
+| 11   | 300117782 |https://erna161707791.wordpress.com/2020/10/17/installation-de-ubuntu-serveur-20-04-1-lts-demarche-a-suivre/ | :+1: | :heavy_check_mark:    | 10.13.237.85  |
 | 12   | 300117784 | https://linuxinstallationca.wordpress.com/                                        | :+1: | :heavy_check_mark: | 10.13.237.77  |
 | 13   | 300117806 | https://marketing376655173.wordpress.com/blog/                                    | :+1: | :x: | 10.13.237.76  |
 | 14   | 300118524 | https://zoureni.wordpress.com/                                                    | :+1: | :heavy_check_mark: | 10.13.237.19  |
