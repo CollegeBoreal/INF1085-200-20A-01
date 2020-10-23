@@ -7,7 +7,7 @@ Administration Linux
 |--|--------|:-------------------|:----------------------------------------|:-----------------------------------------------------------------|
 |01|20-10-16| [0.Blog](./0.Blog) | Installer Ubuntu 20.04                  | Démontrer l'installation par un blog (i.e. http://wordpress.com) |
 |02|20-10-23| [3.Keys](./3.Keys) | Installer la clé publique du prof       | Démontrer l'installation d'une clé publique                      |
-|03|20-10-23| [0.Generic](https://github.com/CollegeBoreal/Tutoriels/tree/master/2.Virtualisation/2.VM/1.Docker-Machine/0.Generic) | Installer sa machine générique       | Démontrer l'installation d'une clé publique et une VM                     |
+|03|20-10-23| [4.Generic](4.Generic) | Installer sa machine générique       | Démontrer l'installation d'une clé publique et une VM                     |
 
 
 ## Resultats d'Apprentissage du Cours
