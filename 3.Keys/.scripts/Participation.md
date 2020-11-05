@@ -1,4 +1,4 @@
-# Participation au 05-11-2020 16:59
+# Participation au 05-11-2020 17:05
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -14,8 +14,8 @@
 
 ## :a: Présence
 
-|:hash:| Boréal :id:                | Fait               |
-|------|----------------------------|--------------------|
+|:hash:| Boréal :id:                | Interne            | ssh |
+|------|----------------------------|--------------------|-----|
 | 0 | 300111441 - <image src='https://avatars0.githubusercontent.com/u/55207099?s=460&v=4' width=20 height=20></image> | `ssh luxury@10.13.237.255` | [:x:] |
 | 1 | 300111824 - <image src='https://avatars0.githubusercontent.com/u/54911706?s=460&v=4' width=20 height=20></image> | `ssh blevie@10.13.237.66` | [:heavy_check_mark:] |
 | 2 | 300115065 - <image src='https://avatars0.githubusercontent.com/u/54910778?s=460&v=4' width=20 height=20></image> | `ssh fadde@10.13.237.98` | [:heavy_check_mark:] |

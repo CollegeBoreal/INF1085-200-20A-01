@@ -30,8 +30,8 @@ echo "| :x:                | Projet inexistant             |"
 echo ""
 echo "## :a: Présence"
 echo ""
-echo "|:hash:| Boréal :id:                | Fait               |"
-echo "|------|----------------------------|--------------------|"
+echo "|:hash:| Boréal :id:                | Interne            | ssh |"
+echo "|------|----------------------------|--------------------|-----|"
 
 i=0
 
