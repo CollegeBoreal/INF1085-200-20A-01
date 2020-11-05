@@ -48,7 +48,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD2pLhMqFGKffSdYvNCMAyM7598oBY+m/3q5AMXmb7I
 
 ### [Participation]()
 
-@[:verbatim](.scripts/Participation.md)
+@[format](.scripts/Participation.md)
 
 :three: Installer Docker Engine sur sa machine Linux
 
