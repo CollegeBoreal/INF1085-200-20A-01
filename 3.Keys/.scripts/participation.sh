@@ -47,9 +47,9 @@ do
    DOCKER=`ssh -i ~/.ssh/b300098957@ramena.pk \
         -o StrictHostKeyChecking=no \
         -o ConnectTimeout=5 ${SERVERS[${i}]} systemctl status docker 2>/dev/null`
-   OKI="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | :tada: | "
-   OK="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :heavy_check_mark: | :x: | "
-   KO="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SERVERS[$i]}\` | :x: | :x: | "
+   OKI="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SSH_ID[$i]}\` | :heavy_check_mark: | :tada: | "
+   OK="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SSH_ID[$i]}\` | :heavy_check_mark: | :x: | "
+   KO="| ${i} | ${id} - <image src='https://avatars0.githubusercontent.com/u/${AVATARS[$i]}?s=460&v=4' width=20 height=20></image> | \`ssh ${SSH_ID[$i]}\` | :x: | :x: | "
    if [[ $VERSION == *"Ubuntu"* && $DOCKER == *"(running)"* ]]; then
        echo ${OKI}
    else
