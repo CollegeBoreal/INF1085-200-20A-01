@@ -33,7 +33,7 @@ Administration Linux
 |06|20-10-12|- [ ] Generic                                   |                                         |                   |
 |07|20-10-19|                                                |                                         |                   |
 |08|20-10-26| Autumn Break                                   |                                         |                   |
-|09|20-11-02|[5.Linux-Boot](5.Linux/3.Boot)                  | Boot                                    | Chapitre 3, 4, 5  |
+|09|20-11-02|[5.Linux-Boot](5.Linux)                         | Boot                                    | Chapitre 3, 4, 5  |
 |10|20-11-09|[6.Shell](6.Shell)                              |                                         |                   |
 |11|20-11-16|                                                |                                         |                   |
 |12|20-11-23|                                                |                                         |                   |
