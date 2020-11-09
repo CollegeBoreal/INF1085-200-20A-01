@@ -11,6 +11,8 @@
 
 * bash - Extension de bsh
 
+* zsh - [zShell](https://ohmyz.sh/) 
+
 ## Base
 
 ```
