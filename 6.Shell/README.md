@@ -11,7 +11,7 @@
 
 * bash - Extension de bsh
 
-* zsh - [zShell](https://ohmyz.sh/) 
+* zsh - [zero Shell](https://ohmyz.sh/) 
 
 ## Base
 
