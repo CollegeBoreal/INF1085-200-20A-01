@@ -1,0 +1,3 @@
+#!/bin/bash
+# i am a comment
+echo "Bonjoiur tout le monde"
