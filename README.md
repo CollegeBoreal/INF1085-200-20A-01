@@ -8,6 +8,7 @@ Administration Linux
 |01|20-10-16| [0.Blog](./0.Blog) | Installer Ubuntu 20.04            | Démontrer l'installation par un blog (i.e. http://wordpress.com) |
 |02|20-10-23| [3.Keys](./3.Keys/.scripts/Participation.md) | Installer la clé publique du prof | Démontrer l'installation d'une clé publique                   |
 |03|20-10-23| [4.VM](4.VM)       | Installer sa machine générique    | Démontrer l'installation d'une clé publique et une VM         |
+|04|20-11-13| [6.Shell](6.Shell) | Shell Script | |
 
 
 ## Resultats d'Apprentissage du Cours
