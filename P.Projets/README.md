@@ -5,7 +5,7 @@
 |------|----------------------------|--------------------|-------|
 | 00   | 300111441 - <image src='https://avatars0.githubusercontent.com/u/55207099?s=460&v=4' width=20 height=20 alt="Sekou"></image> | `ssh luxury@10.13.237.18` | :grey_question: |
 | 01   | 300111824 - <image src='https://avatars0.githubusercontent.com/u/54911706?s=460&v=4' width=20 height=20></image> | `ssh blevie@10.13.237.66` | :grey_question: |
-| 02   | 300115065 - <image src='https://avatars0.githubusercontent.com/u/54910778?s=460&v=4' width=20 height=20></image> | `ssh fadde@10.13.237.98` | :grey_question: |
+| 02   | 300115065 - <image src='https://avatars0.githubusercontent.com/u/54910778?s=460&v=4' width=20 height=20></image> | `ssh fadde@10.13.237.98` | [:parking: Samba](README.md#parking-Chapitre-12--Sharing-data-over-a-private-network) |
 | 03   | 300115140 - <image src='https://avatars0.githubusercontent.com/u/54910329?s=460&v=4' width=20 height=20></image> | `ssh zackto@10.13.237.117` | :grey_question: |
 | 04   | 300116670 - <image src='https://avatars0.githubusercontent.com/u/55238107?s=460&v=4' width=20 height=20></image> | `ssh auriane@10.13.237.25` | :grey_question: |
 | 05   | 300116685 - <image src='https://avatars0.githubusercontent.com/u/54910751?s=460&v=4' width=20 height=20></image> | `ssh amirali11@10.13.237.88` | [:parking: WikiMedia](README.md#parking-Chapter-7--Building-a-MediaWiki-server) | 
