@@ -43,3 +43,8 @@
 #### :parking: Chapitre 12 : Sharing data over a private network
 
 :pushpin: `Samba` Se référer au Chapitre 12
+
+
+####  :video_camera: Projet Caméra en Streaming sur Pi 4
+
+:pushpin: `Camera` Se référer aux dossiers d'étudiants
