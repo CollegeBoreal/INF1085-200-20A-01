@@ -10,7 +10,7 @@
 | 04   | 300116670 - <image src='https://avatars0.githubusercontent.com/u/55238107?s=460&v=4' width=20 height=20></image> | `ssh auriane@10.13.237.25` | :video_camera: |
 | 05   | 300116685 - <image src='https://avatars0.githubusercontent.com/u/54910751?s=460&v=4' width=20 height=20></image> | `ssh amirali11@10.13.237.88` | [:parking: WikiMedia](README.md#parking-Chapter-7--Building-a-MediaWiki-server) | 
 | 06   | 300116973 - <image src='https://avatars0.githubusercontent.com/u/54910252?s=460&v=4' width=20 height=20></image> | `ssh nathalie@10.13.237.23` | [:parking: VPN](README.md#parking-chapter-10--securing-network-connections-vpn)  |
-| 07   | 300117178 - <image src='https://avatars0.githubusercontent.com/u/54910937?s=460&v=4' width=20 height=20></image> | `ssh boris@10.13.237.15` | :grey_question: |
+| 07   | 300117178 - <image src='https://avatars0.githubusercontent.com/u/54910937?s=460&v=4' width=20 height=20></image> | `ssh boris@10.13.237.15` | :video_camera: Streaming |
 | 08   | 300117314 - <image src='https://avatars0.githubusercontent.com/u/54910700?s=460&v=4' width=20 height=20></image> | `ssh morti@10.13.237.100` | [:parking: VPN](README.md#parking-chapter-10--securing-network-connections-vpn) |
 | 09   | 300117444 - <image src='https://avatars0.githubusercontent.com/u/54910261?s=460&v=4' width=20 height=20></image> | `ssh idir@10.13.237.97` | :grey_question: |
 | 10   | 300117782 - <image src='https://avatars0.githubusercontent.com/u/56364697?s=460&v=4' width=20 height=20></image> | `ssh serve@10.13.237.85` | :grey_question: |
