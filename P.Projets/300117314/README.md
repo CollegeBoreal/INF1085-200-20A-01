@@ -1,14 +1,33 @@
 
 
+--Dans ce fichier, je vais vous expliquer comment installer OpenVPN-server et sur votre serveur, apres le configurer pour recevoir un script dans lequel il y a des clées codées, 
+ avec lequel, votre OpenVPN -client peut se connecter à ce serveur sur une connexion point-to-point. après je vous explique comment préparer votre ordinateur pour être capable de se connecter à son serveur.
+ 
+ 
+ -- D'abord en utilisant les commmandes suivantes on va recevoire les derniers mis à jours.
+ 
+ :~$ sudo apt-get update
+ 
+ :~$ sudo apt-get upgrade
+ 
+ ![image](22.PNG)
+
+
+
 -- En utilisant ce commande on peut télécharger le script d'installation de OpenVPN:
 
+
 :~$ wget https://git.io/vpn -O openvpn-ubuntu-install.sh
+
+
 
 ![image](1.PNG)
 
 
 
 -- Maintenant on va changer le mode scrip pour le rendre executable: 
+
+
 
 :~$ chmod -v +x openvpn-ubuntu-install.sh
 
@@ -18,6 +37,7 @@
 
 
 --on peut vérifier le contenu du fichier en utilisant nano ou vi: 
+
 
 :~$ nano openvpn-ubuntu-install.sh
 
@@ -29,11 +49,16 @@
 ![image](3.PNG)
 
 
+
 -- executer le script pour installer le serveur OpenVPN 
+
 
 :~$ sudo ./openvpn-ubuntu-install.sh
 
+
 ![image](4.PNG)
+
+
 
 -- D'abord vous devevez choisir que quelle adresse IP sera utilisée par votre client OpenVPN pour se connecter au serveur.
    Dans ce cas, mon client utilisera 10.13.237.100.
@@ -41,16 +66,21 @@
    dans l'étape suivante, vous devez choisir votre DNS server.
    Maintenant, vous devez écrire le nom de votre utilisateur, et ça va devenir le nom de script qui sera créé par votre serveur, avec lequel, votre clien      sera capable de se connecter à ce serveur. Dans ce cas, j'ai écrit (morti).
    
+   
+   
 ![image](5.PNG)
 
 
   -- Une fois que la configuration sera terminé, vous pouvez vérifier dans les deux dernières lignes, le chemain pour avoir au script créé par votre serveur      pour votre clien nomé morti.ovpn. oon va l'utiliser pour importer ce script dans notre client-OpenVPN.
+  
+  
   
  ![image](6.PNG)
   
 -- Maintenant votre Openvpn-serveur ets prêt, et vous pouvez vérifier son statut en utilisant la commande suivante:
   
 -- sudo systemctl status openvpn-server@server.service
+
 --le statut du serveur, c'est active(running) 
 
 ![image](7.PNG)
@@ -60,9 +90,12 @@
 pour changer le statut de votre serveur, vous pouvez utiliser les commandes suivantes selon vos besoins:
 
 
- --:~$ sudo systemctl start openvpn-server@server.service
- --:~$ sudo systemctl restart openvpn-server@server.service
- --:~$ sudo systemctl stop openvpn-server@server.service
+
+ --  :~$ sudo systemctl start openvpn-server@server.service
+ --  :~$ sudo systemctl restart openvpn-server@server.service
+ -- :~$ sudo systemctl stop openvpn-server@server.service
+ 
+ 
 
 --Le moment où, vous configuré votre serveur OpenVPN avec le script openvpn-ubuntu-install.sh, une spécifique interface sera configuré pour votre connexion,
 --le status de cette interface sera point-to-point, et utilise l'adresse IP de l'intervalle 10.8.0.0/24.
@@ -72,19 +105,26 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
 
 ![image](8.PNG)
 
+
+
 --- Maintenant, on doit installer OpenVPN sur la machine de notre client:
 
 -- sur Windows, oo peut utiliser:
 
 -- > choco install openvpn 
 
+
 ![image](21.PNG)
+
+
 
 -- sur Linux, on peut utiliser:
 
 -- sudo apt-get install openvpn
 
 -- sudo apt-get install network-manager-openvpn
+
+
 
 ![image](100.PNG)
 
@@ -95,22 +135,38 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
  -- ssh morti@10.13.237.100 "sudo -S cat /root/morti.ovpn" > morti.ovpn
  
  ![image](9.PNG)
+ 
+ 
  ![image](10.PNG)
  
+ 
+ 
  -- Maintenant, d'abord il faut touver ce fichier sur votre ordinateur:
+ 
+ 
  ![image](11.PNG)
+ 
  
  -- À la suite, il faut le mettre dans le fichier de config de votre OpenVPN.
  
+ 
+ 
   ![image](12.PNG)
+  
+  
  
  -- Faites clique droit sur l'application de OpenVPN, cliquez sur Properties, et cochez les option comme la photo suivante.
    
+   
+   
    ![image](13.PNG)
+   
    
    ![image](14.PNG) 
    
+   
  -- Maintenant, OpenVPN va créer connexion entre votre ordinateur et votre serveur en utilisant ce fichier: 
+ 
  
   ![image](15.PNG)
   
@@ -119,17 +175,23 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
   
   
    ![image](17.PNG)
+   
  
  -- vous pouvez toujours vérifier le statut de votre OpenVPN en cliquant sur :
  
+ 
    ![image](19.PNG)
+ 
  
  -- en utilasant la commande ifconfig, vous pouvez vous assurer que vous avez reçu la bonne adresse IP:  
  
+ 
     ![image](16.PNG)
+ 
  
  -- en utilisant la commande tracert et addresse Ip de l'interface de votre serveur, vous pouvez vous assurer que c'est une connection point-to-point.
  
   ![image](18.PNG)
+ 
  
  
