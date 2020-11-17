@@ -251,3 +251,13 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
    -- on arrive sur notre ordinateur et cette fois-ce, on utilise SSH avec address IP de notre OpenVPN, à la place de 10.13.237...
    
    ![image](30.PNG)
+   
+   ![image](31.PNG)
+   
+   
+   
+   
+   
+   
+   
+   
