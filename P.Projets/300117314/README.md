@@ -35,9 +35,19 @@
 
 ![image](4.PNG)
 
+-- D'abord vous devevez choisir que quelle adresse IP sera utilisée par votre client OpenVPN pour se connecter au serveur.
+   Dans ce cas, mon client utilisera 10.13.237.100.
+   Après vous pouvez vérifier que votre adresse IP pulic sera utilisé afin que votre serveur soit capable de se connecter à l'internet.
+   dans l'étape suivante, vous devez choisir votre DNS server.
+   Maintenant, vous devez écrire le nom de votre utilisateur, et ça va devenir le nom de script qui sera créé par votre serveur, avec lequel, votre clien      sera capable de se connecter à ce serveur. Dans ce cas, j'ai écrit (morti).
+   
+![image](5.PNG)
 
 
-
+  -- Une fois que la configuration sera terminé, vous pouvez vérifier dans les deux dernières lignes, le chemain pour avoir au script créé par votre serveur      pour votre clien nomé morti.ovpn. oon va l'utiliser pour importer ce script dans notre client-OpenVPN.
+  
+  
+  
 
 
 
