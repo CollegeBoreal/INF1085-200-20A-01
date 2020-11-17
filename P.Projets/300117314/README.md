@@ -254,10 +254,12 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
    
    ![image](31.PNG)
    
+   --Dans ces deux dernières photos je vous montre que quand mon OpenVPN est étaind je peux pas arriver à mon serveur, mais quand il est allumé, mon SSH marche.
    
    
+   ![image](32.PNG)
    
    
-   
+   ![image](33.PNG)
    
    
