@@ -228,7 +228,8 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
 
   morti@morti:~$ sudo firewall-cmd --permanent --add-service=ssh
 
-    ![image](27.PNG)   
+  ![image](27.PNG) 
+  
   -- quand vous ajoutez une nouvelle règle à votre firewall, faites le commande reload pour vous assurer qu'il a été ajoutée:
   
   morti@morti:~$ sudo firewall-cmd --reload
