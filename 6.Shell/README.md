@@ -1,5 +1,11 @@
 # Unix Shell
 
+ [References](References.md)
+
+:one: Donner unexample de fichier `.bashrc` modifiant la variable d'environnement `PATH` permettant de rajouter ses fichiers binaires `~/bin`
+
+:two: Faire une boucle dans le fichier shell
+
 [Participation](.scripts/Participation.md)
 
 ## type de Shell

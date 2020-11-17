@@ -1,4 +1,4 @@
-# Participation au 13-11-2020 16:15
+# Participation au 17-11-2020 05:41
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -25,8 +25,8 @@
 | 6 | [300116973](../300116973/300116973.sh) - <image src='https://avatars0.githubusercontent.com/u/54910252?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 7 | [300117178](../300117178/300117178.sh) - <image src='https://avatars0.githubusercontent.com/u/54910937?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 8 | [300117314](../300117314/300117314.sh) - <image src='https://avatars0.githubusercontent.com/u/54910700?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
-| 9 | [300117444](../300117444/300117444.sh) - <image src='https://avatars0.githubusercontent.com/u/54910261?s=460&v=4' width=20 height=20></image> | :x: |
-| 10 | [300117782](../300117782/300117782.sh) - <image src='https://avatars0.githubusercontent.com/u/56364697?s=460&v=4' width=20 height=20></image> | :x: |
+| 9 | [300117444](../300117444/300117444.sh) - <image src='https://avatars0.githubusercontent.com/u/54910261?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
+| 10 | [300117782](../300117782/300117782.sh) - <image src='https://avatars0.githubusercontent.com/u/56364697?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 11 | [300117784](../300117784/300117784.sh) - <image src='https://avatars0.githubusercontent.com/u/54910102?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 12 | [300117806](../300117806/300117806.sh) - <image src='https://avatars0.githubusercontent.com/u/54910103?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
 | 13 | [300118524](../300118524/300118524.sh) - <image src='https://avatars0.githubusercontent.com/u/56364857?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: |
