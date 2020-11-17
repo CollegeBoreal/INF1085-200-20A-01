@@ -51,6 +51,7 @@
 -- Maintenant votre Openvpn-serveur ets prêt, et vous pouvez vérifier son statut en utilisant la commande suivante:
   
 -- sudo systemctl status openvpn-server@server.service
+--le statut du serveur, c'est active(running) 
 
 ![image](7.PNG)
 
@@ -58,9 +59,20 @@
 
 pour changer le statut de votre serveur, vous pouvez utiliser les commandes suivantes selon vos besoins:
 
-:~$ sudo systemctl stop openvpn-server@server.service
-:~$ sudo systemctl start openvpn-server@server.service
-:~$ sudo systemctl restart openvpn-server@server.service
+--:~$ sudo systemctl stop openvpn-server@server.service
+--:~$ sudo systemctl start openvpn-server@server.service
+--:~$ sudo systemctl restart openvpn-server@server.service
+
+
+--Le moment où, vous configuré votre serveur OpenVPN avec le script openvpn-ubuntu-install.sh, une spécifique interface sera configuré pour votre connexion,
+--le status de cette interface sera point-to-point, et utilise l'adresse IP de l'intervalle 10.8.0.0/24.
+-- on peut le vérifier avec la commandeci-dessous:
+
+--:~$ ip addr
+
+![image](8.PNG)
+
+
 
 
 
