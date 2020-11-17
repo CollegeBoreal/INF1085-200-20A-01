@@ -113,13 +113,23 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
  -- Maintenant, OpenVPN va créer connexion entre votre ordinateur et votre serveur en utilisant ce fichier: 
  
   ![image](15.PNG)
+  
+  
+  -- Dès que la connexion est établie, vous pouvez vérifier votre address IP, et l'interface Point-to-point créée dans l'intervalle 10.8.0.0/24
+  
+  
+   ![image](17.PNG)
  
+ -- vous pouvez toujours vérifier le statut de votre OpenVPN en cliquant sur :
  
+   ![image](19.PNG)
  
+ -- en utilasant la commande ifconfig, vous pouvez vous assurer que vous avez reçu la bonne adresse IP:  
  
+    ![image](16.PNG)
  
+ -- en utilisant la commande tracert et addresse Ip de l'interface de votre serveur, vous pouvez vous assurer que c'est une connection point-to-point.
  
- 
- 
+  ![image](18.PNG)
  
  
