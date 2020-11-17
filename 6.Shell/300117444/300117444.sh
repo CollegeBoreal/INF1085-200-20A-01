@@ -4,4 +4,4 @@
 #Bienvenue a ton serveur
 
 
-echo "je suis a votre service"
+echo "Salut tout le monde !"
