@@ -21,9 +21,9 @@
 
 :~$ nano openvpn-ubuntu-install.sh
 
-![image](3.PNG)
+![image](3.1PNG)
 
-![image](4.PNG)
+![image](3.PNG)
 
 
 
