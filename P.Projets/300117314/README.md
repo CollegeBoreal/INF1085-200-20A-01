@@ -1,9 +1,16 @@
 
 
 --Dans ce fichier, je vais vous expliquer comment installer OpenVPN-server et sur votre serveur, apres le configurer pour recevoir un script dans lequel il y a des clées codées, 
- avec lequel, votre OpenVPN -client peut se connecter à ce serveur sur une connexion point-to-point. après je vous explique comment préparer votre ordinateur pour être capable de se connecter à son serveur.
+  avec lequel, votre OpenVPN -client peut se connecter à ce serveur sur une connexion point-to-point. après je vous explique comment préparer votre ordinateur pour être capable   de se connecter à son serveur.
  
+ -- À la fin, je vais vous montrer comment vous assurer que vous êtes connecté à votre serveur à partir de votre OpenVPN en utilisant:
  
+ -- 1- La commande TRACERT
+ 
+ -- 2- Firewalld. D'abord je vous explique comment installer firewalld sur votre serveur,et comment le configurer. Et après, le configurer d'une manière que seulement une           spécifique address IP ait l'autorité de le conneceter. À la suite, vous utilisez SSH et l'address IP de l'interface de votre OpenVPN pour vous connecter à votre serveur.
+ 
+
+
  -- D'abord en utilisant les commmandes suivantes on va recevoire les derniers mis à jours.
  
  :~$ sudo apt-get update
@@ -194,4 +201,52 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
   ![image](18.PNG)
  
  
+ --Maintenat, on va installer firewalld sur notre serveur.
  
+ ![image](24.PNG)
+ 
+ 
+ -- on peut vérifier le statut de notre firewall en utilisant la commande suivante:
+ 
+  ![image](26.PNG)
+ 
+ 
+ -- il y a deux méthodes pour donner l'autorité à un spécifique protocole pour passer de notre firewall, soit par son numéro de porte, soit par son nom. je vais vous montrer
+     les deux manières. 
+     
+     
+  morti@morti:~$ sudo firewall-cmd --permanent --add-port=80/tcp
+  
+  morti@morti:~$ sudo firewall-cmd --permanent --add-port=443/tcp
+
+  morti@morti:~$ sudo firewall-cmd --permanent --add-port=1194/udp
+  
+  
+  morti@morti:~$ sudo firewall-cmd --permanent --add-service=http
+
+  morti@morti:~$ sudo firewall-cmd --permanent --add-service=https
+
+  morti@morti:~$ sudo firewall-cmd --permanent --add-service=ssh
+
+    ![image](27.PNG)   
+  -- quand vous ajoutez une nouvelle règle à votre firewall, faites le commande reload pour vous assurer qu'il a été ajoutée:
+  
+  morti@morti:~$ sudo firewall-cmd --reload
+
+  -- vous pouvez aussi vous assurer du statut de votre firewall et les services et les services offerts:
+  
+ morti@morti:~$ sudo firewall-cmd --state
+ 
+ morti@morti:~$ sudo firewall-cmd --list-services
+
+ 
+ 
+ --- Maintenant, je voudrais configurer mon firewall pour donner seulement le droit de connecter à mon ordinateur avec adresse IP 10.8.0.2 à mon serveur, en fait, à l'interface      10.8.0.1 de mon serveur. comme ça, seulement cette adresse IP peut se connecter à mon serveur, en utilisant SSH.
+
+ morti@morti:~$ sudo firewall-cmd --add-rich-rule='rule family="ipv4" source address="10.8.0.2" port protocol="tcp" port="22" accept'
+
+   ![image](29.PNG)
+   
+   -- on arrive sur notre ordinateur et cette fois-ce, on utilise SSH avec address IP de notre OpenVPN, à la place de 10.13.237...
+   
+   ![image](30.PNG)
