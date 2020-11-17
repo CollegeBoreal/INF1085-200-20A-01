@@ -80,11 +80,13 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
 
 ![image](21.PNG)
 
--- sur Linux, oo peut utiliser:
+-- sur Linux, on peut utiliser:
 
 -- sudo apt-get install openvpn
 
+-- sudo apt-get install network-manager-openvpn
 
+![image](100.PNG)
 
 
 
