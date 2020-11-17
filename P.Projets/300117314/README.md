@@ -59,10 +59,10 @@
 
 pour changer le statut de votre serveur, vous pouvez utiliser les commandes suivantes selon vos besoins:
 
---:~$ sudo systemctl stop openvpn-server@server.service
---:~$ sudo systemctl start openvpn-server@server.service
---:~$ sudo systemctl restart openvpn-server@server.service
 
+ --:~$ sudo systemctl start openvpn-server@server.service
+ --:~$ sudo systemctl restart openvpn-server@server.service
+ --:~$ sudo systemctl stop openvpn-server@server.service
 
 --Le moment où, vous configuré votre serveur OpenVPN avec le script openvpn-ubuntu-install.sh, une spécifique interface sera configuré pour votre connexion,
 --le status de cette interface sera point-to-point, et utilise l'adresse IP de l'intervalle 10.8.0.0/24.
@@ -72,7 +72,17 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
 
 ![image](8.PNG)
 
+--- Maintenant, on doit installer OpenVPN sur la machine de notre client:
 
+-- sur Windows, oo peut utiliser:
+
+-- > choco install openvpn 
+
+![image](21.PNG)
+
+-- sur Linux, oo peut utiliser:
+
+-- sudo apt-get install openvpn
 
 
 
