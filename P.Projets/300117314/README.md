@@ -20,8 +20,8 @@
 --on peut vérifier le contenu du fichier en utilisant nano ou vi: 
 
 :~$ nano openvpn-ubuntu-install.sh
-
 ![image](3.1PNG)
+
 
 
 ![image](3.PNG)
