@@ -46,11 +46,21 @@
 
   -- Une fois que la configuration sera terminé, vous pouvez vérifier dans les deux dernières lignes, le chemain pour avoir au script créé par votre serveur      pour votre clien nomé morti.ovpn. oon va l'utiliser pour importer ce script dans notre client-OpenVPN.
   
+ ![image](6.PNG)
   
+-- Maintenant votre Openvpn-serveur ets prêt, et vous pouvez vérifier son statut en utilisant la commande suivante:
   
+-- sudo systemctl status openvpn-server@server.service
+
+![image](7.PNG)
 
 
 
+pour changer le statut de votre serveur, vous pouvez utiliser les commandes suivantes selon vos besoins:
+
+:~$ sudo systemctl stop openvpn-server@server.service
+:~$ sudo systemctl start openvpn-server@server.service
+:~$ sudo systemctl restart openvpn-server@server.service
 
 
 
