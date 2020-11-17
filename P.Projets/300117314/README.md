@@ -89,4 +89,13 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
 ![image](100.PNG)
 
 
+-- Maintenant c'est le moment d'arriver à notre serveur et prendre notre script de configuration.
+-- Dans notre machine client-serveur, en utilisant cette commande, on arrive à notre serveur en utilisant Gitbash, et on copie ce fichier dans notre machine:
 
+ -- ssh morti@10.13.237.100 "sudo -S cat /root/morti.ovpn" > morti.ovpn
+ 
+ ![image](9.PNG)
+ ![image](10.PNG)
+ 
+ 
+ 
