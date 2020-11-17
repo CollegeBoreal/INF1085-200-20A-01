@@ -97,5 +97,29 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
  ![image](9.PNG)
  ![image](10.PNG)
  
+ -- Maintenant, d'abord il faut touver ce fichier sur votre ordinateur:
+ ![image](11.PNG)
+ 
+ -- À la suite, il faut le mettre dans le fichier de config de votre OpenVPN.
+ 
+  ![image](12.PNG)
+ 
+ -- Faites clique droit sur l'application de OpenVPN, cliquez sur Properties, et cochez les option comme la photo suivante.
+   
+   ![image](13.PNG)
+   
+   ![image](14.PNG) 
+   
+ -- Maintenant, OpenVPN va créer connexion entre votre ordinateur et votre serveur en utilisant ce fichier: 
+ 
+  ![image](15.PNG)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
