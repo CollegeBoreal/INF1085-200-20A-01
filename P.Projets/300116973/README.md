@@ -1,6 +1,6 @@
 # :sparkles: NETWORK CONNECTION VPN SUR UBUNTU 20.04 LTS :sparkles:
 :heavy_check_mark: Notre travail consiste a créer un OPEN VPN sur notre serveur Debian prolian.
-![image](images/0.1.jpg)
+![image](images/op.jpg)
  
 :heavy_check_mark: Nous allons créer un tunnel pour pouvoir nous connecter à distance sur notre serveur du collège Boréal. Ce tunnel est en fait une application VPN Open source qui va nous permettre d’atteindre notre réseau privé. Nous vous parlerons des étapes à suivre pour réaliser un OPENVPN sur notre serveur.
 ![image](images/0.png)
@@ -25,7 +25,7 @@ $ ip a show eth0
 ## Step 3 : Telecharger et exercuter openvpn-install.sh
 :heavy_check_mark: Pour notre cas nous allons utiliser le wget command pour le télécharger:
 ```
-$ Wget https://git.io/vpn -0 openvpn-ubuntu-install.sh
+$ wget https://git.io/vpn -0 openvpn-ubuntu-install.sh
 ```
 
 ![image](images/2.JPG)
@@ -86,7 +86,7 @@ $ sudo systemctl status openvpn-server@serve.service
 
 ## Step 4: Connection a notre OpenVPN serveur a partir de notre ordinateur portable qui est considerer comme client:
 ```
-$ Ssh nathalie@10.13.237.23 “sudo -S cat /root/nathalie.ovpn” > nathalie.ovpn
+$ ssh nathalie@10.13.237.23 “sudo -S cat /root/nathalie.ovpn” > nathalie.ovpn
 ```
 :heavy_check_mark: Âpres faire ls pour voir ou est localise votre openvpn dans votre ordinateur
 ![image](images/11.JPG)
