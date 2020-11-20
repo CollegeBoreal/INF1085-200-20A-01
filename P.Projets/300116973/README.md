@@ -7,32 +7,44 @@
  
 ## Step 1 : Mise a jour du system
 :heavy_check_mark: Si votre système n’est pas jours, vous devez le mettre à jour avec la commande suivante:
+
 Sudo apt update
 Sudo apt list –upgradable
+
 ## Step 2 : trouver et noter votre adresse IP
 :heavy_check_mark: Utiliser la commande suivante:
+
 Ip a
 Ip a show eth0
  
 ![image](images/1.JPG)
 ## Step 3 : Telecharger et exercuter openvpn-install.sh
-:heavy_check_mark: Pour notre cas nous allons utiliser le wget command pour le télécharger
+:heavy_check_mark: Pour notre cas nous allons utiliser le wget command pour le télécharger:
+
 Wget https://git.io/vpn -0 openvpn-ubuntu-install.sh
+
+
 ![image](images/2.JPG)
 
 
 :heavy_check_mark: Après avoir téléchargé le script, nous devons le rendre exécutable avec la commande suivante:
+
 chmod -v +x openvpn-ubuntu-install.sh
+
 ![image](images/3.JPG)
 
  
 :heavy_check_mark: Une fois que nous avons demandé la permission a notre serveur pour exécuter le script on peut ouvrir notre script avec l’éditeur nano/vim.
+
 Nano openvpn-ubuntu-install.sh
+
 ![image](images/4.JPG)
 
  
 :heavy_check_mark: Nous pouvons maintenant exécuter notre script avec la commande suivante:
+
 sudo ./openvpn-ubuntu-install.sh
+
 ![image](images/5.JPG)
 ![image](images/6.JPG)
 
@@ -46,7 +58,9 @@ sudo ./openvpn-ubuntu-install.sh
 :bulb: Enfin nous pouvons entre le nom de notre client. On peut ajouter autant de clients qu’on veut en faisant la même commande.
 :heavy_check_mark: On peut arrêter, démarrer, redémarrer et voir le statut de notre OpenVPN avec la commande sudo systemctl stop, start, restart et statut openvpn-server@server.service.
 :heavy_check_mark: Pour notre cas nous allons juste voir le statut de notre OpenVPN:
+
 Sudo systemctl status openvpn-server@serve.service
+
 ![image](images/10.JPG)
 ![image](images/8.JPG)
 
@@ -56,13 +70,17 @@ Sudo systemctl status openvpn-server@serve.service
 
 
 ## Step 4: Connection a notre OpenVPN serveur a partir de notre ordinateur portable qui est considerer comme client:
+
 Ssh nathalie@10.13.237.23 “sudo -S cat /root/nathalie.ovpn” > nathalie.ovpn
+
 :heavy_check_mark: Âpres faire ls pour voir ou est localise votre openvpn dans votre ordinateur
 ![image](images/11.JPG)
 
 ## Step 5: installation OPENVPN dans notre ordinateur portable
 :heavy_check_mark: Utiliser power shell pour installer openvpn dans votre ordinateur avec la commande suivante:
+
 Ps> Choco install openvpn
+
 ![image](images/12.JPG)
 
  
