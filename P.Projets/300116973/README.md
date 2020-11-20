@@ -8,16 +8,16 @@
 ## Step 1 : Mise a jour du system
 :heavy_check_mark: Si votre système n’est pas jours, vous devez le mettre à jour avec la commande suivante:
 
-Sudo apt update
+$ Sudo apt update
 
-Sudo apt list –upgradable
+$ Sudo apt list –upgradable
 
 ## Step 2 : trouver et noter votre adresse IP
 :heavy_check_mark: Utiliser la commande suivante:
 
-Ip a
+$ Ip a
 
-Ip a show eth0
+$ Ip a show eth0
  
 ![image](images/1.JPG)
 ## Step 3 : Telecharger et exercuter openvpn-install.sh
