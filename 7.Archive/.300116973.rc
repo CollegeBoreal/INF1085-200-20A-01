@@ -116,4 +116,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PS1="nathalie@10.13.237.23 /home/nathalie $"
+PS1="nathalie@10.13.237.23 /home/nathalie $ "
