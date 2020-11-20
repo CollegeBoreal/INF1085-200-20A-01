@@ -8,6 +8,11 @@ Fichier .bashrc (profile)
 
 :two: Récupérer votre fichier `.bashrc` du serveur et mettez son contenu dans le fichier .:id:`.rc` de ce répertoire présent
 
+example
+
+```
+$ scp ubuntu@10.13.14.15:.bashrc .300098957.rc
+```
 
 * Pemissions
 
