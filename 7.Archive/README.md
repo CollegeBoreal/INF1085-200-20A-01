@@ -2,7 +2,7 @@
 
 Fichier .bashrc (profile)
 
-:p: Sur votre serveur:
+:m: Sur votre serveur:
 
 :one: Modifier votre prompt pour afficher `[moi@ip-10-13-237-16 /home/moimeme]$` dans votre fichier `.bashrc`
 
