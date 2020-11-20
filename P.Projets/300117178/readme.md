@@ -15,7 +15,7 @@ ALL STEPS:
 DESCRIPTION
 --------------------------------------------------
 ### :a: :star: First Step :star:
-1. On installe **une Raspbian**, tout ce qu’il y a de plus standard, on se connecte à son réseau WiFi et on active le module caméra grâce à l’outil **raspi-config**.
+:one: On installe **une Raspbian**, tout ce qu’il y a de plus standard, on se connecte à son réseau WiFi et on active le module caméra grâce à l’outil **raspi-config**.
 
 
 
