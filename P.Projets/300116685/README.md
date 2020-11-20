@@ -2,6 +2,8 @@
 
 :bookmark: Installation
 
+Installer en tant qu'administrateur le package LAMP
+
 ```
 $ sudo su -
 # sudo apt update
