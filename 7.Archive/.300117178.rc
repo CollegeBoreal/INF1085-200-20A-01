@@ -116,4 +116,4 @@ if ! shopt -oq posix; then
   fi
 fi
 #ma variable PS1
-PS1=boris@10-13-237-15/home/boris
+PS1=boris@10-13-237-15/home/boris>
