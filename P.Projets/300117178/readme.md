@@ -6,7 +6,8 @@
 
 * Module Camera [->](https://www.amazon.fr/gp/product/B00E1GGE40/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00E1GGE40&linkCode=as2&tag=magdiblog-21&linkId=5AG5Y5WRP3IRFDAU)
 
-* une carte micro-Sd SanDisk 8Go
+* <span style="color: red;"><span style="color: red;">text</span></span>
+
  
 ---
 ```{r setup, include=FALSE}
