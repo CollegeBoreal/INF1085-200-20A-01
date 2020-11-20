@@ -9,6 +9,7 @@
 :heavy_check_mark: Si votre système n’est pas jours, vous devez le mettre à jour avec la commande suivante:
 
 Sudo apt update
+
 Sudo apt list –upgradable
 
 ## Step 2 : trouver et noter votre adresse IP
