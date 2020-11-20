@@ -1,6 +1,6 @@
 # :sparkles: NETWORK CONNECTION VPN SUR UBUNTU 20.04 LTS :sparkles:
 :heavy_check_mark: Notre travail consiste a créer un OPEN VPN sur notre serveur Debian prolian.
-![image](images/0.1.jpg)
+![image](images/op.jpg)
  
 :heavy_check_mark: Nous allons créer un tunnel pour pouvoir nous connecter à distance sur notre serveur du collège Boréal. Ce tunnel est en fait une application VPN Open source qui va nous permettre d’atteindre notre réseau privé. Nous vous parlerons des étapes à suivre pour réaliser un OPENVPN sur notre serveur.
 ![image](images/0.png)
