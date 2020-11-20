@@ -45,10 +45,14 @@ unset DOCKER_MACHINE_NAME
 
 Linux In Action: Chapitre 4
 
-- [ ] Trouver un groupe de fichier (i.e. .sql) en utilisant l'utilitaire find
+Sur votre PC en `git bash`
 
-- [ ] en créer un fichier compressé avec l'utilitaire tar
+- [ ] Cloner le cours INF1006 sur votre PC dans votre répertoire `~/Developer` (si ce n'est pas déjà fait)
 
-- [ ] copier le fichier sur votre serveur Linux scp
+- [ ] Trouver un groupe de fichier (i.e. .sql) en utilisant l'utilitaire `find` de votre répertoire `~/Developer`
+
+- [ ] en créer un fichier compressé avec l'utilitaire `tar` ayant comme nom `b`:id:`.tar.gz`
+
+- [ ] copier le fichier sur votre serveur Linux scp `~/Developer/SQL/`b`:id:`.tar.gz`
 
 - [ ] décompresser le fichier sur le serveur linux
