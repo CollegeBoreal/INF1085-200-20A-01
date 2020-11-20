@@ -1,7 +1,7 @@
-#   Video Streaming
+#  :pushpin: Video Streaming
 
 ---
- 
+# Introduction et matériel utilisé
 ---
 ```{r setup, include=FALSE}
 ALL STEPS:
