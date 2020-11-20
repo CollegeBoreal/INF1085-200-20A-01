@@ -2,9 +2,12 @@
 
 Fichier .bashrc (profile)
 
-:one: Créer votre fichier `.bashrc` sur votre serveur et mettez son contenu dans le fichier .:id:`.rc`
+:p: Sur votre serveur:
 
-:two: Modifier votre prompt pour afficher `[moi@ip-10-13-237-16 /home/moimeme]$`
+:one: Modifier votre prompt pour afficher `[moi@ip-10-13-237-16 /home/moimeme]$` dans votre fichier `.bashrc`
+
+:two: Récupérer votre fichier `.bashrc` du serveur et mettez son contenu dans le fichier .:id:`.rc` de ce répertoire présent
+
 
 * Pemissions
 
@@ -42,10 +45,10 @@ unset DOCKER_MACHINE_NAME
 
 Linux In Action: Chapitre 4
 
-Trouver un groupe de fichier (i.e. .sql) en utilisant l'utilitaire find
+- [ ] Trouver un groupe de fichier (i.e. .sql) en utilisant l'utilitaire find
 
-en créer un fichier compressé avec l'utilitaire tar
+- [ ] en créer un fichier compressé avec l'utilitaire tar
 
-copier le fichier sur votre serveur Linux scp
+- [ ] copier le fichier sur votre serveur Linux scp
 
-décompresser le fichier sur le serveur linux
+- [ ] décompresser le fichier sur le serveur linux
