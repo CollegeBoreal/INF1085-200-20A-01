@@ -3,7 +3,7 @@
 <img src="images/op.jpg" width="451" heigth="300"></img>
  
 :heavy_check_mark: Nous allons créer un tunnel pour pouvoir nous connecter à distance sur notre serveur du collège Boréal. Ce tunnel est en fait une application VPN Open source qui va nous permettre d’atteindre notre réseau privé. Nous vous parlerons des étapes à suivre pour réaliser un OPENVPN sur notre serveur.
-![image](images/0.png)
+<img src="images/0.png" width="451" heigth="300"></img>
  
 ## Step 1 : Mise a jour du system
 :heavy_check_mark: Si votre système n’est pas jours, vous devez le mettre à jour avec la commande suivante:
@@ -21,36 +21,39 @@ $ ip a
 
 $ ip a show eth0
 ``` 
-![image](images/1.JPG)width="451" heigth="300"></img>
+<img src="images/1.JPG" width="451" heigth="300"></img>
+
 ## Step 3 : Telecharger et exercuter openvpn-install.sh
 :heavy_check_mark: Pour notre cas nous allons utiliser le wget command pour le télécharger:
 ```
 $ wget https://git.io/vpn -0 openvpn-ubuntu-install.sh
 ```
-
-![image](images/2.JPG)width="451" heigth="300"></img>
+<img src="images/2.jpg" width="451" heigth="300"></img>
 
 
 :heavy_check_mark: Après avoir téléchargé le script, nous devons le rendre exécutable avec la commande suivante:
 ```
 $ chmod -v +x openvpn-ubuntu-install.sh
 ```
-![image](images/3.JPG)width="451" heigth="300"></img>
+
+<img src="images/3.jpg" width="451" heigth="300"></img>
 
  
 :heavy_check_mark: Une fois que nous avons demandé la permission a notre serveur pour exécuter le script on peut ouvrir notre script avec l’éditeur nano/vim.
 ```
 $ nano openvpn-ubuntu-install.sh
 ```
-![image](images/4.JPG)width="451" heigth="300"></img>
+
+<img src="images/4.jpg" width="451" heigth="300"></img>
 
  
 :heavy_check_mark: Nous pouvons maintenant exécuter notre script avec la commande suivante:
 ```
 $ sudo ./openvpn-ubuntu-install.sh
 ```
-![image](images/5.JPG)width="451" heigth="300"></img>
-![image](images/6.JPG)width="451" heigth="300"></img>
+
+<img src="images/5.jpg" width="451" heigth="300"></img>
+<img src="images/6.jpg" width="451" heigth="300"></img>
 
  
 :heavy_check_mark: Avant l’installation de l’openvpn vous devez répondre a une série de questions a savoir:
@@ -80,15 +83,16 @@ $ sudo systemctl statut openvpn-server@server.service
 ```
 $ sudo systemctl status openvpn-server@serve.service
 ```
-![image](images/10.JPG)width="451" heigth="300"></img>
-![image](images/8.JPG)width="451" heigth="300"></img>
 
+<img src="images/10.jpg" width="451" heigth="300"></img>
+<img src="images/8.jpg" width="451" heigth="300"></img>
 
 :heavy_check_mark: Quand nous faisons de nouveau la commande IP a on peut remarquer que notre OpenVPN a été bien créer. Nous remarquons donc tunnel point to point avec l’adresse IP qu’il nous a attribuée 
 ```
 10.8.0.1/24
 ```
-![image](images/9.JPG)width="451" heigth="300"></img>
+
+<img src="images/9.jpg" width="451" heigth="300"></img>
 
 
 ## Step 4: Connection a notre OpenVPN serveur a partir de notre ordinateur portable qui est considerer comme client:
@@ -96,40 +100,41 @@ $ sudo systemctl status openvpn-server@serve.service
 $ ssh nathalie@10.13.237.23 “sudo -S cat /root/nathalie.ovpn” > nathalie.ovpn
 ```
 :heavy_check_mark: Âpres faire ls pour voir ou est localise votre openvpn dans votre ordinateur
-![image](images/11.JPG)width="451" heigth="300"></img>
+
+<img src="images/11.jpg" width="451" heigth="300"></img>
 
 ## Step 5: installation OPENVPN dans notre ordinateur portable
 :heavy_check_mark: Utiliser power shell pour installer openvpn dans votre ordinateur avec la commande suivante:
 ```
 Ps> Choco install openvpn
 ```
-![image](images/12.JPG)width="451" heigth="300"></img>
+<img src="images/12.jpg" width="451" heigth="300"></img>
 
  
 :bulb: Trouvez l’emplacement du fichier installer dans votre ordinateur. Ouvrir le fichier changer l’adresse IP publique par votre adresse IP privée.
-![image](images/13.JPG)width="451" heigth="300"></img>  ![image](images/14.JPG)width="451" heigth="300"></img>  ![image](images/15.JPG)width="451" heigth="300"></img>
+<img src="images/13.jpg" width="451" heigth="300"></img>  <img src="images/14.jpg" width="451" heigth="300"></img>  <img src="images/15.jpg" width="451" heigth="300"></img>
 
 :bulb: Fais fichier enregistrer sous pour changer l’emplacement et le mette dans 
 ```
 program files, openvpn, config
 ```
-![image](images/16.JPG)width="451" heigth="300"></img>
+<img src="images/16.jpg" width="451" heigth="300"></img>
 
 
 :bulb: Faire un clic droit sur l’icône OpenVPN GUI et allez a:
 ```
 propriété, comptabilité et cocher run this as an administrator.
 ```
-![image](images/17.JPG)width="451" heigth="300"></img>
+<img src="images/17.jpg" width="451" heigth="300"></img>
 
  
 :bulb: Une fois cela fais vous pouvez ouvrit OpenVPN dans votre ordinateur en doublecliquant sur l’icone qui est sur votre desktop ou en ouvrant le fichier a partir de la barre de tache dans le menu demarrer. 
-![image](images/19.JPG)width="451" heigth="300"></img> ![image](images/18.jpeg)width="451" heigth="300"></img>
+<img src="images/19.jpg" width="451" heigth="300"></img> <img src="images/18.jpg" width="451" heigth="300"></img>
 
 
 :bulb: Une fois connecte a notre VPN nous pouvons vérifier notre connexion avec le CMD Prompt. En faisant la commande IP config. Alors vous voyons apparaitre l’adresse IP de notre application OpenVPN qui est 10.8.0.2/24 et on remarque également en faisant la commande tracert 10.8.0.1 on vois le nombre de temps effectuer pour arriver a notre serveur. 
 Aussi en faisant la commande IP a dans notre server on vois clairement nos deux adresses c’est-à-dire l’adresse IP de notre serveur et l’adresse IP openvpn.
-![image](images/20.JPG)width="451" heigth="300"></img>  ![image](images/21.JPG)width="451" heigth="300"></img>
+<img src="images/20.jpg" width="451" heigth="300"></img>  <img src="images/21.jpg" width="451" heigth="300"></img>
   
 ## :sparkles: References :sparkles: :
 
