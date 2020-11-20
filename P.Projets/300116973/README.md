@@ -25,7 +25,7 @@ $ ip a show eth0
 ## Step 3 : Telecharger et exercuter openvpn-install.sh
 :heavy_check_mark: Pour notre cas nous allons utiliser le wget command pour le télécharger:
 ```
-$ Wget https://git.io/vpn -0 openvpn-ubuntu-install.sh
+$ wget https://git.io/vpn -0 openvpn-ubuntu-install.sh
 ```
 
 ![image](images/2.JPG)
