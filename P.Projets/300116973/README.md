@@ -16,6 +16,7 @@ Sudo apt list –upgradable
 :heavy_check_mark: Utiliser la commande suivante:
 
 Ip a
+
 Ip a show eth0
  
 ![image](images/1.JPG)
