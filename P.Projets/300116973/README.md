@@ -67,7 +67,14 @@ $ sudo ./openvpn-ubuntu-install.sh
 
 :bulb: Enfin nous pouvons entre le nom de notre client. On peut ajouter autant de clients qu’on veut en faisant la même commande.
 
-:heavy_check_mark: On peut arrêter, démarrer, redémarrer et voir le statut de notre OpenVPN avec la commande: sudo systemctl stop, start, restart et statut openvpn-server@server.service.
+:heavy_check_mark: On peut arrêter, démarrer, redémarrer et voir le statut de notre OpenVPN avec les commandes suivantes: 
+
+```
+$ sudo systemctl stop openvpn-server@server.service
+$ sudo systemctl start openvpn-server@server.service
+$ sudo systemctl restart openvpn-server@server.service
+$ sudo systemctl statut openvpn-server@server.service
+```
 
 :heavy_check_mark: Pour notre cas nous allons juste voir le statut de notre OpenVPN:
 ```
