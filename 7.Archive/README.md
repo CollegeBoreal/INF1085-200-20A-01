@@ -53,6 +53,6 @@ Sur votre PC en `git bash`
 
 - [ ] en créer un fichier compressé avec l'utilitaire `tar` ayant comme nom `b`:id:`.tar.gz`
 
-- [ ] copier le fichier sur votre serveur Linux scp `~/Developer/SQL/`b`:id:`.tar.gz`
+- [ ] copier le fichier sur votre serveur Linux scp `~/Developer/SQL/b`:id:`.tar.gz`
 
 - [ ] décompresser le fichier sur le serveur linux
