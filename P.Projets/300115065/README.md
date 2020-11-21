@@ -5,12 +5,27 @@
 Samba est un logiciel qui facilite l'interopérabilité entre systèmes hétérogènes Windows-Unix. Il offre la possibilité aux ordinateurs d'un réseau d'accéder aux imprimantes et aux fichiers des ordinateurs sous Unix9 et permettent aux serveurs Unix de se substituer à des serveurs Windows10.
 
 ### 📍Installation dans une machine Ubuntu
+
+#### Exécuter la mise à jour
 ```
-sudo apt update
+fadde@fadde:~$ sudo apt update
 ```
 
+#### Exécuter l'installation de samba
 ```
-sudo -i
+fadde@fadde:~$ sudo apt-get install samba
+```
+
+Verifier l'installation
+```
+fadde@fadde:~$ whereis samba
+samba: /usr/sbin/samba /usr/lib/x86_64-linux-gnu/samba /etc/samba /usr/share/samba /usr/share/man/man7/samba.7.gz /usr/share/man/man8/samba.8.gz
+
+```
+
+Se connecter en `Root`
+```
+fadde@fadde:~$ sudo -i
 ```
 
 Creer un fichier 
@@ -22,7 +37,9 @@ Creer un fichier
 
 ```
 
-Configuration
+#### Configuration
+Pour cela, nous devrons ajouter les lignes suivantes dans le fichier de configuration de Samba.
+
 ```
 nano /etc/samba/smb.conf
 ```
@@ -34,8 +51,8 @@ nano /etc/samba/smb.conf
   browsable = yes
   
 ```
-
-
+#### Création d'un compte utilisateur Samba:
+Pour créer un compte utilisateur pour Samba: 
 ```
 root@fadde:~# adduser abdel
 Adding user `abdel' ...
@@ -60,7 +77,7 @@ root@fadde:~# smbpasswd -a abdel
 New SMB password: abdel
 Retype new SMB password: abdel
 ```
-
+Pour tester la configuration :
 ```
 root@fadde:~# testparm
 Load smb config files from /etc/samba/smb.conf
@@ -105,12 +122,14 @@ Press enter to see a dump of your service definitions
         path = /samba/sharefiles
         read only = No
 ```
+Pour se connecter à l'utilisateur creer: 
 
 ```
 root@fadde:~# su abdel
 abdel@fadde:/root$
 ```
-
+Pour connecter le partage Samba via la ligne de commande Linux, nous aurons besoin de l'outil `smbclient`. 
+Pour installer smbclient, on exécute la commande suivante en tant que sudo :
 ```
 abdel@fadde:/root$ sudo apt-get install smbclient
 [sudo] password for abdel: abdel
