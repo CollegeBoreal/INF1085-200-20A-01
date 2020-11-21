@@ -118,4 +118,4 @@ fi
 
 
 
-PS1="[auriane@ip-10.13.237.25/home/auriane]"
+PS1="auriane@ip-10.13.237.25/home/auriane $"

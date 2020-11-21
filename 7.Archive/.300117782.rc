@@ -115,4 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-PS1="zoureni@10.13.237.19 /HOME/zoureni $"
+
+
+PS1="serve@10.13.237.85 /home/serve $ "
