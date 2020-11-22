@@ -19,7 +19,6 @@ $ sudo apt list –upgradable
 ```
 $ ip address
 
-$ ip address show eth0
 ``` 
 <img src="images/1.JPG" width="451" heigth="300"></img>
 
