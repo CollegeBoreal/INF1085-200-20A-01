@@ -17,9 +17,9 @@ $ sudo apt list –upgradable
 ## Step 2 : trouver et noter votre adresse IP
 :heavy_check_mark: Utiliser la commande suivante:
 ```
-$ ip a
+$ ip address
 
-$ ip a show eth0
+$ ip address show eth0
 ``` 
 <img src="images/1.JPG" width="451" heigth="300"></img>
 
