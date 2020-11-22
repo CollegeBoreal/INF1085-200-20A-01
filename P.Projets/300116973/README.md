@@ -18,7 +18,6 @@ $ sudo apt list –upgradable
 :heavy_check_mark: Utiliser la commande suivante:
 ```
 $ ip address
-
 ``` 
 <img src="images/1.JPG" width="451" heigth="300"></img>
 
