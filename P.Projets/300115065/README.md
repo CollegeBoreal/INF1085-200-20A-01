@@ -152,6 +152,6 @@ Type: \\10.13.237.98\sharefiles
 On Windows:
 ```
 Start button -> Run
-Type: \\10.13.237.55\fileshare
+Type: \\10.13.237.55\sharefiles
 ```
 ![image](samba.png)
