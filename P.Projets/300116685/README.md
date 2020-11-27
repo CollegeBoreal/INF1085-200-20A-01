@@ -7,7 +7,7 @@ Installer en tant qu'administrateur le package LAMP
 ```
 $ sudo su -
 # sudo apt update
-# sudo apt install lamp-server^
+# sudo apt install apache2
 ```
 Installer Appache web serveur sur Ubuntu 
 
@@ -20,3 +20,11 @@ Installer SQL Database
 #apt update
 # apt install mariadb-server-10.3.25
 # systemctl status mysql
+```
+
+```
+
+# systemctl enable mysql
+# systemctl start mysql 
+
+
