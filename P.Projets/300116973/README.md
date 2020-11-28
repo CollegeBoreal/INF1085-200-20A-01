@@ -146,7 +146,8 @@ Aussi en faisant la commande IP a dans notre server on vois clairement nos deux 
 
 <img src="images/21.JPG" width="451" heigth="300"></img>
 
-:heavy_check_mark: La nouvelle version de OPENVPN permet une configuration sans authentification. Toute fois si vous voulez l'authentification vous devez l'acheter dans le site de OPENVPN (https://www.privatetunnel.com/pricing/). Ce nous nous avons utiliser ici est la version gratuite. Pour ce connecter a notre OPENVPN vous devez vous servir de la cles que nous avons mis dans le dossier .txt de notre fichier.
+:heavy_check_mark: La nouvelle version de OPENVPN permet une configuration sans authentification. Toute fois si vous voulez l'authentification vous devez l'acheter dans le site de OPENVPN (https://www.privatetunnel.com/pricing/). La version que nous avons utiliser ici est la version gratuite. Pour ce connecter a notre OPENVPN vous devez vous servir de la cles que nous avons mis dans le read.txt de notre fichier.
+
   
 ## :sparkles: References :sparkles: :
 
