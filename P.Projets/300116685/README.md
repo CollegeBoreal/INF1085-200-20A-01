@@ -22,8 +22,8 @@ Installer SQL Database
 # systemctl status mysql
 ```
 
+ Verification de status de MYSQL 
 ```
-
 # systemctl enable mysql
 # systemctl start mysql 
 
