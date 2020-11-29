@@ -68,9 +68,9 @@ Systemctl start smbd
 Systemctl enable smbd
 
 
-6.	TESTEZ LA CONFIGURATION
+5.# 	TESTEZ LA CONFIGURATION
 
-Il est toujour mieux d’ assurer ces arrieres avant d’aller un plus loin ,du coup testparm sera notre moyen de verification 
+## Il est toujour mieux d’ assurer ces arrieres avant d’aller un plus loin ,du coup testparm sera notre moyen de verification 
 
 testparm
 
@@ -106,12 +106,12 @@ Smb:
 
 
 
-# 5. Connectez -vous a partir d’un client windows 
+# 6. Connectez -vous a partir d’un client windows 
 
 
 
 ## -clique droite sur le logo de windows ensuite appuye sur run.
-Tape :
+Tape :// 10.13.237.66/ sharehome
 
 
 
