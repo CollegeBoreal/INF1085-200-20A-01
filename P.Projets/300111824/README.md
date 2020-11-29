@@ -5,7 +5,7 @@
 ## 1.	Definition:Samba est un logiciel d’interopérabilité qui implémente le protocole propriétaire SMB/CIFS de Microsoft Windows dans les ordinateurs 
 
 
-# 2.NOTRE but:
+# 2.NOTRE BUT:
 
 
 
