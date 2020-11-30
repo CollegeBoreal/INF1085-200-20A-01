@@ -16,4 +16,7 @@
 ```
 # snap install nextcloud
 ```
+## PREREQUIS
+
+
 
