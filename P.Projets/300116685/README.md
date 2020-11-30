@@ -51,3 +51,4 @@ $sudo ln -s /var/lib/mediawiki/var/www/ html/mediawiki
 lien du blog
 #pour installer mariadb-server
 https://computingforgeeks.com/how-to-install-mariadb-on-ubuntu-focal-fossa/
+#pour installer Wikimedia 
