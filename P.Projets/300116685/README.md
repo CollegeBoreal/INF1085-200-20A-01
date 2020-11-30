@@ -15,7 +15,7 @@ $ sudo mkdir /var/lib/mediawiki
 ```
 Deplacer vers le dossier 
 ```
-sudo mv mediawiki - * / * /var/lib/mediawiki
+sudo mv mediawiki - */ */var/lib/mediawiki
 ```
 2.Configuration mysql
 ----------------------
@@ -43,7 +43,7 @@ CREATE DATABASE my_wiki ;
 3.Configurateur Mediawiki
 -------------------------
 ```
-$sudo ln -s / var / lib / mediawiki / var / www / html / mediawiki
+$sudo ln -s /var/lib/mediawiki/var/www/ html/mediawiki
 ```
 
 # References
