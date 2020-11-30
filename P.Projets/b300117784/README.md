@@ -9,7 +9,7 @@
 # INSTALATIONS :round_pushpin:
 
 ## :one: Snap  
-**Snap** Est un package qui nous permettra d'installer notre NextCloud 
+**Snap** Le format snap vise à permettre l'installation de nouvelles versions de logiciels dans les systèmes Linux, tout en apportant aux développeurs la facilité de distribution, la fiabilité et la sécurité.Nous l'utiliserons pour installer notre NextCloud 
 ```
 # apt install snapd
 ```
