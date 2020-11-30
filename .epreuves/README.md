@@ -10,10 +10,10 @@
 
 ## Épreuves
 
-| :hash:   | Type    | Description                                         |:infinity:| Statut           |
-|----------|---------|-----------------------------------------------------|----------|------------------|
-| :one:    | Blog    | Installation Linux                                  | 25       | :+1:             |
-| :two:    | Quizz   | Linux Shell                                         | 20       | :+1:             |
-| :three:  | Projet  | Projet Linux                                        | 30       | :calendar:       |
-| :four:   | Quizz   | Final                                               | 25       | :calendar:       |
-|:asterisk:|         |                                                     |:100:     |                  |
+| :hash:     | Type    | Description                                         |:infinity:| Statut           |
+|------------|---------|-----------------------------------------------------|----------|------------------|
+| :one:      | Blog    | Installation Linux                                  | 25       | :+1:             |
+| :two:      | Quizz   | Linux Shell                                         | 20       | :+1:             |
+| :three:    | Projet  | Projet Linux                                        | 30       | :calendar:       |
+| :four:     | Quizz   | Final                                               | 25       | :calendar:       |
+|:waivy_dash:|         |                                                     |:100:     |                  |
