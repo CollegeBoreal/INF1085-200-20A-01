@@ -1,5 +1,14 @@
 # Contingence
 
+## Légende
+
+| Signe              | Signification                 |
+|--------------------|-------------------------------|
+| :+1:               | Épreuve Terminée              |
+| :calendar:         | Épreuve Programmée            |
+
+
+## Épreuves
 
 | Titre.  | Type    | Description                                         | %  | Statut           |
 |---------|---------|-----------------------------------------------------|----|------------------|
