@@ -11,11 +11,11 @@ $wget https://releases.wikimedia.org/mediawiki/1.35/mediawiki-1.35.0.tar.gz
 ```
 Pour creer un repertoire de wikimedia 
 ```
-$sudo mkdir / var / lib / mediawiki
+$ sudo mkdir /var/lib/mediawiki
 ```
 Deplacer vers le dossier 
 ```
-sudo mv mediawiki - * / * / var / lib / mediawiki
+sudo mv mediawiki - * / * /var/lib/mediawiki
 ```
 2.Configuration mysql
 ----------------------
@@ -46,3 +46,6 @@ CREATE DATABASE my_wiki ;
 $sudo ln -s / var / lib / mediawiki / var / www / html / mediawiki
 ```
 
+# References
+
+lien du blog
