@@ -1,36 +1,48 @@
 # WikiMedia
 
-:bookmark: How to Install Apache Web Server on Ubuntu 20.04
-1. Tout d'abord, connectez-vous à votre système Ubuntu 20.04 
-et mettez à jour vos packages système en utilisant les éléments suivants
+:bookmark: 1.Installer le serveur LAMP
+---------------------------------------
 ```
-$ sudo apt update
+$ sudo apt-get install apache2 serveur-mariadb php php-mysql libapache2-mod-php php-xml php-mbstring
 ```
-2. Une fois le processus de mise à jour terminé, installez le logiciel du serveur Web Apache2 comme suit.
-``` 
-$sudo apt install apache2
+Pour telecharger wikimedia 
 ```
-3. Lors de l'installation du package Apache2, le programme d'installation déclenche systemd pour démarrer et activer automatiquement le service apache2. Vous pouvez vérifier que le service apache2 est actif / en cours d'exécution et qu'il est activé pour démarrer automatiquement au démarrage du système en utilisant les éléments suivants
+$wget https://releases.wikimedia.org/mediawiki/1.35/mediawiki-1.35.0.tar.gz
+```
+Pour creer un repertoire de wikimedia 
+```
+$sudo mkdir / var / lib / mediawiki
+```
+Deplacer vers le dossier 
+```
+sudo mv mediawiki - * / * / var / lib / mediawiki
+```
+2.Configuration mysql
+----------------------
+```
+$sudo mysqld_safe --skip-grant-tables --skip-networking
+```
+Creer un conteneur
 
 ```
-$ sudo systemctl is-active apache2
-$ sudo systemctl is-enabled apache2
-$ sudo systemctl status apache2
+$docker container run --name my_wiki --env MYSQL_ROOT_PASSWORD=password --publish 33044:3306 --detach mysql:latest
+```
+Lancer CLI (command level Interface )
+```
+#mysql --user root --password 
+```
+Creer un utilisateur en MYSQL
+```
+CREATE USER'amirali'@'localhost' IDENTIFIED BY 'brice ';
+GRANT ALL ON amir.* TO'amirali'@'localhost' ;
+```
+Creer une base de donnees 
+```
+CREATE DATABASE my_wiki ;
+```
+3.Configurateur Mediawiki
+-------------------------
+```
+$sudo ln -s / var / lib / mediawiki / var / www / html / mediawiki
 ```
 
-4. Maintenant que votre serveur Web Apache est en cours d’exécution, il est temps d’apprendre quelques commandes de gestion de base pour gérer le processus Apache à l’aide des commandes systemctl suivantes.
-```
-$ sudo systemctl stop apache2      
-$ sudo systemctl start apache2     
-$ sudo systemctl restart apache2  
-$ sudo systemctl reload apache2    
-$ sudo systemctl disable apache2   
-$ sudo systemctl enable apache2   
-```
-5.Tous les fichiers de configuration Apache2
-```
-$ ls /etc/apache2/*
-```
-6. Pour définir le nom de domaine complet du serveur Web, utilisez ServerName
-```
-$sudo vim /etc/apache2/apache2.conf 
