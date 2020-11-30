@@ -7,12 +7,12 @@
 
 # INSTALATIONS :round_pushpin:
 
-## :1: Snap  
+## :one: Snap  
 **Snap** Est un package qui nous permettra d'installer notre NextCloud 
 ```
 # apt install snapd
 ```
-## :2:NextCloud
+## :two:NextCloud
 ```
 # snap install nextcloud
 ```
