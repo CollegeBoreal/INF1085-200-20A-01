@@ -1,7 +1,7 @@
 # INF1085-200-20A-01
 Administration Linux
 
-## Épreuves [:date:](.epreuves)
+## Épreuves: [:date:](.epreuves)
 
 ## Devoirs:
 
