@@ -52,3 +52,4 @@ lien du blog
 #pour installer mariadb-server
 https://computingforgeeks.com/how-to-install-mariadb-on-ubuntu-focal-fossa/
 #pour installer Wikimedia 
+https://www.mediawiki.org/wiki/Manual:Running_MediaWiki_on_Debian_or_Ubuntu/fr
