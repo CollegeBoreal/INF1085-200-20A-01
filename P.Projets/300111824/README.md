@@ -57,53 +57,42 @@ invité ok = oui
 lecture seule = non
 créer un masque = 644
 
-Encore un test avant d’inviter vos amis windows : vous pouvez utiliser le programme smbclient pour vous connecter a votre partage samba
-depuis la machina locale. Vous devez d’abord basculer l’utilisateur (su) vers le compte sambauser que vous avez associé a samba plus tot.vous  pouvez ensuite exécuter smbclient sur l’adresse et le nom d’hote du partage (//loclhost/sharehome va falloir d’abord créer samba client et ensuite proceder aux étapes suivantes :
-
-
-First il basculer (su) vers le compte sambauser que vous avez associe a samba
-
-
-$ su sambauser 
-Password:
-
-
-Ensuite il faut créer samba client 
-
-
--sudo apt- get install smbclient.
-
-
-Smbclient //localhost/sharehome
-Enter sambauser ,s password:
-
-
-# Resultats
-
-
-##  Smbclient //localhost/sharehome 
-Enter sambauser’s password:
-Domain=(WORKGROUP) os= (windows 6.1)  serveur=(samba 4.3.11-ubuntu)
-Smb: 
 
 
 
-# 6. Connectez -vous a partir d’un client windows 
+# 5ème étapes: Ensuite, nous devons créer un répertoire partagé
 
 
+## sudo mkdir -p /var/samba/shares/public
+(administrateur@ubuntu2004:-$ sudo mkdir -p /var/samba/shares/public
+ adminitrateur@ubuntu2004:-$ 
+ 
+ 
+ 
+ 
+ # 6éme étapes: modifier les autorisations du répertoire pour le rendre accessible en écriture
 
-## -clique droite sur le logo de windows ensuite appuye sur run.
-Tape :// 10.13.237.66/ sharehome
+     ## sudo chmod 777 /var/samba/shares/public
+     (adminstrateur@ubuntu2004:-$ sudo chmod 777 /var/samba/shares/public
+     (administrateur@ubuntu2004:-$ ls /var/samba/shares/public/ -la
+       
+       
 
-
-
-
-
-
-
-
+# 7éme étapes: redémarrez le service samba pour que les modifications prennent effet
+  ## sudo service smbd restart
   
-
+  (administrateur@ubuntu2004:-$ sudo service smbd restart
+  (administrateur @ ubuntu2004: - $ 
+  
+ 
+   ## 8éme étapes : maintenant vous pouvez accéder à ce partage samba sur le client Windows / MacOS
+  
+             # se connecter au serveur 
+             
+             smb://10.13.237.66
+            
+          
+          Entre votre nom et mots de passe dans le serveur 10.13.237.66
 
 
 
