@@ -11,16 +11,19 @@
 
 # 1.	Créez un compte utilisatateur samba sur le serveur linux
    
- 
-     # Step1 : Installez le serveur samba avec la commande followng:  
+# 1ÉRE Étape:Installez le serveur samba avec la commande followng
+    
+  
+  
 
 
-      ## sudo apt -get update
-         sudo apt-get install samba -y 
+     
+   ## sudo apt -get update
+      sudo apt-get install samba -y
    
    
    
-      # Step2 : une fois l'installation terminée, vous pouvez vérifier la version de samba avec la commande followng
+      2 éme Étape : une fois l'installation terminée, vous pouvez vérifier la version de samba avec la commande followng
         
         smbd --version
  
