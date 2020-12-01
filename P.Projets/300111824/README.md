@@ -24,7 +24,7 @@
    
 ## 2 éme Étape : une fois l'installation terminée, vous pouvez vérifier la version de samba avec la commande followng
        
-        ![image](IMAGES/samba2.PNG) 
+        
       *  smbd --version
  
       * (administrateuu@ubuntu:$ smbd --version
