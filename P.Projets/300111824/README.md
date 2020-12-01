@@ -39,18 +39,18 @@
 
 [global]  
 groupe de travail = groupe de travail  
-chaîne de serveur = serveur samba
-nom netbios = ubuntu
-security = utilisateur
-map to guest = mauvais utilisateur
-proxy DNS = non
-(Publique)
-chemin = / var / samba / partages / public
-navigable = oui
-inscriptible = oui
-invité ok = oui
-lecture seule = non
-créer un masque = 644
+chaîne de serveur = serveur samba  
+nom netbios = ubuntu  
+security = utilisateur  
+map to guest = mauvais utilisateur  
+proxy DNS = non  
+(Publique)  
+chemin = / var / samba / partages / public  
+navigable = oui  
+inscriptible = oui  
+invité ok = oui  
+lecture seule = non  
+créer un masque = 644  
 
 
 
