@@ -37,7 +37,7 @@
 
 ## Étape 4: ouvrir smb remplace son contenu par le suivant
 
-[global]  ####
+[global]####
 groupe de travail = groupe de travail
 chaîne de serveur = serveur samba
 nom netbios = ubuntu
