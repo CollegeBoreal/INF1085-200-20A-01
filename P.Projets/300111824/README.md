@@ -8,9 +8,12 @@
 
 # 2. Notre but:
 
-
+![image](IMAGES/samba2.PNG)
 
 # 3.Créez un compte utilisatateur samba sur le serveur linux
+   
+![image](]images/SAMBA3.PNG) 
+   
    
 ## 1ère Étape:Installez le serveur samba avec la commande followng
     
@@ -59,6 +62,8 @@ créer un masque = 644
 ## 5ème étapes: Ensuite, nous devons créer un répertoire partagé
 
 
+![image](IMAGES/samba5.PNG)
+
  sudo mkdir -p /var/samba/shares/public  
  (administrateur@ubuntu2004:-$ sudo mkdir -p /var/samba/shares/public  
  adminitrateur@ubuntu2004:-$  
@@ -69,6 +74,10 @@ créer un masque = 644
  
 ## 6éme étapes: modifier les autorisations du répertoire pour le rendre accessible en écriture
 
+
+![image](IMAGES/samba6.PNG)
+
+
  sudo chmod 777 /var/samba/shares/public  
  (adminstrateur@ubuntu2004:-$ sudo chmod 777 /var/samba/shares/public  
  (administrateur@ubuntu2004:-$ ls /var/samba/shares/public/ -la  
@@ -76,6 +85,9 @@ créer un masque = 644
        
 ## 7éme étapes: redémarrez le service samba pour que les modifications prennent effet
   ## sudo service smbd restart
+  
+  
+![image](IMAGES/samba7.PNG)  
   
   (administrateur@ubuntu2004:-$ sudo service smbd restart
   (administrateur @ ubuntu2004: - $ 
