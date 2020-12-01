@@ -1,9 +1,9 @@
 # INF1085-200-20A-01
 Administration Linux
 
-## Épreuves: [:date:](.epreuves)
+## :date: [Épreuves](.epreuves)
 
-## Devoirs:
+## :one: [Devoirs](Devoirs)
 
 |No| Date   | Cours              | Intitulé                            |  Pratique                                                     |
 |--|--------|:-------------------|:------------------------------------|:--------------------------------------------------------------|
@@ -24,7 +24,7 @@ Administration Linux
 |  |                                                                  | Savoir Faire:                                                  | 
 |  |                                                                  | Savoir Etre:                                                   | 
 
-## Déroulement de cours:
+## :two: Déroulement de cours:
 
 |No| Date   | Cours                                          | Intitulé                                |  Commentaires     |
 |--|:------:|:-----------------------------------------------|:----------------------------------------|:------------------|
