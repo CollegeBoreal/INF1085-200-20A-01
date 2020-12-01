@@ -42,21 +42,20 @@
 ## Étape 4: ouvrir smb remplace son contenu par le suivant
 
 [global]  
-groupe de travail = groupe de travail  
-chaîne de serveur = serveur samba  
-nom netbios = ubuntu  
-security = utilisateur  
-map to guest = mauvais utilisateur  
-proxy DNS = non  
-(Publique)  
-chemin = / var / samba / partages / public  
-navigable = oui  
-inscriptible = oui  
-invité ok = oui  
-lecture seule = non  
-créer un masque = 644  
-
-
+workgroup = workgroup
+server string = samba server
+netbios name =ubuntu
+security =user  
+map to guest =bad user  
+dns proxy =no
+(publique)
+  
+path= /var/samba/shares/public
+browsable=yes
+writable=yes
+guest ok =yes
+read only =no
+create mask=644
 
 
 ## 5ème étapes: Ensuite, nous devons créer un répertoire partagé
