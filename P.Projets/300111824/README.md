@@ -28,10 +28,10 @@
  
 ## Étape 3: Ensuite, nous devons d'abord configurer samba pour activer le partage sur le réseau, créer une sauvegarde du fichier de configuration d'origine
  
-      * (administrateur@ubuntu2004:-$ sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.orignl
-      * (administrateur@ubuntu2004:-$ ls /etc/samba/
+      * (administrateur@ubuntu2004:~$ sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.orignl
+      * (administrateur@ubuntu2004:~$ ls /etc/samba/
       * gdbcommands smb.conf.orignl tls
-      * administrateur@ubuntu2004:-$
+      * administrateur@ubuntu2004:~$
  
 
 
