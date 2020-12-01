@@ -68,9 +68,9 @@ créer un masque = 644
  
 ## 6éme étapes: modifier les autorisations du répertoire pour le rendre accessible en écriture
 
-     ## sudo chmod 777 /var/samba/shares/public
-     (adminstrateur@ubuntu2004:-$ sudo chmod 777 /var/samba/shares/public
-     (administrateur@ubuntu2004:-$ ls /var/samba/shares/public/ -la
+ sudo chmod 777 /var/samba/shares/public  
+ (adminstrateur@ubuntu2004:-$ sudo chmod 777 /var/samba/shares/public  
+ (administrateur@ubuntu2004:-$ ls /var/samba/shares/public/ -la  
        
        
 ## 7éme étapes: redémarrez le service samba pour que les modifications prennent effet
