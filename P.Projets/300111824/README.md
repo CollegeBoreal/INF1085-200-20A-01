@@ -12,7 +12,7 @@
 
 # 3.Créez un compte utilisatateur samba sur le serveur linux
    
-![image](images/samba3.PNG) 
+![image](IMAGES/samba3.PNG) 
    
    
 ## 1ère Étape:Installez le serveur samba avec la commande followng
