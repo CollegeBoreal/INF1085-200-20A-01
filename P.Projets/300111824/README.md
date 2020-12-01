@@ -1,5 +1,5 @@
 
-# SAMBA: Sharing files with windows users using samba  
+# SAMBA: Sharing files with windows users using samba  :lion:
 
 
 # 1.	Definition: Samba est un logiciel d’interopérabilité qui implémente le protocole propriétaire SMB/CIFS de Microsoft Windows dans les ordinateurs 
@@ -58,9 +58,10 @@ créer un masque = 644
 ## 5ème étapes: Ensuite, nous devons créer un répertoire partagé
 
 
- sudo mkdir -p /var/samba/shares/public
- (administrateur@ubuntu2004:-$ sudo mkdir -p /var/samba/shares/public
- adminitrateur@ubuntu2004:-$ 
+ sudo mkdir -p /var/samba/shares/public  
+ (administrateur@ubuntu2004:-$ sudo mkdir -p /var/samba/shares/public  
+ adminitrateur@ubuntu2004:-$  
+
  
  
  
