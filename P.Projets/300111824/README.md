@@ -4,6 +4,7 @@
 
 # 1.	Definition: Samba est un logiciel d’interopérabilité qui implémente le protocole propriétaire SMB/CIFS de Microsoft Windows dans les ordinateurs 
 
+![image]:(IMAGES/samba1.png)
 
 # 2. Notre but:
 
