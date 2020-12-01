@@ -11,19 +11,20 @@
 ![image](IMAGES/samba2.PNG)
 
 # 3.Créez un compte utilisatateur samba sur le serveur linux
-   
-![image](IMAGES/samba3.PNG) 
+
+![image](IMAGES/samba2.PNG) 
    
    
 ## 1ère Étape:Installez le serveur samba avec la commande followng
-    
+    ![image](IMAGES/samba1.PNG
      * sudo apt -get update
      * sudo apt-get install samba -y
    
    
    
 ## 2 éme Étape : une fois l'installation terminée, vous pouvez vérifier la version de samba avec la commande followng
-        
+        ![image](IMAGES/samba2.PNG)
+        ![image](IMAGES/samba2.PNG) 
       *  smbd --version
  
       * (administrateuu@ubuntu:$ smbd --version
