@@ -14,17 +14,17 @@
 ## 1ère Étape:Installez le serveur samba avec la commande followng
     
      * sudo apt -get update
-       sudo apt-get install samba -y
+     * sudo apt-get install samba -y
    
    
    
 ## 2 éme Étape : une fois l'installation terminée, vous pouvez vérifier la version de samba avec la commande followng
         
-     smbd --version
+      *  smbd --version
  
-     (administrateuu@ubuntu:$ smbd --version
-     version 4.11.6-ubuntu
-     administrateur@ubuntu2004: $
+      * (administrateuu@ubuntu:$ smbd --version
+      *  version 4.11.6-ubuntu
+      * administrateur@ubuntu2004: $
  
 ## Étape 3: Ensuite, nous devons d'abord configurer samba pour activer le partage sur le réseau, créer une sauvegarde du fichier de configuration d'origine
  
