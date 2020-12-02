@@ -54,6 +54,8 @@ exit
 do wr
 ````
 :utiliser le meme commande de base les autres swith:
+
+
 Etape 4: configuration du protocole VTP 
 ----------------------------------------
 ```
@@ -62,6 +64,7 @@ vtp domain service_12
 vtp password cisco
 do wr
 ```
+"idem mettez les autres switch vtp mode client "
 
 Etape 5: configuration Port trunck 
 ---------------------------------
@@ -92,3 +95,35 @@ exit
 vlan 30
 name guest
 exit
+```
+"une fois que vous configurez le protocole VTP la memoire switch server transmettre le mise a jour a les autres switch client"
+
+Etape 7: Configuration interface vlan pour les trois switch client  
+------------------------------------------------------------------
+```
+interface rang fa0/1-9
+switchport mode access 
+switchport access vlan 20 
+exit 
+interface rang fa0/10-15
+switchport mode access 
+switchport access vlan 10 
+exit 
+
+interface rang fa0/16-20
+switchport mode access 
+switchport access vlan 99
+exit 
+
+interface rang fa0/21-22
+switchport mode access 
+switchport access vlan 30
+exit
+do wr
+```
+
+
+
+
+
+
