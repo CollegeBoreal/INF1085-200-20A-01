@@ -39,8 +39,8 @@ DESCRIPTION
  1. Installer les dernieres mis a jour du noyau
  
 ```{r}
-sudo apt update
-sudo apt full-upgrade
+$ sudo apt update
+$ sudo apt full-upgrade
 ```
 2. activez votre camera grace a la commande
 
@@ -57,12 +57,17 @@ sudo raspi-config
 3. tester votre camera
 
 ```{r}
-raspistill -v -o test.jpg
+$ raspistill -v -o test.jpg
 
 ```
 vas donner un preview et prendre une photos test.jpg
 
-### :C: Last Step:Video Streaming avec raspberry pie camera :cinema:
+### :c: Last Step:Video Streaming avec raspberry pie camera :cinema:
+1. voir son addresse ip
+```
+$ ifconfig
+```
+
 
 
  
