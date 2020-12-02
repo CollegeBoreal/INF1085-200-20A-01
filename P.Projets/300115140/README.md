@@ -5,8 +5,12 @@
 
 ## Rassembler le matériel Raspberry Pi + CamPi + câbles
 
-## Mettre en marche la caméra sur RaspberryPi
+## Mettre en marche la caméra sur RaspberryPi(enable camera)
 
 ## Trouver l'adresse IP de mon RaspberyPi
+
+## Télécharger Thonny IDE sur Linux
+
+## Créer le code Python sur Thonny IDE
 
 
