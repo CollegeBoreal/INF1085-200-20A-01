@@ -61,9 +61,10 @@ raspistill -v -o test.jpg
 
 ```
 vas donner un preview et prendre une photos test.jpg
- 
- 
- 
+
+### :C: Last Step:Video Streaming avec raspberry pie camera :cinema:
+
+
  
  
  ## **set Noobs**
