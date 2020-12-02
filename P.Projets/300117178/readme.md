@@ -24,7 +24,7 @@ DESCRIPTION
  1. Installer raspberry imager[->](https://www.raspberrypi.org/software/)
  2. Choisir un system d'exploitation dans mon cas j'ai choissis ubuntu
  -------------------------------------------------
- <img src="img/raspberry.JPG" height=300 width="400"></img>
+ <img src="img/raspberry.JPG" height=350 width="450"></img>
  
  
   
