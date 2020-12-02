@@ -62,7 +62,7 @@ $ raspistill -v -o test.jpg
 ```
 vas donner un preview et prendre une photos test.jpg
 
-### :c: Last Step:Video Streaming avec raspberry pie camera :cinema:
+### :cinema: Last Step:Video Streaming avec raspberry pie camera :cinema:
 1. voir son addresse ip
 
 ```
