@@ -33,10 +33,22 @@ DESCRIPTION
   <img src="img/raspberry Pi image.JPG" height=350 width="450"></img>
  
   
+ ### :b: Second Step 
+ :Two: configurer et activer notre camera
+ 
+ 1. Installer les dernieres mis a jour du noyau
+ 
+```{r}
+sudo apt update
+sudo apt full-upgrade
+```
+ 
+ 
+ 
+ 
+ 
  ## **set Noobs**
 
-```{r}
-```
 Rules
 --------------------------------------------------
 ### CODE
