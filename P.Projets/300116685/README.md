@@ -53,7 +53,7 @@ login
 exit
 do wr
 ````
-:utiliser le meme commande de base les autres swith:
+``utiliser le meme commande de base les autres swith``
 
 
 Etape 4: configuration du protocole VTP 
@@ -64,7 +64,7 @@ vtp domain service_12
 vtp password cisco
 do wr
 ```
-"idem mettez les autres switch vtp mode client "
+``idem mettez les autres switch vtp mode client ``
 
 Etape 5: configuration Port trunck 
 ---------------------------------
