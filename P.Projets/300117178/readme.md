@@ -25,6 +25,8 @@ DESCRIPTION
  2. Choisir un system d'exploitation dans mon cas j'ai choissis ubuntu
  -------------------------------------------------
  <img src="img/raspberry.JPG" height=350 width="450"></img>
+ 3. Choisr la carte sd dans laquelle vous allez monter l'image
+ 4. write
  
  
   
