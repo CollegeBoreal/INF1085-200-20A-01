@@ -29,7 +29,9 @@ DESCRIPTION
  
  3. Choisr la carte sd dans laquelle vous allez monter l'image
  4. write
+ ------------------------------------------------------------
  
+  <img src="img/raspberry Pi image.JPG" height=350 width="450"></img>
  
   
  ## **set Noobs**
