@@ -23,6 +23,7 @@ DESCRIPTION
  ## **INSTALLER Ubuntu 2020 SUR SON RASPERRY PI**
  1. Installer raspberry imager[->](https://www.raspberrypi.org/software/)
  2. Choisir un system d'exploitation dans mon cas j'ai choissis ubuntu
+ <img src="src/raspberry.JPG" height=400 width="300"></img>
  
  
   
