@@ -34,7 +34,7 @@ DESCRIPTION
  
   
  ### :b: Second Step 
- :Two: configurer et activer notre camera
+ :two: configurer et activer notre camera
  
  1. Installer les dernieres mis a jour du noyau
  
@@ -42,6 +42,13 @@ DESCRIPTION
 sudo apt update
 sudo apt full-upgrade
 ```
+2. activez votre camera grace a la commande
+
+```{r}
+sudo raspi-config
+
+```
+**NB: EN General le module camera est par default activer** 
  
  
  
