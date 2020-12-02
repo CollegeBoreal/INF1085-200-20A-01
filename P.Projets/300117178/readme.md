@@ -53,6 +53,14 @@ sudo raspi-config
 
 
 **NB: EN General le module camera est par default activer** 
+
+3. tester votre camera
+
+```{r}
+raspistill -v -o test.jpg
+
+```
+vas donner un preview et prendre une photos test.jpg
  
  
  
