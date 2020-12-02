@@ -48,6 +48,10 @@ sudo apt full-upgrade
 sudo raspi-config
 
 ```
+**interface option** puis **camera**
+## :exclamation:**NOTE:Installer raspi-config on linux si vous ne l'avez pas par default [==>](https://rootsaid.com/raspi-config-install-setup-in-any-raspberry-pi-linux-os/)**
+
+
 **NB: EN General le module camera est par default activer** 
  
  
