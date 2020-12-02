@@ -64,8 +64,11 @@ vas donner un preview et prendre une photos test.jpg
 
 ### :c: Last Step:Video Streaming avec raspberry pie camera :cinema:
 1. voir son addresse ip
+
 ```
-$ ifconfig
+$ sudo apt-get install net-tools
+$ sudo ifconfig | grep -i mask
+
 ```
 
 
