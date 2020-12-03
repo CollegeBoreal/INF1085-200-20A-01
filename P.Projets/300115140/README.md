@@ -220,10 +220,11 @@ Il faut donc ouvrir un browser de son choix tel que IE ou Chrome.
 
 Je choisit Chrome:  
 
-<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/stream1.jpg" width="450">  
+<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/stream2.jpg" width="350">  
 
 
-<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/stream2.jpg" width="450"> 
+<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/stream1.jpg" width="350">  
+
 
 Voilà donc le résultat: le live streaming près de mon bureau, dans le salon!
 
