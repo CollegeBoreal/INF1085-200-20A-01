@@ -1,6 +1,6 @@
 # PROJET RASPBERRY PI - SYSTEME DE SÉCURITÉ VIDEO EN STREAMING LIVE 📹👮       
 
-![image](IMAGES/camera1.jpg/width=40px/height=400px)
+<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/camera1.jpg" width="250">
 
 ## Table des matiéres:
 1. Le matériel nécessaire
