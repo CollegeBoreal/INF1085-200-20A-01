@@ -76,7 +76,7 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
 
 **Les étapes de l'écriture de mon code:**  
 
-  1. **importer** les modules, les plates-formes d'intégration, un framework, les serveurs HTTP, tout cela sur Phyton.  
+  1. **Importer** les modules, les plates-formes d'intégration, un framework, les serveurs HTTP, tout cela sur Phyton.  
     J'ai décidé d'importer les éléments suivants selon mes besoins:  
     
           ** serveur http pour écrire ma page browser sur laquelle sera réalisé le streaming live
@@ -90,27 +90,29 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
          
  <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/import.jpg" width="350">
          
-   2. **écrire le texte HTML** qui servira pourle browser pour lequel le live streaming sera utilisé. En effet, le but est d'ouvrir un broswer (Chrome, IE ou Firefox par           exemple), d'inscrire l'adresse IP de mon RaspberryPi et le port Raspberry utilisé pour pouvoir voir au final le live streaming.
+   2. **Écrire le texte HTML** qui servira pourle browser pour lequel le live streaming sera utilisé. En effet, le but est d'ouvrir un broswer (Chrome, IE ou Firefox par           exemple), d'inscrire l'adresse IP de mon RaspberryPi et le port Raspberry utilisé pour pouvoir voir au final le live streaming.
       Dans le texte HTML, je vais donner le nom à ma page web en haut :'Projet Camera de surveillance College Boreal Zack SB'  
       Je vais aussi donner comme titre à ma page(en haut de la page ou s'affichera la cam): 'Zack SB Projet Camera College Boreal et la camera de surveillance live streaming'       Le live streaming se fera dans une image qui aura un cadre standard: 1280 pour la hauteur et 720 pour la hauteur.
       
  <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/html2.jpg" width="450">
       
-   3. Ecrire la fonction Output dans 3 différents class: StreamingOutput - StreamingHandler et StreamingServer  
+   3. **Écrire** la fonction Output dans 3 différents class: StreamingOutput - StreamingHandler et StreamingServer  
       StreamingOutput  
       <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/output1.PNG" width="450">
       
       StreamingHandler  
-      <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/Handler1.PNG" width="450">
+      <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/Handler1.PNG" width="450">  
+      
       <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/Handler2.PNG" width="450">
       
       StreamingServer pour mettre la caméra au format jpeg (préférable au format rgb, bien que j'ai essayé les deux). La résolution choisie sera 1280x120. J'ai consulté le         tableau suivant et ssayé plusieurs choix avant de m'arrêter à la résolution 1280X120 avec un framerate de 24.
       
-       <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/frame.PNG" width="450">
+       <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/frame.PNG" width="450">  
        
+      
        <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/server1.PNG" width="450">
       
-      Le code signifie que la caméra ne va pas s'arrêter à la prise d'images, ce qui permet le live streaming.
+       Le code signifie que la caméra ne va pas s'arrêter à la prise d'images, ce qui permet le live streaming.
     
     
  
@@ -118,31 +120,31 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
  Voici la version finale et complète du code utilisé:
  
             ** import io
-import picamera
-import logging
-import socketserver
-from threading import Condition
-from http import server
+               import picamera
+               import logging
+               import socketserver
+               from threading import Condition
+               from http import server
 
-PAGE="""\
-<html>
-<head>
-<title>Raspberry Pi - Projet Camera de surveillance College Boreal Zack SB</title>
-</head>
-<body>
-<center><h1>Raspberry Pi -Zack SB Projet College Boreal et la camera de surveillance live streaming</h1></center>
-<center><img src="stream.mjpg" width="1280" height="720"></center>
-</body>
-</html>
-"""
+               PAGE="""\
+               <html>
+               <head>
+               <title>Raspberry Pi - Projet Camera de surveillance College Boreal Zack SB</title>
+               </head>
+               <body>
+               <center><h1>Raspberry Pi -Zack SB Projet College Boreal et la camera de surveillance live streaming</h1></center>
+               <center><img src="stream.mjpg" width="1280" height="720"></center>
+               </body>
+               </html>
+               """
 
-class StreamingOutput(object):
-    def __init__(self):
-        self.frame = None
-        self.buffer = io.BytesIO()
-        self.condition = Condition()
+               class StreamingOutput(object):
+                   def __init__(self):
+                       self.frame = None
+                       self.buffer = io.BytesIO()
+                       self.condition = Condition()
 
-    def write(self, buf):
+                   def write(self, buf):
         if buf.startswith(b'\xff\xd8'):
             self.buffer.truncate()
             with self.condition:
