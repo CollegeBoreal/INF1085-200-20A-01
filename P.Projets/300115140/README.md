@@ -27,4 +27,12 @@ Il faut en effet plusieurs choses pourpouvoir mener à bien ce projet.Voici une 
 
 ## Créer le code Python sur Thonny IDE
 
+## Ouvrir un browser avec l'adresse IP et le port
 
+
+
+## Le rendu de la caméra Live streaming
+
+
+
+![](https://placehold.it/350x90/009955/fff?text=SUCCESS!)
