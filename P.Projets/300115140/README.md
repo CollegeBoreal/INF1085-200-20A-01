@@ -76,11 +76,12 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
 
 Les étapes de l'écriture de mon code:  
   * importer les modules, les plates-formes d'intégration, un framework, les serveurs HTTP, tout cela sur Phyton.  
-    J'ai décidé d'importer les éléments suivants selon mes besoins:
+    J'ai décidé d'importer les éléments suivants selon mes besoins:  
+    
           ** serveur http pour écrire ma page browser sur laquelle sera réalisé le streaming live
           ** le framework **socketserver**, très utulisé sur Unix, à partir duquel le streaming sera configuré (utilisant StreamingOutput dans une définition sur Python)
     
-  [url](https://pymotw.com/2/SocketServer/)  
+[url](https://pymotw.com/2/SocketServer/)  
     
     
     
