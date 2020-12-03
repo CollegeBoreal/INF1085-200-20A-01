@@ -1,4 +1,4 @@
-# |:PROJET RASPBERRY PI - SYSTEME DE SÉCURITÉ VIDEO EN STREAMING LIVE 📹👮:|        
+# PROJET RASPBERRY PI - SYSTEME DE SÉCURITÉ VIDEO EN STREAMING LIVE 📹👮       
 
 ![image](IMAGES/camera1.jpg)
 
@@ -12,6 +12,12 @@
 7. Le rendu de la caméra Live streaming
 
 ## Rassembler le matériel Raspberry Pi + CamPi + câbles
+Il faut en effet plusieurs choses pourpouvoir mener à bien ce projet.Voici une liste de ce que j'ai utilisé:
+
+  * un **raspberryPi 4** avec 8Go
+  * une RasberryCam 
+  * un HDMI to VGA Converter pour pouvoir avoir accès à un écran
+  * câbles USB pour connecter clavier et souris au RaspberryPi
 
 ## Mettre en marche la caméra sur RaspberryPi(enable camera)
 
