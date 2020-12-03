@@ -92,7 +92,10 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
          
    2. **écrire le texte HTML** qui servira pourle browser pour lequel le live streaming sera utilisé. En effet, le but est d'ouvrir un broswer (Chrome, IE ou Firefox par           exemple), d'inscrire l'adresse IP de mon RaspberryPi et le port Raspberry utilisé pour pouvoir voir au final le live streaming.
       Dans le texte HTML, je vais donner le nom à ma page web en haut :'Projet Camera de surveillance College Boreal Zack SB'  
-      Je vais aussi donner comme titre à ma page(en haut de la page ou s'affichera la cam): 'Zack SB Projet Camera College Boreal et la camera de surveillance live streaming'
+      Je vais aussi donner comme titre à ma page(en haut de la page ou s'affichera la cam): 'Zack SB Projet Camera College Boreal et la camera de surveillance live streaming'       Le live streaming se fera dans une image qui aura un cadre standard: 1280 pour la hauteur et 720 pour la hauteur.
+      
+ <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/html2.jpg" width="350">
+      
     
     
 ## Ouvrir un browser avec l'adresse IP et le port
