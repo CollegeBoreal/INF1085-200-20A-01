@@ -106,13 +106,17 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
       
       <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/Handler2.PNG" width="450">
       
-      StreamingServer pour mettre la caméra au format jpeg (préférable au format rgb, bien que j'ai essayé les deux). La résolution choisie sera 1280x120. J'ai consulté le         tableau suivant et ssayé plusieurs choix avant de m'arrêter à la résolution 1280X120 avec un framerate de 24.
+      StreamingServer est le troisiéme élément.  
+      
+      <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/server1.PNG" width="450">
+      
+      
+      Il peremet entre autres, de mettre la caméra au format jpeg (préférable au format rgb, bien que j'ai essayé les deux). La résolution choisie sera 1280x120.  
+      J'ai consulté le tableau suivant et ssayé plusieurs choix avant de m'arrêter à la résolution 1280X120 avec un framerate de 24.
       
        <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/frame.PNG" width="450">  
        
-      
-       <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/server1.PNG" width="450">
-      
+        
        Le code signifie que la caméra ne va pas s'arrêter à la prise d'images, ce qui permet le live streaming.
     
     
