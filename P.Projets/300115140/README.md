@@ -74,9 +74,9 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
 
 <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/thonny3.jpg" width="350">
 
-**Les étapes de l'écriture de mon code:  
+**Les étapes de l'écriture de mon code:**  
 
-  * importer les modules, les plates-formes d'intégration, un framework, les serveurs HTTP, tout cela sur Phyton.  
+  1. importer les modules, les plates-formes d'intégration, un framework, les serveurs HTTP, tout cela sur Phyton.  
     J'ai décidé d'importer les éléments suivants selon mes besoins:  
     
           ** serveur http pour écrire ma page browser sur laquelle sera réalisé le streaming live
@@ -88,9 +88,9 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
          
  Cela donnera le résultat suivant:
          
- <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/thonny3.jpg" width="350">
+ <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/import.jpg" width="350">
          
-   * écrire le texte HTML qui servira     
+   2. écrire le texte HTML qui servira     
     
     
 ## Ouvrir un browser avec l'adresse IP et le port
