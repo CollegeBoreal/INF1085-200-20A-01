@@ -80,14 +80,17 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
     J'ai décidé d'importer les éléments suivants selon mes besoins:  
     
           ** serveur http pour écrire ma page browser sur laquelle sera réalisé le streaming live
-          ** le framework **socketserver**, très utulisé sur Unix, à partir duquel le streaming sera configuré (utilisant StreamingOutput dans une définition sur Python)
-             [documentation](https://pymotw.com/2/SocketServer/)  
+          ** le framework **socketserver**, très utulisé sur Unix, à partir duquel le streaming sera configuré (utilisant StreamingOutput dans une définition sur Python                    https://pymotw.com/2/SocketServer/
              
           ** importer le module camera de RaspberrPi: picamera  
              Je me suis inspiré de ce projet suivant pour écrire le code à partir du modu;e  picamera et en l'intégrant sur la définition StreamingOutput  
              https://picamera.readthedocs.io/en/release-1.10/recipes1.html  
-             
-             
+         
+ Cela donnera le résultat suivant:
+         
+ <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/thonny3.jpg" width="350">
+         
+   * écrire le texte HTML qui servira     
     
     
 ## Ouvrir un browser avec l'adresse IP et le port
