@@ -81,9 +81,11 @@ Les étapes de l'écriture de mon code:
           ** serveur http pour écrire ma page browser sur laquelle sera réalisé le streaming live
           ** le framework **socketserver**, très utulisé sur Unix, à partir duquel le streaming sera configuré (utilisant StreamingOutput dans une définition sur Python)
              https://pymotw.com/2/SocketServer/  
+             
           ** importer le module camera de RaspberrPi: picamera  
              Je me suis inspiré de ce projet suivant pour écrire le code à partir du modu;e  picamera et en l'intégrant sur la définition StreamingOutput  
-             https://picamera.readthedocs.io/en/release-1.10/recipes1.html
+             https://picamera.readthedocs.io/en/release-1.10/recipes1.html  
+             
              
     
     
