@@ -28,7 +28,7 @@ Il faut en effet plusieurs choses pourpouvoir mener à bien ce projet.Voici une 
 
 | RaspberryCam | câbles | HDMI
 | ------------ | ------------- | -------------
-| <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/cam1.jpg" width="250"> | <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/cables.jpg" width="250">| <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/HDMI.jpg" width="250">
+| <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/cam1.jpg" width="150"> | <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/cables.jpg" width="150">| <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/HDMI.jpg" width="150">
 
 ## Mettre en marche la caméra sur RaspberryPi(enable camera)
 
