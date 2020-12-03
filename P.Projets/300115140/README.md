@@ -76,11 +76,11 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
 
 **Les étapes de l'écriture de mon code:**  
 
-  1. importer les modules, les plates-formes d'intégration, un framework, les serveurs HTTP, tout cela sur Phyton.  
+  1. **importer** les modules, les plates-formes d'intégration, un framework, les serveurs HTTP, tout cela sur Phyton.  
     J'ai décidé d'importer les éléments suivants selon mes besoins:  
     
           ** serveur http pour écrire ma page browser sur laquelle sera réalisé le streaming live
-          ** le framework **socketserver**, très utulisé sur Unix, à partir duquel le streaming sera configuré (utilisant StreamingOutput dans une définition sur Python                    https://pymotw.com/2/SocketServer/
+          ** le framework socketserver, très utulisé sur Unix, à partir duquel le streaming sera configuré (utilisant StreamingOutput dans une définition sur Python                        https://pymotw.com/2/SocketServer/
              
           ** importer le module camera de RaspberrPi: picamera  
              Je me suis inspiré de ce projet suivant pour écrire le code à partir du modu;e  picamera et en l'intégrant sur la définition StreamingOutput  
@@ -90,7 +90,9 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
          
  <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/import.jpg" width="350">
          
-   2. écrire le texte HTML qui servira     
+   2. **écrire le texte HTML** qui servira pourle browser pour lequel le live streaming sera utilisé. En effet, le but est d'ouvrir un broswer (Chrome, IE ou Firefox par           exemple), d'inscrire l'adresse IP de mon RaspberryPi et le port Raspberry utilisé pour pouvoir voir au final le live streaming.
+      Dans le texte HTML, je vais donner le nom à ma page web en haut :'Projet Camera de surveillance College Boreal Zack SB'  
+      Je vais aussi donner comme titre à ma page(en haut de la page ou s'affichera la cam): 'Zack SB Projet Camera College Boreal et la camera de surveillance live streaming'
     
     
 ## Ouvrir un browser avec l'adresse IP et le port
