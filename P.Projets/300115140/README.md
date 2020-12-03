@@ -96,8 +96,21 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
       
  <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/html2.jpg" width="450">
       
+   3. Ecrire la fonction Output dans 3 différents class: StreamingOutput - StreamingHandler et StreamingServer  
+      StreamingOutput
+      StreamingHandler
+      StreamingServer pour mettre la caméra au format jpeg (préférable au format rgb, bien que j'ai essayé les deux). La résolution choisie sera 1280x120. J'ai consulté le         tableau suivant et ssayé plusieurs choix avant de m'arrêter à la résolution 1280X120 avec un framerate de 24.
+      
+       <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/frame.PNG" width="450">
+      
+      Le code signifie que la caméra ne va pas s'arrêter à la prise d'images, ce qui permet le live streaming.
     
     
+ 
+ 
+ Voici la version finale et complète du code utilisé:
+ 
+ 
 ## Ouvrir un browser avec l'adresse IP et le port
 
 
