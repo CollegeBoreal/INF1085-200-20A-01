@@ -61,8 +61,10 @@ Il exist plusieurs IDE pour écrire son code Python ou HTML. Sur Debian, aprés 
 
 <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/thonny1.jpg" width="350">
 
-_Troubleshooting_: il est possible d'avoir des messages d'erreur en voulant télécharger Thonny. A ce moment-là, je conseille de faire un update sur Debian en tapant **$ sudo apt full-upgrade**
-Si l'erreur persiste, cela voudrait dire que Linux est en train de réaliser des updatess et qu'il ne peut pas installer encore Thonny. Il faut patienter et refaire la demande d'installation, ou encore arrêter les updates avec **$ sudo killall apt apt-get**
+_Troubleshooting_: il est possible d'avoir des messages d'erreur en voulant télécharger Thonny. A ce moment-là, je conseille de faire un update sur Debian en tapant  
+**$ sudo apt full-upgrade**
+Si l'erreur persiste, cela voudrait dire que Linux est en train de réaliser des updatess et qu'il ne peut pas installer encore Thonny. Il faut patienter et refaire la demande d'installation, ou encore arrêter les updates avec  
+**$ sudo killall apt apt-get**
 
 
 ## Créer le code Python sur Thonny IDE
