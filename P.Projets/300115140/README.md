@@ -47,13 +47,23 @@ Pour activer la caméra, nous allons sur Menu>RaspberryPi Configuration>Interfac
 ## Trouver l'adresse IP de mon RaspberyPi
 
 Ensuite, il faut trouver l'adresse IP du RaspberryPi car nous en aurons besoin pour le live streaming. pour cela, il faut aller dans le terminal et taper la commande suivante:  
-"Edit > Highlight Words > Highlight Words" **hostname -I** 
+**hostname -I** 
 
 
 <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/ip.jpg" width="350">
 
+L'adresse IP de mon RaspberryPi est: **192.168.2.25**
 
 ## Télécharger Thonny IDE sur Linux
+
+Il exist plusieurs IDE pour écrire son code Python ou HTML. Sur Debian, aprés avoir essayé plusieurs, je pense que ThonnyIDE est le meilleur et le plus simple d'utilisation. Pour le télécharger, il faut aller sur le terminal et taper la commmande suivante:  
+**sudo apt install thonny**
+
+<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/thonny1.jpg" width="350">
+
+_Troubelshooting_: il est possible d'avoir des messages d'erreur en voulant télécharger Thonny. A ce moment-là, je conseille de faire un update sur Debian en tapant **sudo apt full-upgrade**
+Si l'erreur persiste, cela voudrait dire que Linux est en train de réaliser des updatess et qu'il ne peut pas installer encore Thonny. Il faut patienter et refaire la demande d'installation, ou encore arrêter les updates avec **sudo killall apt apt-get**
+
 
 ## Créer le code Python sur Thonny IDE
 
