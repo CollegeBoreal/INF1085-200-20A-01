@@ -47,7 +47,7 @@ Pour activer la caméra, nous allons sur Menu>RaspberryPi Configuration>Interfac
 ## Trouver l'adresse IP de mon RaspberyPi
 
 Ensuite, il faut trouver l'adresse IP du RaspberryPi car nous en aurons besoin pour le live streaming. pour cela, il faut aller dans le terminal et taper la commande suivante:  
-**hostname -I** ^^highlight^^
+"Edit > Highlight Words > Highlight Words" **hostname -I** 
 
 
 <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/ip.jpg" width="350">
