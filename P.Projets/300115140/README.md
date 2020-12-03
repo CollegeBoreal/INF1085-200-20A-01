@@ -218,12 +218,22 @@ L'adrees Ip du Raspberry Pi est donc 192.168.2.25
 Le port pour RaspberryPi est 8000  
 Il faut donc ouvrir un browser de son choix tel que IE ou Chrome.  
 
-Je choisit CHrome:  
+Je choisit Chrome:  
+
+<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/stream1.jpg" width="450">  
 
 
+<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/stream2.jpg" width="450"> 
 
+Voilà donc le résultat: le live streaming près de mon bureau, dans le salon!
 
 ## Le rendu de la caméra Live streaming
+
+J'ai fais une courte vidéo sur le rendu que ca fait de faire un live streaming:
+
+
+
+
 
 [//]: <(https://placehold.it/20/157500?text=+) green!>
 ![](https://placehold.it/350x90/009955/fff?text=TADA!!!)
