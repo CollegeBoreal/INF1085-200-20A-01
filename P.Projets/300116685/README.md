@@ -1,8 +1,8 @@
-### Reseau local  d'entreprise Amir Abdullahi 
+## Reseau local  d'entreprise Amir Abdullahi 
 
-:bookmark:  Objctif : du projet est configuration routage inter-vlan 
+##:bookmark:  Objctif : du projet est configuration routage inter-vlan 
 ------------------------------------------------------------------------------
-1.Routeur 
+##1.Routeur 
 ---------
 Etape 1: configure de base  d'un routeur cisco 
 ------------------------------------
