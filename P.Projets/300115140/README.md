@@ -62,7 +62,7 @@ Il exist plusieurs IDE pour écrire son code Python ou HTML. Sur Debian, aprés 
 <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/thonny1.jpg" width="350">
 
 _Troubleshooting_: il est possible d'avoir des messages d'erreur en voulant télécharger Thonny. A ce moment-là, je conseille de faire un update sur Debian en tapant  
-**$ sudo apt full-upgrade**
+**$ sudo apt full-upgrade**  
 Si l'erreur persiste, cela voudrait dire que Linux est en train de réaliser des updatess et qu'il ne peut pas installer encore Thonny. Il faut patienter et refaire la demande d'installation, ou encore arrêter les updates avec  
 **$ sudo killall apt apt-get**
 
@@ -72,6 +72,19 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
 
 <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/thonny.jpg" width="350">
 
+<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/thonny3.jpg" width="350">
+
+Les étapes de l'écriture de mon code:  
+  * importer les modules, les plates-formes d'intégration, un framework, les serveurs HTTP, tout cela sur Phyton.  
+    J'ai décidé d'importer les éléments suivants selon mes besoins:
+          ** serveur http pour écrire ma page browser sur laquelle sera réalisé le streaming live
+          ** le framework **socketserver**, très utulisé sur Unix, à partir duquel le streaming sera configuré (utilisant StreamingOutput dans une définition sur Python)
+    
+  [url](https://pymotw.com/2/SocketServer/)  
+    
+    
+    
+    
 ## Ouvrir un browser avec l'adresse IP et le port
 
 
