@@ -33,6 +33,5 @@ Il faut en effet plusieurs choses pourpouvoir mener à bien ce projet.Voici une 
 
 ## Le rendu de la caméra Live streaming
 
-
- -- [#157500](https://placehold.it/20/157500?text=+) green!
+(https://placehold.it/20/157500?text=+) green!
 ![](https://placehold.it/350x90/009955/fff?text=CAMARCHE!)
