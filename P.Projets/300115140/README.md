@@ -81,7 +81,7 @@ Les étapes de l'écriture de mon code:
           ** serveur http pour écrire ma page browser sur laquelle sera réalisé le streaming live
           ** le framework **socketserver**, très utulisé sur Unix, à partir duquel le streaming sera configuré (utilisant StreamingOutput dans une définition sur Python)
     
-[url](https://pymotw.com/2/SocketServer/)  
+https://pymotw.com/2/SocketServer/
     
     
     
