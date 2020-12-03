@@ -33,6 +33,8 @@
  
 ## Étape 3: Ensuite, nous devons d'abord configurer samba pour activer le partage sur le réseau, créer une sauvegarde du fichier de configuration d'origine
  
+   ![image](IMAGES/samba3.PNG) 
+   
       * (administrateur@ubuntu2004:~$ sudo cp /etc/samba/smb.conf /etc/samba/smb.conf.orignl
       * (administrateur@ubuntu2004:~$ ls /etc/samba/
       * gdbcommands smb.conf.orignl tls
