@@ -34,9 +34,9 @@ Il faut en effet plusieurs choses pourpouvoir mener à bien ce projet.Voici une 
 
 Une fois que le RaspberryPi est branché sur un clavier et un écran, nous arrivons sur l'écran comme l'image ci-desssous. RaspberryPi utilise Linux Debian, nous allons donc d'abord enable la caméra sur Linux pour pouvoir l'utiliser et ensuite récupérer l'adresse IP.
 
-<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/ecran.jpg" width="200">
-<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/enable1.jpg" width="200">
-<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/enabl2.jpg" width="200">
+<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/ecran.jpg" width="250">
+<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/enable1.jpg" width="250">
+<img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/enabl2.jpg" width="250">
 
 Pour activer la caméra, nous allons sur Menu>RaspberryPi Configuration>Interfaces>Camera>Enable
 
@@ -56,4 +56,4 @@ Pour activer la caméra, nous allons sur Menu>RaspberryPi Configuration>Interfac
 ## Le rendu de la caméra Live streaming
 
 [//]: <(https://placehold.it/20/157500?text=+) green!>
-![](https://placehold.it/350x90/009955/fff?text=TADA:whale:!!!)
+![](https://placehold.it/350x90/009955/fff?text=TADA!!!)
