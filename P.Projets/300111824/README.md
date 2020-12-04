@@ -84,13 +84,20 @@ create mask=644
 ![image](IMAGES/samba6.PNG)
 
 
- sudo chmod 777 /var/samba/shares/public  
- (adminstrateur@ubuntu2004:-$ sudo chmod 777 /var/samba/shares/public  
- (administrateur@ubuntu2004:-$ ls /var/samba/shares/public/ -la  
+```
+$ sudo chmod 777 /var/samba/shares/public  
+$ sudo chmod 777 /var/samba/shares/public  
+$ ls /var/samba/shares/public/ -la  
+```
        
        
-## 7éme étapes: redémarrez le service samba pour que les modifications prennent effet
-  ## sudo service smbd restart
+## 7éme étapes: 
+
+redémarrez le service samba pour que les modifications prennent effet
+
+```
+$ sudo service smbd restart
+```
   
   
 ![image](IMAGES/samba7.PNG)  
