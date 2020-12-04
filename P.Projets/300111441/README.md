@@ -33,15 +33,15 @@ luxury@Luxuryking:~$ sudo nano /etc/samba/smb.conf
 ```
 ### Ajouter les lignes suivsntes:
 
-```[sharefolder]
+```
+[sharefolder]
           comment = samba on ubuntu
           path = /home/luxury/sharefolder
           browseable = yes
-```       readonly = no
+          readonly = no
+```          
+ ### Enregistre le fichier
           
-          Enregistre le fichier
-          
-
 ### Enregistre le fichier et redemarrer Samba avec la commande
 
 ```
