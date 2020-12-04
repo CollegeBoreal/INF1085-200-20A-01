@@ -48,6 +48,7 @@ $ sudo apt-get install samba -y
 
 ## Étape 4: ouvrir smb remplace son contenu par le suivant
 
+```
 [global]  
 workgroup = workgroup
 server string = samba server
@@ -63,7 +64,7 @@ writable=yes
 guest ok =yes
 read only =no
 create mask=644
-
+```
 
 ## 5ème étapes: Ensuite, nous devons créer un répertoire partagé
 
