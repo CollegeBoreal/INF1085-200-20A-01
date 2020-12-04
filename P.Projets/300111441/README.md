@@ -57,17 +57,31 @@ luxury@Luxuryking:~$ sudo smbpasswd -a luxury
 ```
 luxury@Luxuryking:~$ sudo ufw allow samba
 ```
-# L'installation est terminee et verifier l'addresse de la machine avec la commande
+# L'installation est terminee et nous allons verifier l'addresse de la machine avec la commande
 
 ```
 root@Luxuryking:~# ip add
 ```
+### Addresse de la machine
+
+```
+ 10.13.237.18/25
+```
+### Nous allons verifier a partir de Windows le sharefolders sous la commande
+
+```
+run
+```
+![image](images/linu2.png)
 
 ![image](images/linu.png)
 
-![image](images/linu2.png)
-
 ![image](images/linu4.png)
+
+
+
+
+
 
 
 
