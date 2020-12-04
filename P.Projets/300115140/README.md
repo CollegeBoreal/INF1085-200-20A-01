@@ -123,8 +123,8 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
  
  
  Voici la version finale et complète du code utilisé:
- 
-               import io
+  ```
+              $import io
                import picamera
                import logging
                import socketserver
@@ -211,6 +211,7 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
                        server.serve_forever()
                     finally:
                         camera.stop_recording()
+ ```
  
  
 ## Ouvrir un browser avec l'adresse IP et le port
