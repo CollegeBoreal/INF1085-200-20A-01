@@ -90,7 +90,7 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
          
  <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/import.jpg" width="350">
          
-   2. **Écrire le texte HTML** qui servira pourle browser pour lequel le live streaming sera utilisé. En effet, le but est d'ouvrir un broswer (Chrome, IE ou Firefox par           exemple), d'inscrire l'adresse IP de mon RaspberryPi et le port Raspberry utilisé pour pouvoir voir au final le live streaming.
+   2. **Écrire le texte HTML** qui servira pour le browser pour lequel le live streaming sera utilisé. En effet, le but est d'ouvrir un broswer (Chrome, IE ou Firefox par           exemple), d'inscrire l'adresse IP de mon RaspberryPi et le port Raspberry utilisé pour pouvoir voir au final le live streaming.
       Dans le texte HTML, je vais donner le nom à ma page web en haut :'Projet Camera de surveillance College Boreal Zack SB'  
       Je vais aussi donner comme titre à ma page(en haut de la page ou s'affichera la cam): 'Zack SB Projet Camera College Boreal et la camera de surveillance live streaming'       Le live streaming se fera dans une image qui aura un cadre standard: 1280 pour la hauteur et 720 pour la hauteur.
       
@@ -111,8 +111,8 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
       <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/server1.PNG" width="450">
       
       
-      Il peremet entre autres, de mettre la caméra au format jpeg (préférable au format rgb, bien que j'ai essayé les deux). La résolution choisie sera 1280x120.  
-      J'ai consulté le tableau suivant et ssayé plusieurs choix avant de m'arrêter à la résolution 1280X120 avec un framerate de 24.
+      Il permet entre autres, de mettre la caméra au format jpeg (préférable au format rgb, bien que j'ai essayé les deux). La résolution choisie sera 1280x120.  
+      J'ai consulté le tableau suivant et essayé plusieurs choix avant de m'arrêter à la résolution 1280X120 avec un "framerate" de 24.
       
        <img src="https://github.com/CollegeBoreal/INF1085-200-20A-01/blob/master/P.Projets/300115140/IMAGES/frame.PNG" width="450">  
        
@@ -124,7 +124,7 @@ Nous voilà installer avec la dernière version de Thonny IDE (3.3.0)
  
  Voici la version finale et complète du code utilisé:
   ```
-              $import io
+               import io
                import picamera
                import logging
                import socketserver
