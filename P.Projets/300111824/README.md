@@ -2,24 +2,28 @@
 # SAMBA: Sharing files with windows users using samba  :lion:
 
 
-# 1.	Definition: Samba est un logiciel d’interopérabilité qui implémente le protocole propriétaire SMB/CIFS de Microsoft Windows dans les ordinateurs 
+## 1.	Definition: 
+
+Samba est un logiciel d’interopérabilité qui implémente le protocole propriétaire SMB/CIFS de Microsoft Windows dans les ordinateurs 
 
 
 
-# 2. Notre but:
+## 2. Notre but:
 
 
 
-# 3.Créez un compte utilisatateur samba sur le serveur linux
+## 3.Créez un compte utilisatateur samba sur le serveur linux
 
 
    
    
-## 1ère Étape:Installez le serveur samba avec la commande followng
+## 1ère Étape: Installez le serveur samba avec la commande following
 ![image](IMAGES/samba1.PNG)
-     * sudo apt -get update
-     * sudo apt-get install samba -y
-   
+
+```
+$ sudo apt -get update
+$ sudo apt-get install samba -y
+```
    
    
 ## 2 éme Étape : une fois l'installation terminée, vous pouvez vérifier la version de samba avec la commande followng
