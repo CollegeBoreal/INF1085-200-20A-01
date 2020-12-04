@@ -31,12 +31,13 @@ luxury@Luxuryking:~$ mkdir /home/luxury/sharefolder/
 luxury@Luxuryking:~$ sudo cp /etc/samba/smb.conf /etc/smb.conf.org
 luxury@Luxuryking:~$ sudo nano /etc/samba/smb.conf
 ```
-Ajouter les lignes suivsntes:
-  [sharefolder]
+### Ajouter les lignes suivsntes:
+
+```[sharefolder]
           comment = samba on ubuntu
           path = /home/luxury/sharefolder
           browseable = yes
-          readonly = no
+```       readonly = no
           
           Enregistre le fichier
           
