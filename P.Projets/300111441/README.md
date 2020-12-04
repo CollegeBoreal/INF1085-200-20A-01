@@ -62,7 +62,7 @@ luxury@Luxuryking:~$ sudo ufw allow samba
 root@Luxuryking:~# ip add
 ```
 
-![image](images/linu1.png)
+![image](images/linu.png)
 
 
 
