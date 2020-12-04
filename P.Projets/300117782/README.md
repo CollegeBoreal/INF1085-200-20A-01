@@ -22,3 +22,4 @@ sudo -i
 ```
 $ apt install snapd
 ```
+<img src="images/n3.PNG" width="600" heigth="300"></img>
