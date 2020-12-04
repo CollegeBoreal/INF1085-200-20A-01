@@ -1,16 +1,15 @@
-## SAMBA 
+# SAMBA 
 
-###
+## Definition:
 
-### Definition:
 Samba est un logiciel qui facilite l'interopérabilité entre systèmes hétérogènes Windows-Unix. Il offre la possibilité aux ordinateurs d'un réseau d'accéder aux imprimantes et aux fichiers des ordinateurs sous Unix et permettent aux serveurs Unix de se substituer à des serveurs Windows10.
 
-### Installation de samba avec la commande
+## Installation de samba avec la commande
 
+```
 luxury@Luxuryking:~$ sudo apt update
-
 luxury@Luxuryking:~$ sudo apt-get install samba
-
+```
 
 ### Verification de l'installation avec la commande
 
