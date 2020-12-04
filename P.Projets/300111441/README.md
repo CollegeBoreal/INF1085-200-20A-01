@@ -66,8 +66,6 @@ root@Luxuryking:~# ip add
 
 ![image](images/linu2.png)
 
-![image](images/linu3.png)
-
 ![image](images/linu4.png)
 
 
