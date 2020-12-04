@@ -1,8 +1,13 @@
 # :sparkles:  INSTALATION DE NEXTCLOUD SUR UBUNTU 20.04 LTS :sparkles: 
 
 ---
+
+<img src="images/n.0.jpg" width="451" heigth="300"></img>
+ 
 # :star: DEFINITION :star:
 Nextcloud est un logiciel libre, de site d’hébergement de fichiers  et une plateforme de collaboration.
+
+## Comment installer NEXTCLOUD sur ubuntu serveur 20.04 LTS :question:
 ## :pushpin: Step 1: Instalation de Snap
 :heavy_check_mark: **Snap** C'est un système de packaging, disponible sur Ubuntu 20.04 par défaut et qui permet aux organisations d'expédier les logiciels, ainsi que toutes les dépendances et la configuration associées, dans une unité autonome avec des mises à jour automatiques.
 ```
