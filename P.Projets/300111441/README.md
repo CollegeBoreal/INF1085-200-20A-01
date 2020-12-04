@@ -13,8 +13,11 @@ luxury@Luxuryking:~$ sudo apt-get install samba
 
 ### Verification de l'installation avec la commande
 
+```
 luxury@Luxuryking:~$ whereis samba
 samba: /usr/sbin/samba /usr/lib/x86_64-linux-gnu/samba /etc/samba /usr/share/samba /usr/share/man/man8/samba.8.gz /usr/share/man/man7/samba.7.gz
+```
+
 Samba est installe 
 
 ### Creation d'un repertoire de partarge avec la commande
