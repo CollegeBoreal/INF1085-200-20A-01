@@ -27,7 +27,7 @@ Etape 2 : configure mode priviligie d'un routeur cisco
 ```
 config t 
 interface fastEthernet 0/0
-ip address 192.168.0.1  255.255.255.0
+ip address 10.13.237.147  255.255.255.0
 no shutdown
 exit
 do wr
