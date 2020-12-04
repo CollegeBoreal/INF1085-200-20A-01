@@ -53,7 +53,8 @@ login
 exit
 do wr
 ````
-``utiliser le meme commande de base les autres swith``
+
+  utiliser le meme commande de base les autres swith
 
 
 Etape 4: configuration du protocole VTP 
