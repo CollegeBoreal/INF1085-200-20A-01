@@ -26,7 +26,7 @@ $ ip address
 ```
 $ wget https://git.io/vpn -0 openvpn-ubuntu-install.sh
 ```
-<img src="images/2.JPG" width="451" heigth="300"></img>
+<img src="images/2.JPG" width="551" heigth="400"></img>
 
 
 :heavy_check_mark: Après avoir téléchargé le script, nous devons le rendre exécutable avec la commande suivante:
@@ -34,7 +34,7 @@ $ wget https://git.io/vpn -0 openvpn-ubuntu-install.sh
 $ chmod -v +x openvpn-ubuntu-install.sh
 ```
 
-<img src="images/3.JPG" width="451" heigth="300"></img>
+<img src="images/3.JPG" width="551" heigth="400"></img>
 
  
 :heavy_check_mark: Une fois que nous avons demandé la permission a notre serveur pour exécuter le script on peut ouvrir notre script avec l’éditeur nano/vim.
@@ -42,7 +42,7 @@ $ chmod -v +x openvpn-ubuntu-install.sh
 $ nano openvpn-ubuntu-install.sh
 ```
 
-<img src="images/4.JPG" width="451" heigth="300"></img>
+<img src="images/4.JPG" width="551" heigth="400"></img>
 
  
 :heavy_check_mark: Nous pouvons maintenant exécuter notre script avec la commande suivante:
@@ -50,9 +50,9 @@ $ nano openvpn-ubuntu-install.sh
 $ sudo ./openvpn-ubuntu-install.sh
 ```
 
-<img src="images/5.JPG" width="451" heigth="300"></img>
+<img src="images/5.JPG" width="551" heigth="400"></img>
 
-<img src="images/6.JPG" width="451" heigth="300"></img>
+<img src="images/6.JPG" width="551" heigth="400"></img>
 
  
 :heavy_check_mark: Avant l’installation de l’openvpn vous devez répondre a une série de questions a savoir:
