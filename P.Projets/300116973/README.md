@@ -97,7 +97,7 @@ $ sudo systemctl status openvpn-server@server.service
 
 ## Step 4: Connection a notre OpenVPN serveur a partir de notre ordinateur portable qui est considerer comme client:
 ```
-$ ssh nathalie@10.13.237.23 “sudo -S cat /root/nathalie.ovpn” > nathalie.ovpn
+$ ssh nathalie@10.13.237.23 "sudo -S cat /root/nathalie.ovpn" > nathalie.ovpn
 ```
 :heavy_check_mark: Âpres faire ls pour voir ou est localise votre openvpn dans votre ordinateur
 
