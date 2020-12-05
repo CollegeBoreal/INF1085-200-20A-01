@@ -1,1 +1,35 @@
 
+
+### SAMBA
+
+### DEFINTION
+
+Samba est un logiciel d'interopérabilité qui implémente le protocole propriétaire SMB/CIFS de Microsoft Windows dans les ordinateurs tournant sous le système d'exploitation Unix et ses dérivés de manière à partager des imprimantes et des fichiers dans un réseau informatique8. Samba facilite l'interopérabilité entre systèmes hétérogènes Windows-Unix. Il offre la possibilité aux ordinateurs d'un réseau d'accéder aux imprimantes et aux fichiers des ordinateurs sous Unix9 et permettent aux serveurs Unix de se substituer à des serveurs Windows 10.
+
+
+
+### Comment installer Samba
+
+boreal@10.13.237.76 /home/Hassana $ sudo apt update
+boreal@10.13.237.76 /home/Hassana $ sudo apt-get install samba
+
+
+### Installation Verifier
+
+boreal@10.13.237.76 /home/Hassana $ whereis samba
+
+samba: /usr/sbin/samba /usr/lib/x86_64-linux-gnu/samba /etc/samba /usr/share/samba /usr/share/man/man7/samba.7.gz /usr/share/man/man8/samba.8.gz
+
+sama est installer, 
+
+### Suite a la creation d'un repertoire à partager
+
+
+
+
+### Fichier de configuration et Sauvegarde
+
+
+
+
+
