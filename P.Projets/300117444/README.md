@@ -1,4 +1,5 @@
-# Projet VPN  : CRÉER UN VPN POUR SÉCURISER LES CONNEXIONS RÉSEAUX
+# :sparkles: Projet VPN  : CRÉER UN VPN POUR SÉCURISER LES CONNEXIONS RÉSEAUX
+:rose: Dans ce tutoriel, vous aller apprendre de la maniere la plus simple comment creer un OPEN VPN sur votre votre server Debian . :rose:
 
 ## Table des matières
   1. Les mises à jour
@@ -9,7 +10,8 @@
   7. le rendu
   
   
-## 1. Les mises à jour
+## 1. Les mises à jour du systeme :
+Tout d'abord 
 
 
 
