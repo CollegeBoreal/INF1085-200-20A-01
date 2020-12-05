@@ -42,21 +42,25 @@ $ snap install nextcloud
  
 :heavy_check_mark: Après l'installation, entrer votre IP adresse (l'adresse de votre serveur sur laquelle vous avez installé NEXTCLOUD) dans un navigateur de recherche et taper sur enter une nouvelle page doit s'ouvrir à vous. 
  
-<img src="images/n5.PNG" width="900" heigth="300"></img>
+<img src="images/n5.PNG" width="700" heigth="300"></img>
 
 ## :pushpin: Step 4: Ouverture d'un compte 
 
 :heavy_check_mark: Utiliser vos information personnel pour créer un compte ( Nom d'utilisateur et  mot de passe )
 
-<img src="images/n6.PNG" width="900" heigth="300"></img>
+<img src="images/n6.PNG" width="700" heigth="300"></img>
 
-## :pushpin: Step 5:Créer un fichier sur Nextcloud
-
-
-<img src="images/n8.PNG" width="900" heigth="300"></img>
+## :pushpin: Step 5: Commencez à utiliser Nextcloud
 
 
+<img src="images/n8.PNG" width="700" heigth="300"></img>
+
+:heavy_check_mark: cliquez sur la flèche à droite pour défiler ensuite Start to using Nextcloud
 
 
+## :pushpin: Step 5: Créer un fichier sur Nextcloud
 
+Avec Nextcloud nous pouvons Stockez nos documents, calendriers, contacts et photos sur un serveur à domicile, chez l'un de nos fournisseurs ou dans un centre de données de votre confiance. Pour Notre expérience nous devons créer un fichier dans lequel nous devons sauvegarder une photo.
+
+:round_pushpin: Let go :muscle:
 
