@@ -15,10 +15,8 @@ OpenVPN est un logiciel libre permettant de créer un réseau privé virtuel VPN
 ## 1. Les mises à jour du systeme :
 Tout d'abord vous devez mettre a jour votre systeme grace a la commande suivante :
  - $ sudo apt update
- + SDSD
- ° QSD 
- = QSDSQDG
- / HOH
+
+<p style='color:red'>This is some red text.</p>
 
 
 
