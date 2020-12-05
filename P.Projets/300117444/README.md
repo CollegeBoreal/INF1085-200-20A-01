@@ -37,7 +37,8 @@ Vous devez entrer la commande suivante :
 
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  $ ip address
 
- :point_down: :point_down: :point_down: :point_down: :point_down: :point_down: 
+ :point_down: :point_down: :point_down: :point_down: :point_down: :point_down:
+ 
 <img src="3IP.png" width="900" heigth="440"></img>
 
 
