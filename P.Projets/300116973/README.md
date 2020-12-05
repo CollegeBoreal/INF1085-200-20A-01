@@ -42,7 +42,7 @@ $ chmod -v +x openvpn-ubuntu-install.sh
 $ nano openvpn-ubuntu-install.sh
 ```
 
-<img src="images/4.JPG" width="551" heigth="400"></img>
+<img src="images/4.JPG" width="751" heigth="600"></img>
 
  
 :heavy_check_mark: Nous pouvons maintenant exécuter notre script avec la commande suivante:
@@ -50,9 +50,9 @@ $ nano openvpn-ubuntu-install.sh
 $ sudo ./openvpn-ubuntu-install.sh
 ```
 
-<img src="images/5.JPG" width="551" heigth="400"></img>
+<img src="images/5.JPG" width="651" heigth="500"></img>
 
-<img src="images/6.JPG" width="551" heigth="400"></img>
+<img src="images/6.JPG" width="651" heigth="500"></img>
 
  
 :heavy_check_mark: Avant l’installation de l’openvpn vous devez répondre a une série de questions a savoir:
@@ -83,16 +83,16 @@ $ sudo systemctl statut openvpn-server@server.service
 $ sudo systemctl status openvpn-server@serve.service
 ```
 
-<img src="images/10.JPG" width="451" heigth="300"></img>
+<img src="images/10.JPG" width="551" heigth="400"></img>
 
-<img src="images/8.JPG" width="451" heigth="300"></img>
+<img src="images/8.JPG" width="451" heigth="400"></img>
 
 :heavy_check_mark: Quand nous faisons de nouveau la commande IP a on peut remarquer que notre OpenVPN a été bien créer. Nous remarquons donc tunnel point to point avec l’adresse IP qu’il nous a attribuée 
 ```
 10.8.0.1/24
 ```
 
-<img src="images/9.JPG" width="451" heigth="300"></img>
+<img src="images/9.JPG" width="551" heigth="400"></img>
 
 
 ## Step 4: Connection a notre OpenVPN serveur a partir de notre ordinateur portable qui est considerer comme client:
@@ -101,14 +101,14 @@ $ ssh nathalie@10.13.237.23 “sudo -S cat /root/nathalie.ovpn” > nathalie.ovp
 ```
 :heavy_check_mark: Âpres faire ls pour voir ou est localise votre openvpn dans votre ordinateur
 
-<img src="images/11.JPG" width="451" heigth="300"></img>
+<img src="images/11.JPG" width="551" heigth="400"></img>
 
 ## Step 5: installation OPENVPN dans notre ordinateur portable
 :heavy_check_mark: Utiliser power shell pour installer openvpn dans votre ordinateur avec la commande suivante:
 ```
 Ps> Choco install openvpn
 ```
-<img src="images/12.JPG" width="451" heigth="300"></img>
+<img src="images/12.JPG" width="551" heigth="400"></img>
 
  
 :bulb: Trouvez l’emplacement du fichier installer dans votre ordinateur. Ouvrir le fichier changer l’adresse IP publique par votre adresse IP privée.
