@@ -29,10 +29,16 @@ Vous devez entrer la commande suivante :
 
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  $ ip address
 
-'''
-$ ip address
+Le systeme se mettra automatiquement a jour  comme dans l'image si dessous :
+
 
 <img src="1.png" width="900" heigth="440"></img>
 
 
+## 3.  l'installation et l'execution de OpenVPN :
+Premierement vous devez telecharger le wget,pour cela rien de plus simple :point_right: entrer la commande suivante :
+
+ ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) $ wget https://git.io/vpn -O openvpn-ubuntu-install.sh  ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)
+
+<img src="1POWERSHELL.png" width="900" heigth="440"></img>
 
