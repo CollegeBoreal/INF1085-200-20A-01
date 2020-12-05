@@ -34,5 +34,5 @@ $ apt install snapd
 $ snap install nextcloud
 ```
 
-<img src="images/n4.PNG" width="900" heigth="300"></img>
+<img src="images/n4.PNG" width="200" heigth="300"></img>
 
