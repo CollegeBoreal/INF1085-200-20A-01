@@ -71,10 +71,10 @@ $ snap install nextcloud
 Avec Nextcloud nous pouvons Stockez nos documents, calendriers, contacts et photos sur un serveur à domicile, chez l'un de nos fournisseurs ou dans un centre de données de votre confiance. Pour Notre expérience nous devons créer un fichier dans lequel nous devons sauvegarder une photo.
 
 
-## : round_pushpin: Let go :muscle:
+## : round_pushpin:   Let go   :muscle:
 
 
-## :bulb: Clike sur le dossier file 
+## :bulb:  Clike sur le dossier file 
 
 <img src="images/n9.png" width="700" heigth="300"></img>
 
@@ -84,30 +84,35 @@ Avec Nextcloud nous pouvons Stockez nos documents, calendriers, contacts et phot
 <img src="images/n10.png" width="700" heigth="300"></img>
 
 
-## :bulb: Entre le nom du fichier que vous voulez creer
+## :bulb:  Entre le nom du fichier que vous voulez creer
 
 <img src="images/n11.png" width="700" heigth="300"></img>
 
 
-## :bulb: Cliker sur le dossier que vou venez de ceer
+## :bulb:  Cliker sur le dossier que vou venez de ceer
 
 <img src="images/n12.png" width="700" heigth="300"></img>
 
 
-## :bulb: Cliker sur lesigne plus en haut à la droite de la fenêtre en suite sur upload file
+## :bulb:  Cliker sur lesigne plus en haut à la droite de la fenêtre en suite sur upload file
 
 <img src="images/n13.png" width="700" heigth="300"></img>
 
 
-## :bulb: Choisissez le fichier que vous voulez sauvegarder en suite sur open
+## :bulb:  Choisissez le fichier que vous voulez sauvegarder en suite sur open
 
 <img src="images/n14.png" width="700" heigth="300"></img>
 
 
-## :bulb: Votre fichier est maintenant sauvegardé dans Nextcloud :clap:
+## :bulb:  Votre fichier est maintenant sauvegardé dans Nextcloud :clap:
 
 <img src="images/n15.png" width="700" heigth="300"></img>
 
 
-:relaxed: À présent vous pouvez sauvegarder vos documents importants dans votre copte Nextcloud et l'utiliser où que vous soyez et en toute sécurité. :tada:
+:relaxed:  À présent vous pouvez sauvegarder vos documents importants dans votre copte Nextcloud et l'utiliser où que vous soyez et en toute sécurité.  :tada:
 
+:round_pushpin:  References 
+
+:heavy_check_mark: https://doc.ubuntu-fr.org/snap#:~:text=Le%20format%20snap%20vise%20%C3%A0,la%20fiabilit%C3%A9%20et%20la%20s%C3%A9curit%C3%A9.&text=L'application%20s'ex%C3%A9cute%20ensuite,et%20la%20s%C3%A9curit%C3%A9%20du%20syst%C3%A8me.
+
+:heavy_check_mark:  https://www.manning.com/books/linux-in-action
