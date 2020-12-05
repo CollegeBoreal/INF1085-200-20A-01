@@ -32,8 +32,7 @@ Vous devez entrer la commande suivante :
 '''
 $ ip address
 
-<1.png>
-
+<img src="1.png" width="451" heigth="300"></img>
 
 
 
