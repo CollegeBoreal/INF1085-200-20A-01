@@ -36,7 +36,9 @@ $ snap install nextcloud
 
 <img src="images/n4.PNG" width="1000" heigth="300"></img>
 
- ## :pushpin: Step 3: Entrer votre adresse IP (10.13.237.85) dans un navigateur de recherche et taper sur enter une nouvelle page doit s'ouvrir à vous. 
+## :bookmark: Comment accéder au logiciel libre, de site d'hebergement de fichier et une plateforme de collaboration NEXTCLOUD :question: 
+
+ ## :pushpin: Step 3: Après l'installation, entrer votre IP adresse (l'adresse de votre serveur sur laquelle vous avez installé NEXTCLOUD) dans un navigateur de recherche et taper sur enter une nouvelle page doit s'ouvrir à vous. 
  
  <img src="images/n5.PNG" width="1000" heigth="300"></img>
 
