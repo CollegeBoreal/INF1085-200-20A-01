@@ -80,7 +80,7 @@ $ sudo systemctl statut openvpn-server@server.service
 
 :heavy_check_mark: Pour notre cas nous allons juste voir le statut de notre OpenVPN:
 ```
-$ sudo systemctl status openvpn-server@serve.service
+$ sudo systemctl status openvpn-server@server.service
 ```
 
 <img src="images/10.JPG" width="751" heigth="600"></img>
