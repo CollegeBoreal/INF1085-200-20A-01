@@ -67,12 +67,15 @@ Il suffit de demander d'abord la permission ; nous pouvons a l'aide de lediteur 
 <img src="6nano.png" width="900" heigth="440"></img>
 
  ## 4.  :rose: l'installation et l'execution de OpenVPN :rose::rose: :rose:
-Nous pouvons maintenant installer notre script avec la commande suivante:
-TALLATION OPEN VPN
+ 
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Nous pouvons maintenant installer notre script avec la commande suivante:
+
 $ sudo ./openvpn-ubuntu-install.sh
 
  :point_down: :point_down: :point_down: :point_down: :point_down:
+ 
 <img src="7exec.png" width="651" heigth="500"></img>
+
 <img src="8ExecuteSuite.png" width="651" heigth="500"></img>
 
 Avant de pouvoir installer OpenVPN,vous devez d'abord repondre a quelque question :
@@ -84,44 +87,52 @@ Avant de pouvoir installer OpenVPN,vous devez d'abord repondre a quelque questio
 - 6 Entrer un nom de client .
 - 7 Cliquez sur n'importe auelle touche apres le message suivant : "OpenVPN installation is ready to begin.
 press any key to continue ..."
+
 l'installation va commencer .
 
-Vous devriez avoir la meme chose que dans l'image ci dessous 
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Vous devriez avoir la meme chose que dans l'image ci dessous 
 
 :point_down: :point_down: :point_down: :point_down: :point_down:
+
 <img src="9ExecuteSuite2.png" width="651" heigth="500"></img>
+
 <img src="10ExcSuit2.png" width="651" heigth="500"></img>
 
 
-Nous allons maintenant verifier le status de notre OpenVPN avec la commande suivante :
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) Nous allons maintenant verifier le status de notre OpenVPN avec la commande suivante :
 
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) $ sudo systemctl status openvpn-server@server.service
 
 <img src="12.png" width="651" heigth="500"></img>
 
 
-- Une fois OpenVPN installer, faite un clique droit sur l'icone de l'application et aller dans proprieter ,aller dans "comptabilite"  et Cocher "Executer ce programme en tant qu'administrateur"
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  Une fois OpenVPN installer, faite un clique droit sur l'icone de l'application et aller dans proprieter ,aller dans "comptabilite"  et Cocher "Executer ce programme en tant qu'administrateur"
 
 <img src="178.png" width="651" heigth="500"></img>
 
-- Vous verrez ensuite cette fenetre apparaite en bas de votre ecran a droite :
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  Vous verrez ensuite cette fenetre apparaite en bas de votre ecran a droite :
+
 <img src="177.png" width="651" heigth="500"></img>
 
 
-- Maintenant il est temps de changer l'addresse IP public par votre addresses du college Boreal (il suffit de changer 97 par votre chiffre pour pouvoir se connecter au server du college ) :
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  Maintenant il est temps de changer l'addresse IP public par votre addresses du college Boreal (il suffit de changer 97 par votre chiffre pour pouvoir se connecter au server du college ) :
 
 <img src="13OpenVPN.png" width="651" heigth="500"></img>
 
 
-- Vous pouvez maintenant voir tout les details de votre connexion a distance grace a OpenVPN :
+![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  Vous pouvez maintenant voir tout les details de votre connexion a distance grace a OpenVPN :
+
 <img src="17.png" width="651" heigth="500"></img>
 
 
 :zap:                   :zap:                 :zap:                     :zap:                     :zap:
+
 ## :rose: 5. Verification d'installation :rose:
 
 <img src="16 PREUVE2.png" width="651" heigth="500"></img>
+
 <img src="15PREUVEINSTALLATION.png" width="651" heigth="500"></img>
+
 <img src="14PreuveDinst.png" width="651" heigth="500"></img>
 
 
