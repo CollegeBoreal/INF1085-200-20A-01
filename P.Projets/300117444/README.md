@@ -17,6 +17,8 @@ Tout d'abord vous devez mettre a jour votre systeme grace a la commande suivante
  - $ sudo apt update
 
 <p style='color:red'>This is some red text.</p>
+<font color="red">This is some text!</font>
+These are <b style='color:red'>red words</b>.
 
 
 
