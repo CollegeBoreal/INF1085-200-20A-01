@@ -108,3 +108,6 @@ Avec Nextcloud nous pouvons Stockez nos documents, calendriers, contacts et phot
 
 <img src="images/n15.png" width="700" heigth="300"></img>
 
+
+:relaxed: À présent vous pouvez sauvegarder vos documents importants dans votre copte Nextcloud et l'utiliser où que vous soyez et en toute sécurité. :tada:
+
