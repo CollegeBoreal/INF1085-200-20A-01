@@ -83,16 +83,16 @@ $ sudo systemctl statut openvpn-server@server.service
 $ sudo systemctl status openvpn-server@serve.service
 ```
 
-<img src="images/10.JPG" width="551" heigth="400"></img>
+<img src="images/10.JPG" width="751" heigth="600"></img>
 
-<img src="images/8.JPG" width="451" heigth="400"></img>
+<img src="images/8.JPG" width="751" heigth="600"></img>
 
 :heavy_check_mark: Quand nous faisons de nouveau la commande IP a on peut remarquer que notre OpenVPN a été bien créer. Nous remarquons donc tunnel point to point avec l’adresse IP qu’il nous a attribuée 
 ```
 10.8.0.1/24
 ```
 
-<img src="images/9.JPG" width="551" heigth="400"></img>
+<img src="images/9.JPG" width="751" heigth="600"></img>
 
 
 ## Step 4: Connection a notre OpenVPN serveur a partir de notre ordinateur portable qui est considerer comme client:
