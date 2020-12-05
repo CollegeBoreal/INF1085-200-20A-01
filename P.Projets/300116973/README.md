@@ -95,7 +95,7 @@ $ sudo systemctl status openvpn-server@server.service
 <img src="images/9.JPG" width="751" heigth="600"></img>
 
 
-## Step 4: Connection a notre OpenVPN serveur a partir de notre ordinateur portable qui est considerer comme client:
+## Step 4: Copie de notre fichier OpenVPN sur notre ordinateur portable qui est considerer comme client:
 ```
 $ ssh nathalie@10.13.237.23 "sudo -S cat /root/nathalie.ovpn" > nathalie.ovpn
 ```
