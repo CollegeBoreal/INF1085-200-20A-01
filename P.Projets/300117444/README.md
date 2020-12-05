@@ -21,7 +21,15 @@ Tout d'abord vous devez mettre a jour votre systeme grace a la commande suivante
 
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)  $ sudo apt list –upgradable
 
+Le systeme se mettra automatiquement a jour  comme dans l'image si dessous :
+
+<img src="1.png" width="900" heigth="440"></img>
+<img src="2.png" width="900" heigth="440"></img>
+
+
 :zap:                   :zap:                 :zap:                     :zap:                     :zap:
+
+
 
 ## 2. Trouver votre adresse IP :
 
@@ -29,10 +37,13 @@ Vous devez entrer la commande suivante :
 
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  $ ip address
 
-Le systeme se mettra automatiquement a jour  comme dans l'image si dessous :
+ :point_down: :point_down: :point_down: :point_down: :point_down: :point_down: 
+<img src="3IP.png" width="900" heigth="440"></img>
 
 
-<img src="1.png" width="900" heigth="440"></img>
+
+
+
 
 
 ## 3.  l'installation et l'execution de OpenVPN :
@@ -40,5 +51,5 @@ Premierement vous devez telecharger le wget,pour cela rien de plus simple :point
 
  ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) $ wget https://git.io/vpn -O openvpn-ubuntu-install.sh  ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)
 
-<img src="1POWERSHELL.png" width="900" heigth="440"></img>
+<img src="" width="900" heigth="440"></img>
 
