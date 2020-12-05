@@ -29,6 +29,11 @@ Vous devez entrer la commande suivante :
 
 ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+)  $ ip address
 
+'''
+$ ip address
+
+<1.png>
+
 
 
 
