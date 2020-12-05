@@ -8,7 +8,7 @@
 
 Nextcloud est un logiciel libre, de site d’hébergement de fichiers  et une plateforme de collaboration.
 
-## Comment installer NEXTCLOUD sur ubuntu serveur 20.04 LTS :question: 
+## :bookmark: Comment installer NEXTCLOUD sur ubuntu serveur 20.04 LTS :question: 
 
 ## :pushpin: Step 1:Allez en mode administrateur
 
