@@ -42,12 +42,12 @@ $ snap install nextcloud
  
 :heavy_check_mark: Après l'installation, entrer votre IP adresse (l'adresse de votre serveur sur laquelle vous avez installé NEXTCLOUD) dans un navigateur de recherche et taper sur enter une nouvelle page doit s'ouvrir à vous. 
  
-<img src="images/n5.PNG" width="900" heigth="600"></img>
+<img src="images/n5.PNG" width="900" heigth="300"></img>
 
 ## :pushpin: Step 4: Ouverture d'un compte 
 
 :heavy_check_mark: Utiliser vos information personnel pour créer un compte ( Nom d'utilisateur et  mot de passe )
 
-<img src="images/n6.PNG" width="400" heigth="900"></img>
+<img src="images/n6.PNG" width="900" heigth="300"></img>
 
 
