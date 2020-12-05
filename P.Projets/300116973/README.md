@@ -24,7 +24,7 @@ $ ip address
 ## Step 3 : Telecharger et exercuter openvpn-install.sh
 :heavy_check_mark: Pour notre cas nous allons utiliser le wget command pour le télécharger:
 ```
-$ wget https://git.io/vpn -0 openvpn-ubuntu-install.sh
+$ wget https://git.io/vpn -o openvpn-ubuntu-install.sh
 ```
 <img src="images/2.JPG" width="551" heigth="400"></img>
 
