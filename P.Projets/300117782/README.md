@@ -50,4 +50,13 @@ $ snap install nextcloud
 
 <img src="images/n6.PNG" width="900" heigth="300"></img>
 
+## :pushpin: Step 5:Créer un fichier sur Nextcloud
+
+
+<img src="images/n8.jpg" width="900" heigth="300"></img>
+
+
+
+
+
 
