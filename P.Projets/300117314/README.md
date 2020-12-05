@@ -18,6 +18,7 @@
  :~$ sudo apt-get upgrade
  
  ![image](22.PNG)
+ ![image](1000.PNG)
 
 
 
