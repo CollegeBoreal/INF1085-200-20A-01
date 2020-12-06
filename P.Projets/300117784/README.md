@@ -28,17 +28,22 @@ $sudo snap install nextcloud
 ```
 ![install nextcloud](Img/image-3.PNG)
 
-#CONFIGURATION DE NEXTCLOUD:round_pushpin:
+# CONFIGURATION DE NEXTCLOUD:round_pushpin:
 
 ## :one: Configuration de l'Administrateur
-
 ![Config Admin](Img/image-4.PNG)
+## Installation des applications
+
+```
+Une fois l'administrateur cré les applications (Utilitaires) s'installent automatiquement
+```
+![Config Admin](Img/image-5.PNG)
 
 ## :two:Création d'un utilisateur
 ```
 $ sudo nextcloud.occ user:add Bertrand
 ```
-![Crea User](Img/image-5.PNG)
+![Crea User](Img/image-6.PNG)
 ## PREREQUIS
 
 
