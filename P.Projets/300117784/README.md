@@ -13,6 +13,7 @@
 ```
 # apt install snapd
 ```
+![install snap](img/image-1)
 ## :two:NextCloud
 ```
 # snap install nextcloud
