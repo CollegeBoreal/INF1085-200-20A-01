@@ -34,9 +34,31 @@ boreal@10.13.237.76 /home/Hassana $ sudo nano /etc/samba/smb.conf
 
 ### AJOUT
 
+[sharefolder]
+          comment = samba on ubuntu
+          path = /home/luxury/sharefolder
+          browseable = yes
+          readonly = no
+ ###  Enregistrement et redemarrage de Samba
+ 
+ boreal@10.13.237.76 /home/Hassana $ sudo service smbd restart 
+ 
+ ### Configuration du password: Compte d'utilisateur
+
+boreal@10.13.237.76 /home/Hassana $ sudo smbpasswd -a hassana
+New SMB password:
+
+### Mise a jour du pare-feu pour samba
+
+boreal@10.13.237.76 /home/Hassana $ sudo ufw allow samba
+Rules updated
+Rules updated (v6)
+
+###Apres installation de samba, Verifions l'adresse de la machine
 
 
 
 
 
 
+   
