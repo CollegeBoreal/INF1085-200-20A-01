@@ -50,7 +50,9 @@ $ sudo nextcloud.occ user:add Bertrand
 ```
 ![cre user](Img/image-7.PNG)
 
-## PREREQUIS
+#  SOURCES :round_pushpin:
+
+1: https://frankindev.com/2019/12/05/setting-up-snap-nextcloud-on-ubuntu/
 
 
 
