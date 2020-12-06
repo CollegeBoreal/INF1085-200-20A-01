@@ -45,9 +45,9 @@ Une fois l'administrateur cré les applications (Utilitaires) s'installent autom
 ![Tableau bor](Img/image-6.PNG)
 
 ## :two:Création d'un utilisateur
-
+```
 $ sudo nextcloud.occ user:add Bertrand
-
+```
 ![cre user](Img/Capture 8.PNG)
 
 ## PREREQUIS
