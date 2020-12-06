@@ -20,7 +20,7 @@
 
 ![image](images/10.13.237.98_5.png)
 
-### :five: Connexion établie - Fichiers copiers sur le disque partagé
+### :five: Connexion établie - Fichiers copiés sur le disque partagé :tada:
 
 ![image](images/10.13.237.98_6.png)
 
