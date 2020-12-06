@@ -11,13 +11,13 @@
 ## :one: Snap  
 **Snap** Le format snap vise à permettre l'installation de nouvelles versions de logiciels dans les systèmes Linux, tout en apportant aux développeurs la facilité de distribution, la fiabilité et la sécurité.Nous l'utiliserons pour installer notre NextCloud 
 ```
-# apt install snapd
+$ apt install snapd
 ```
-![install snap](img/image-1.png)
+![install snap](Img/image-1.PNG)
 
 ## :two:NextCloud
 ```
-# snap install nextcloud
+$snap install nextcloud
 ```
 ## PREREQUIS
 
