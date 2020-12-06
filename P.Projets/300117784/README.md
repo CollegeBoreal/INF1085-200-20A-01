@@ -47,7 +47,7 @@ Une fois l'administrateur cré les applications (Utilitaires) s'installent autom
 ```
 $ sudo nextcloud.occ user:add Bertrand
 ```
-![Crea User](Img/image-8.PNG)
+![Crea User](Img/Capture-8.PNG)
 ## PREREQUIS
 
 
