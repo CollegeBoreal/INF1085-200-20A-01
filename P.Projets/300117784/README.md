@@ -50,6 +50,13 @@ $ sudo nextcloud.occ user:add Bertrand
 ```
 ![cre user](Img/image-7.PNG)
 
+# Autorisation d'Utilisation des Disques Amovible DE NEXTCLOUD:round_pushpin:
+
+## Notez que snap Nextcloud ne peut pas accéder à vos fichiers dans votre dossier de départ. Notez également que l'interface offrant la possibilité d'accéder à un support amovible n'est pas automatiquement connectée lors de l'installation, donc si vous souhaitez utiliser un stockage externe (ou autrement utiliser un périphérique dans / media pour les données), vous devez donner l'autorisation de snap à accéder aux supports amovibles en connectant cette interface:
+```
+$sudo snap connect nextcloud:removable-media
+```
+
 #  SOURCES :round_pushpin:
 
 1: https://frankindev.com/2019/12/05/setting-up-snap-nextcloud-on-ubuntu/
