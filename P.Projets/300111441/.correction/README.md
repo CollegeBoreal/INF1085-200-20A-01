@@ -1,8 +1,12 @@
 # Samba - 10.13.237.18
 
-### :one: Tentative de connexion
+### :zero: Entrer les informations de connexion
 
 ![image](images/10.13.237.18_4.png)
+
+### :one: Tentative de connexion
+
+![image](images/10.13.237.18_5.png)
 
 ### :two: Demande d'utilisateur
 
