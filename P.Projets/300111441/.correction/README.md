@@ -8,11 +8,15 @@
 
 ![image](images/10.13.237.18_5.png)
 
-### :two: Demande d'utilisateur
+### :two: Trouve un disque à partager
+
+![image](images/10.13.237.18_6.png)
+
+### :three: Demande d'utilisateur
 
 ![image](images/10.13.237.18_1.png)
 
-### :three: Essai de passer comme 'Visiteur'
+### :four: Essai de passer comme 'Visiteur'
 
 ![image](images/10.13.237.18_2.png)
 
