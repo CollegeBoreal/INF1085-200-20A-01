@@ -27,6 +27,18 @@ $systemctl status snap
 $sudo snap install nextcloud
 ```
 ![install nextcloud](Img/image-3.PNG)
+
+#CONFIGURATION DE NEXTCLOUD:round_pushpin:
+
+## :one: Configuration de l'Administrateur
+
+![Config Admin](Img/image-4.PNG)
+
+## :two:Création d'un utilisateur
+```
+$ sudo nextcloud.occ user:add Bertrand
+```
+![Crea User](Img/image-5.PNG)
 ## PREREQUIS
 
 
