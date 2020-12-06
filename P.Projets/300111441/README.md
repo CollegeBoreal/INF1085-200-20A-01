@@ -1,5 +1,7 @@
 # SAMBA 
 
+:x: [Tentative de Correction](.correction)
+
 ## Definition:
 
 Samba est un logiciel qui facilite l'interopérabilité entre systèmes hétérogènes Windows-Unix. Il offre la possibilité aux ordinateurs d'un réseau d'accéder aux imprimantes et aux fichiers des ordinateurs sous Unix et permettent aux serveurs Unix de se substituer à des serveurs Windows10.
