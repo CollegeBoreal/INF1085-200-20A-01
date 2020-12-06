@@ -24,10 +24,17 @@ sama est installer,
 
 ### Suite a la creation d'un repertoire à partager
 
-
-
+boreal@10.13.237.76 /home/Hassana $ mkdir /home/hassana/sharefolder/
 
 ### Fichier de configuration et Sauvegarde
+
+boreal@10.13.237.76 /home/Hassana $ sudo cp /etc/samba/smb.conf /etc/smb.conf.org
+
+boreal@10.13.237.76 /home/Hassana $ sudo nano /etc/samba/smb.conf
+
+### AJOUT
+
+
 
 
 
