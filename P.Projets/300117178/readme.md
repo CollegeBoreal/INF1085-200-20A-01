@@ -76,7 +76,7 @@ $ sudo ifconfig | grep -i mask
 ### le script dans [=>](https://github.com/CollegeBoreal/INF1085-200-20A-01/tree/master/P.Projets/300117178/src)
 copiez streaming.py dans votre raspberry pie
 
-### :red_circle: modifier afficahge html
+### :red_circle: modifier affichage html
 ![ip address/mask](img/st2.JPG)
 
 remplacer les tag **title** ou **h1**
@@ -94,18 +94,16 @@ peut etre plus **grande**
 $ python3 streaming.py
 
 ```
+![ip address/mask](img/st4.JPG)
 
-5. tapez votre address ip:8000 dans le navigateur
+5. tapez votre **address ip:8000** dans le navigateur
 
-
-
-
-
- 
+![ip address/mask :100:](img/st5.JPG)
  
 
 
 ### SOURCE
+![:round_pushpin:](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/6)
 
 
 
