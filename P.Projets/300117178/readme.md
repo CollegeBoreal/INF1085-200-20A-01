@@ -76,6 +76,14 @@ $ sudo ifconfig | grep -i mask
 ### le script dans [=>](https://github.com/CollegeBoreal/INF1085-200-20A-01/tree/master/P.Projets/300117178/src)
 copiez streaming.py dans votre raspberry pie
 
+### modifier afficahge html
+![ip address/mask](img/st2.JPG)
+remplacer les tag title ou h1
+
+![ip address/mask](img/st3.JPG)
+
+
+
 3. lancer le script
 
 ```
