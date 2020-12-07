@@ -101,6 +101,9 @@ $ python3 streaming.py
 ```
 
 5. tapez votre **address ip:8000** dans le navigateur
+### :warning: votre pc et raspberry pie doivent etre dans le meme reseau
+#### :red_circle: creez un mobile hostpot dans window 10 et connectez votre pie au wifi
+
 
 
 ![ip address/mask](img/st4.JPG)
