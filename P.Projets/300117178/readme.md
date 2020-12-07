@@ -70,12 +70,13 @@ vas donner un preview et prendre une photos test.jpg
 $ sudo apt-get install net-tools
 $ sudo ifconfig | grep -i mask
 ```
+![ip address/mask](img/st1.jpg)
 
 2. ecrivons notre script screaming
-## le script dans =>
+### le script dans [=>](https://github.com/CollegeBoreal/INF1085-200-20A-01/tree/master/P.Projets/300117178/src)
+copiez streaming.py dans votre raspberry pie
 
-3. installer python3
-4. lancer le script
+3. lancer le script
 
 ```
 $ python3 streaming.py
