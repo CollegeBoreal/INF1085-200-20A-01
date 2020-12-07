@@ -2,9 +2,9 @@
 
 ---
 # Introduction et matériel utilisé
-* **Raspberry Pi** [->](https://www.amazon.fr/gp/product/B00Q8MM4PI/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00Q8MM4PI&linkCode=as2&tag=magdiblog-21&linkId=ILNQLTZCCS5EITBS)
+* **Raspberry Pi** [==>](https://www.amazon.fr/gp/product/B00Q8MM4PI/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00Q8MM4PI&linkCode=as2&tag=magdiblog-21&linkId=ILNQLTZCCS5EITBS)
 
-* **Module Camera** [->](https://www.amazon.fr/gp/product/B00E1GGE40/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00E1GGE40&linkCode=as2&tag=magdiblog-21&linkId=5AG5Y5WRP3IRFDAU)
+* **Module Camera** [==>](https://www.amazon.fr/gp/product/B00E1GGE40/ref=as_li_tl?ie=UTF8&camp=1642&creative=6746&creativeASIN=B00E1GGE40&linkCode=as2&tag=magdiblog-21&linkId=5AG5Y5WRP3IRFDAU)
 
 * **Carte micro-SD Sandisk 8Go**
 
@@ -23,7 +23,7 @@ DESCRIPTION
  ## **INSTALLER Raspbian SUR SON RASPERRY PI**
  1. Installer raspberry imager[->](https://www.raspberrypi.org/software/)
  2. Choisir un system d'exploitation dans mon cas j'ai choissis Raspbian
- ## **NB:choisir raspbian est tres conseille pour pouvoir facilement utilise le module camera et autres plugins raspberry pie**
+ ## **NB:choisir raspbian est tres conseiller pour pouvoir facilement utilise le module camera et autres plugins raspberry pie**
  
  <img src="img/raspberry.JPG" height=350 width="450"></img>
  
