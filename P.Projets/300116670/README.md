@@ -6,9 +6,9 @@ Le prix doit rester raisonnable d’où l’utilisation d'un Pi.
 
 ## :pushpin: SOMMAIRE
 
-I/ :checkmark: Matériel et Prerequis nécessaire
+I/Matériel et Prerequis nécessaire
 
-II/ :checkmark: Installer MOTION
+II/Installer MOTION
 
 III/Monter et activer la camera sur le pi 
 
@@ -21,6 +21,16 @@ VII/ Démarrer motion automatiquement
  Accéder au flux vidéo 
 
 
+## Materiel et prerequis
+
+Au prealale, vous devrez vous equipez des elements suivants:
+
+_:thumb: Un Raspberry Pi 4 sous Raspbian(systeme d'exploitation le plus avance pour le Raspbery Pi)
+_Un module de Caméra Raspberry Pi
+_Un adaptateur HDMI
+_Un cable d'alimentation pour votre pi
+_Une carte SD
+_ Un clavier et un moniteur
 
 ## INSTALLER MOTION
 
