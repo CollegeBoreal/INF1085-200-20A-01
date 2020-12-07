@@ -53,7 +53,7 @@ $ snap install nextcloud
 
 ## :pushpin: Step 4: Ouverture d'un compte 
 
-:heavy_check_mark: Utiliser vos information personnel pour créer un compte ( Nom d'utilisateur et  mot de passe )
+:heavy_check_mark: Utiliser vos information personnel pour créer un compte ( Nom d'utilisateur: Erna111 et  mot de passe: Password123@ )
 
 <img src="images/n6.PNG" width="700" heigth="300"></img>
 
