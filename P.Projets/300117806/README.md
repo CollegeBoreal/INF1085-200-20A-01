@@ -56,6 +56,16 @@ Rules updated (v6)
 
 ###Apres installation de samba, Verifions l'adresse de la machine
 
+root@boreal:~# ip add
+
+### Adresse de la machine
+
+10.13.237.76
+
+### Verifions le sharehome a partir de windows
+
+
+
 
 
 
