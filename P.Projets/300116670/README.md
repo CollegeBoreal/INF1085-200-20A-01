@@ -1,12 +1,14 @@
 # INSTALLER UNE CAMERA DE SURVEILLANCE AVEC MOTION SUR RASPBERRY PI 4 :camera:
 
-Bienvenu
+C’est un projet de Christoph BUENGER. L’objectif de ce projet est la réalisation d’une caméra de vidéosurveillance à l'aide d'un Raspberry Pi (Picam) et le flux vidéo est diffusé sur un PC ou sur un smartphone.
+Le prix doit rester raisonnable d’où l’utilisation d'un Pi.
+ 
 
 ## :pushpin: SOMMAIRE
 
-I/ Matériel et Prerequis nécessaire
+I/ :checkmark: Matériel et Prerequis nécessaire
 
-II/ Installer MOTION
+II/ :checkmark: Installer MOTION
 
 III/Monter et activer la camera sur le pi 
 
