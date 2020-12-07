@@ -82,6 +82,9 @@ $ python3 streaming.py
 
 ```
 
+5. tapez votre address ip:8000 dans le navigateur
+
+
 
 
 
