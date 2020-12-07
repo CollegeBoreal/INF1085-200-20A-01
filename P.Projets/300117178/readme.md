@@ -86,7 +86,7 @@ remplacer les tag **title** ou **h1**
 
 peut etre plus **grande**
 
-## :warning: par default le picamera est deja installer dans raspbian sinon pour l'avoir avec les derniers mise a jour
+## :warning: par defaut le picamera est deja installer dans raspbian sinon pour l'avoir avec les derniers mise a jour
 
 ```
 # sudo apt-get install python3-picamera
