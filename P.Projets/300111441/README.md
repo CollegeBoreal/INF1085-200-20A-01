@@ -78,6 +78,16 @@ run
 
 ![image](images/linu4.png)
 
+### Nom d'utilisateur
+
+```
+luxury
+```
+### Mots de passe
+
+```
+jetaime
+```
 
 
 
