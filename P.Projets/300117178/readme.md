@@ -27,6 +27,8 @@ DESCRIPTION
  
  <img src="img/raspberry.JPG" height=350 width="450"></img>
  
+ selectionez **choose**
+ 
  
  3. Choisr la carte sd dans laquelle vous allez monter l'image
  4. write
