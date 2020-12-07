@@ -46,6 +46,7 @@ Un très bon logiciel de détection de mouvement et/ou de surveillance avec de n
 Tout d'abord, effectuer les mises a jour
 
 **$sudo apt update
+
 **$sudo apt full-upgrade
 
 Pour l’installer il faut utiliser la ligne de commande (en se connectant au Raspberry Pi en tant qu’utilisateur “pi“):
