@@ -74,8 +74,7 @@ $ sudo ifconfig | grep -i mask
 2. ecrivons notre script screaming
 ## le script dans =>
 
-3.installer python3
-
+3. installer python3
 4. lancer le script
 
 ```
