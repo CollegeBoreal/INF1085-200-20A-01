@@ -1,6 +1,6 @@
 # INSTALLER UNE CAMERA DE SURVEILLANCE AVEC MOTION SUR RASPBERRY PI 4 :camera:
 
-## SOMMAIRE
+## :pushpin: SOMMAIRE
 I/ Matériel et Prerequis nécessaire
 2 Installation de Raspbian
 3 Connexion SSH
