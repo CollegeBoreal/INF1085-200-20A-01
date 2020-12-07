@@ -106,7 +106,7 @@ $ python3 streaming.py
 
 
 ### SOURCE
-[:round_pushpin:](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/6)
+[:round_pushpin:https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/6](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/6)
 
 
 
