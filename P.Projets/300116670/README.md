@@ -45,7 +45,7 @@ Un très bon logiciel de détection de mouvement et/ou de surveillance avec de n
 
 Tout d'abord, effectuer les mises a jour
 
-$sudo apt update
+### $sudo apt update
 
 $sudo apt full-upgrade
 
