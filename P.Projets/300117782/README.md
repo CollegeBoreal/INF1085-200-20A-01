@@ -94,12 +94,12 @@ Avec Nextcloud nous pouvons Stockez nos documents, calendriers, contacts et phot
 <img src="images/n12.png" width="700" heigth="300"></img>
 
 
-## :bulb:  Cliker sur lesigne plus en haut à la droite de la fenêtre en suite sur upload file
+## :bulb:  Cliker sur le signe plus en haut à la droite de la fenêtre en suite sur upload file
 
 <img src="images/n13.png" width="700" heigth="300"></img>
 
 
-## :bulb:  Choisissez le fichier que vous voulez sauvegarder en suite sur open
+## :bulb:  Choisissez le fichier que vous voulez sauvegarder sur nextcloud en suite cliker sur open
 
 <img src="images/n14.png" width="700" heigth="300"></img>
 
