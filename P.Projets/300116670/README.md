@@ -22,10 +22,15 @@ VII/
 Au prealale, vous devrez vous equipez des elements suivants:
 
 :heavy_check_mark: Un Raspberry Pi 4 sous Raspbian(systeme d'exploitation le plus avance pour le Raspbery Pi  mais vous pouvez utiliser le systeme d'exploitation de votre choix )
+
 :heavy_check_mark:Un module de Caméra Raspberry Pi
+
 :heavy_check_mark:Un adaptateur HDMI
+
 :heavy_check_mark:Un cable d'alimentation pour votre pi
+
 :heavy_check_mark:Une carte SD
+
 :heavy_check_mark: Un clavier et un moniteur
 
 |RASPBERRY | CAMERA | Cable d'alimentation, HDMI converter, Souris, Clavier
