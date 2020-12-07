@@ -114,9 +114,9 @@ $ python3 streaming.py
 [:round_pushpin:get started with picamera](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/6)
 
 ### bonus
-## :a: file share avec samba ![==>](https://www.etechpath.com/how-to-share-files-between-raspberry-pi-windows-using-shared-folder/#:~:text=%20How%20to%20share%20files%20between%20Raspberry%20Pi,%2Fetc%2Fsamba%2Fsmb.conf%0Api%40raspberrypi%20~%20%24...%204%20Restart%20SAMBA%2C%20More%20)
+## :a: file share avec samba [==>](https://www.etechpath.com/how-to-share-files-between-raspberry-pi-windows-using-shared-folder/#:~:text=%20How%20to%20share%20files%20between%20Raspberry%20Pi,%2Fetc%2Fsamba%2Fsmb.conf%0Api%40raspberrypi%20~%20%24...%204%20Restart%20SAMBA%2C%20More%20)
 
-## :b: open ssh ![==>](https://thishosting.rocks/how-to-enable-ssh-on-ubuntu/#:~:text=%20How%20to%20Enable%20SSH%20on%20Ubuntu%20%2820.04%2C,changing%20the%20default%20port%20%28recommended%20for...%20More%20)
+## :b: open ssh [==>](https://thishosting.rocks/how-to-enable-ssh-on-ubuntu/#:~:text=%20How%20to%20Enable%20SSH%20on%20Ubuntu%20%2820.04%2C,changing%20the%20default%20port%20%28recommended%20for...%20More%20)
 
 
 
