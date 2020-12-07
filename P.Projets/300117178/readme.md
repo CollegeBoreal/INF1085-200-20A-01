@@ -16,13 +16,14 @@ ALL STEPS:
 DESCRIPTION
 --------------------------------------------------
 ### :a: :star: First Step :star:
-:one: On installe **Ubuntu 2020**, tout ce qu’il y a de plus standard, on se connecte à son réseau WiFi et on active le module caméra grâce à l’outil **raspi-config**.
+:one: On installe **Raspbian**, tout ce qu’il y a de plus standard, on se connecte à son réseau WiFi et on active le module caméra grâce à l’outil **raspi-config**.
 
 
 
- ## **INSTALLER Ubuntu 2020 SUR SON RASPERRY PI**
+ ## **INSTALLER Raspbian SUR SON RASPERRY PI**
  1. Installer raspberry imager[->](https://www.raspberrypi.org/software/)
- 2. Choisir un system d'exploitation dans mon cas j'ai choissis ubuntu
+ 2. Choisir un system d'exploitation dans mon cas j'ai choissis Raspbian
+ ## **NB:choisir raspian est tres conseille pour pouvoir facilement utilise le module camera et autres plugins raspberry pie**
  
  <img src="img/raspberry.JPG" height=350 width="450"></img>
  
@@ -70,6 +71,8 @@ $ sudo apt-get install net-tools
 $ sudo ifconfig | grep -i mask
 
 ```
+2. ecrivons notre script screaming
+
 
 
 
