@@ -23,7 +23,7 @@ DESCRIPTION
  ## **INSTALLER Raspbian SUR SON RASPERRY PI**
  1. Installer raspberry imager[->](https://www.raspberrypi.org/software/)
  2. Choisir un system d'exploitation dans mon cas j'ai choissis Raspbian
- ## **NB:choisir raspian est tres conseille pour pouvoir facilement utilise le module camera et autres plugins raspberry pie**
+ ## **NB:choisir raspbian est tres conseille pour pouvoir facilement utilise le module camera et autres plugins raspberry pie**
  
  <img src="img/raspberry.JPG" height=350 width="450"></img>
  
