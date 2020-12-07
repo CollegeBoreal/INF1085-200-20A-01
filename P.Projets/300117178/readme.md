@@ -94,9 +94,11 @@ peut etre plus **grande**
 $ python3 streaming.py
 
 ```
-![ip address/mask](img/st4.JPG)
 
 5. tapez votre **address ip:8000** dans le navigateur
+![ip address/mask](img/st4.JPG)
+
+----------------------------------------------------
 
 ![ip address/mask :100:](img/st5.JPG)
  
