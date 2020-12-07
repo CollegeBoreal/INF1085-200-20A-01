@@ -76,11 +76,15 @@ $ sudo ifconfig | grep -i mask
 ### le script dans [=>](https://github.com/CollegeBoreal/INF1085-200-20A-01/tree/master/P.Projets/300117178/src)
 copiez streaming.py dans votre raspberry pie
 
-### modifier afficahge html
+### :red_circle: modifier afficahge html
 ![ip address/mask](img/st2.JPG)
-remplacer les tag title ou h1
 
+remplacer les tag **title** ou **h1**
+
+### :red_circle: changer la resolution video
 ![ip address/mask](img/st3.JPG)
+
+peut etre plus **grande**
 
 
 
