@@ -90,7 +90,7 @@ peut etre plus **grande**
 
 ```
 # sudo apt-get install python3-picamera
-``
+```
 
 3. lancer le script
 
