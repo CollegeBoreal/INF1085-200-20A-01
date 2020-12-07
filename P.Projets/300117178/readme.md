@@ -69,26 +69,29 @@ vas donner un preview et prendre une photos test.jpg
 ```
 $ sudo apt-get install net-tools
 $ sudo ifconfig | grep -i mask
-
 ```
+
 2. ecrivons notre script screaming
+## le script dans =>
 
+3.installer python3
 
-
-
- 
- 
- ## **set Noobs**
-
-Rules
---------------------------------------------------
-### CODE
-```{r}
+4. lancer le script
 
 ```
+$ python3 streaming.py
+
+```
+
+
+
+
+ 
+ 
+
+
 ### SOURCE
-```{r}
-```
+
 
 
 
