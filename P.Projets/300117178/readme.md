@@ -70,7 +70,7 @@ vas donner un preview et prendre une photos test.jpg
 $ sudo apt-get install net-tools
 $ sudo ifconfig | grep -i mask
 ```
-![ip address/mask](img/st1.jpg)
+![ip address/mask](img/st1.JPG)
 
 2. ecrivons notre script screaming
 ### le script dans [=>](https://github.com/CollegeBoreal/INF1085-200-20A-01/tree/master/P.Projets/300117178/src)
