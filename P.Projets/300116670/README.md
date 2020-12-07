@@ -25,7 +25,7 @@ VII/ Démarrer motion automatiquement
 
 Au prealale, vous devrez vous equipez des elements suivants:
 
-_:thumb: Un Raspberry Pi 4 sous Raspbian(systeme d'exploitation le plus avance pour le Raspbery Pi)
+_ :thumb: Un Raspberry Pi 4 sous Raspbian(systeme d'exploitation le plus avance pour le Raspbery Pi)
 _Un module de Caméra Raspberry Pi
 _Un adaptateur HDMI
 _Un cable d'alimentation pour votre pi
