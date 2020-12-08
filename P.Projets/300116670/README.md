@@ -108,11 +108,15 @@ Maintenant, vous pouvez accéder à la diffusion en direct de la caméra depuis 
 Où 8080 est le port qui est configuré dans le fichier motion.conf. Vous pouvez faire votre propre réglage pour le port en modifiant le paramètre “stream_port” dans motion.conf.
 
 ##
-Soyez sûr que les permissions sur les fichiers sont correctes : lorsque vous installez motion via ssh en étant connecté en tant qu’utilisateur “pi”, vous devez vous assurer de donner à l’utilisateur «motion» les autorisations pour exécuter motion comme service après le redémarrage :
+:loudspeaker: :heavy_exclamation_mark: Soyez sûr que les permissions sur les fichiers sont correctes : lorsque vous installez motion via ssh en étant connecté en tant qu’utilisateur “pi”, vous devez vous assurer de donner à l’utilisateur «motion» les autorisations pour exécuter motion comme service après le redémarrage :
+
 
 sudo chmod 664 /etc/motion.conf
+
 sudo chmod 755 /usr/bin/motion
+
 sudo touch /tmp/motion.log
+
 sudo chmod 775 /tmp/motion.log
 
 
