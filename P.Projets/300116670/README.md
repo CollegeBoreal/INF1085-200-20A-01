@@ -61,19 +61,19 @@ Modifiez également le démon de motion pour que motion fonctionne en permanence
 
 Modifiez cette ligne comme suit :
 
-        start_motion_daemon=yes
+        *start_motion_daemon=yes
 
 **Les principaux changements sont les suivants :
 
 S’assurer que motion est toujours en cours d’exécution en tant que démon en arrière-plan :
-**daemon on
+        *daemon on
 
 Le fichier journal va être enregistré dans le répertoire /tmp sinon l’utilisateur autostart ne pourra pas accéder au répertoire /home/pi :
-**logfile /tmp/motion.log
+        *logfile /tmp/motion.log
 
 Pour avoir une vidéosurveillance de bonne qualité la définition est fixée à 1280 x 720 pixels :
-**width 1280
-  height 720
+        *width 1280
+         height 720
 
 La vidéosurveillance peut se contenter de 2 images par seconde. Le flux vidéo continu est inutile :
 **framerate 2
@@ -103,21 +103,28 @@ Après le redémarrage, la LED rouge de la caméra devrait être allumée, indiq
 
 ## Accéder au flux vidéo 
 
-Maintenant, vous pouvez accéder à la diffusion en direct de la caméra depuis n’importe quel navigateur via l’url http://adresse_IP_du_raspberry:8080
+Afin d'acceder au flux video il vous faut vore addresse ip. Tapez la commande suivante dans votre terminal
 
+      $ip address
+      
+Maintenant, vous pouvez accéder à la diffusion en direct de la caméra depuis n’importe quel navigateur via l’url http://adresse_IP_du_raspberry:8080 .
 Où 8080 est le port qui est configuré dans le fichier motion.conf. Vous pouvez faire votre propre réglage pour le port en modifiant le paramètre “stream_port” dans motion.conf.
 
-##
-:loudspeaker: :heavy_exclamation_mark: Soyez sûr que les permissions sur les fichiers sont correctes : lorsque vous installez motion via ssh en étant connecté en tant qu’utilisateur “pi”, vous devez vous assurer de donner à l’utilisateur «motion» les autorisations pour exécuter motion comme service après le redémarrage :
+(mettre image)
+
+## CONFIGURATION SSH
+
+:loudspeaker: :heavy_exclamation_mark: :loudspeaker: :heavy_exclamation_mark:
+Soyez sûr que les permissions sur les fichiers sont correctes : lorsque vous installez motion via ssh en étant connecté en tant qu’utilisateur “pi”, vous devez vous assurer de donner à l’utilisateur «motion» les autorisations pour exécuter motion comme service après le redémarrage :
 
 
-sudo chmod 664 /etc/motion.conf
+      sudo chmod 664 /etc/motion.conf
 
-sudo chmod 755 /usr/bin/motion
+      sudo chmod 755 /usr/bin/motion
 
-sudo touch /tmp/motion.log
+      sudo touch /tmp/motion.log
 
-sudo chmod 775 /tmp/motion.log
+      sudo chmod 775 /tmp/motion.log
 
 
 
