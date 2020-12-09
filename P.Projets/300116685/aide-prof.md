@@ -5,7 +5,7 @@ https://www.mustbegeek.com/enable-ssh-in-cisco-ios-router/#.X9FXdapKgQ8
 
 
 ```
-$ ssh 192.168.1.31
+$ ssh 192.168.0.1
 ```
 
 
@@ -22,21 +22,9 @@ $ ssh 192.168.1.31
 Seems Windows 10 in-built ssh has turned off by default several older (less secure) ciphers. Still, if you need them, you can enable them:
 
 ```
-$ ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  aes256-cbc 192.168.1.31
+$ ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  aes256-cbc 192.168.0.1
 ```
 
-    -c cipher_spec
-                 Selects the cipher specification for encrypting the session.
-                 cipher_spec is a comma-separated list of ciphers listed in order of
-                 preference.  See the Ciphers keyword in ssh_config(5) for more infor-
-                 mation.
-
-    -o option
-                 Can be used to give options in the format used in the configuration
-                 file.  This is useful for specifying options for which there is no
-                 separate command-line flag.  For full details of the options listed
-                 below, and their possible values, see ssh_config(5).
                  
-                 ....
-                 KexAlgorithms
+        
 
