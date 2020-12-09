@@ -35,7 +35,7 @@ Au prealale, vous devrez vous equipez des elements suivants:
 
 |RASPBERRY | CAMERA | Cable d'alimentation, HDMI converter, Souris, Clavier
 |----------|--------|------------------------------------------------------
-|          |        |
+|   <img src="IMG_0408.jpg" width="250">       |        |
 
 
 
