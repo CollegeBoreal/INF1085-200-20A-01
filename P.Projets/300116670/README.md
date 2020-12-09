@@ -35,7 +35,7 @@ Au prealale, vous devrez vous equipez des elements suivants:
 
 |RASPBERRY | CAMERA | Cable d'alimentation, HDMI converter, Souris, Clavier
 |----------|--------|------------------------------------------------------
-|   <img src="IMG_0408.jpg" width="250">       |        |
+|<img src="IMG_0406.jpg" width="250">| <img src="IMG_0407.jpg" width="250">         |  <img src="IMG_0408.jpg" width="250"> 
 
 
 
@@ -54,10 +54,15 @@ Pour l’installer il faut utiliser la ligne de commande (en se connectant au Ra
        $sudo apt-get install motion
 
 Un certain nombre de paquets vont être installés pendant la phase d’installation. Répondez simplement “y” pour autoriser l’installation.
+ 
+  <img src="IMG_0422.jpg" width="250"> 
 
 Modifiez également le démon de motion pour que motion fonctionne en permanence :
 
         $sudo nano /etc/default/motion
+        
+ <img src="InkedIMG_0427_LI.jpg" width="250"> 
+ <img src="IMG_0426.jpg" width="250"> 
 
 Modifiez cette ligne comme suit :
 
@@ -67,13 +72,14 @@ Modifiez cette ligne comme suit :
 
 S’assurer que motion est toujours en cours d’exécution en tant que démon en arrière-plan :
 
-        *daemon on
+        daemon on
 
 Le fichier journal va être enregistré dans le répertoire /tmp sinon l’utilisateur autostart ne pourra pas accéder au répertoire /home/pi :
 
-        *logfile /tmp/motion.log
+        logfile /tmp/motion.log
 
 Pour avoir une vidéosurveillance de bonne qualité la définition est fixée à 1280 x 720 pixels :
+
          width 1280
          height 720
          
@@ -104,14 +110,17 @@ Si vous voulez protéger le flux vidéo le flux avec un login et un mot de passe
         stream_authentication LOGIN:MOT_DE_PASSE
 
 Après avoir réalisé vos modifications de paramètres dans motion.conf, redémarrez le Raspberry Pi pour qu’ils soient pris en compte :
+
          sudo reboot
 
 Après le redémarrage, la LED rouge de la caméra devrait être allumée, indiquant que motion utilise la caméra pour détecter tout mouvement.
 
-## MONTER ET ACTIVER LA CAMERA SUR LE PI
+**MONTER ET ACTIVER LA CAMERA SUR LE PI**
 
 Sur le Pi , vous verrez "camera" ecrit devant un port, c'est la que vous mettrez votre caméra
-(image)
+
+ <img src="IMG_0418.jpg" width="250">   <img src="IMG_0417.jpg" width="250">  <img src="IMG_0411.jpg" width="250">
+ 
 
 Apres avoir intaller vootre camera , verifier si elle est fonctionne en utilisant la commande suivante:
 )Vous pouvez mettre ce que vous voulez à la place de test)
@@ -119,7 +128,8 @@ Apres avoir intaller vootre camera , verifier si elle est fonctionne en utilisan
         $raspistill -o test.jpg
         
  Normalement le pop-up suivant devrait s'ouvrir 
- (image)
+ 
+ <img src="IMG_0420.jpg" width="250">
  
 Sinon entrez la commande suivante pour verifier que le Pi detecte et supporte bien la camera:
 
@@ -129,7 +139,9 @@ Sinon entrez la commande suivante pour verifier que le Pi detecte et supporte bi
 Si l'un des résultats affiche 0 veuillez vérifier si vous avez bien connecter/brancher votre caméra sinon prenez en une autre.
 
 ### Maintenant on va enable notre camera
+
  A l'aide de la commande suivante 
+ 
     raspi
         
         
