@@ -91,11 +91,12 @@ vlan 30
 name guest
 exit
 ```
-configuration address ip du vlan 1
+#configuration address ip du vlan 1
 ```
  int vlan 1
  ip address 192.168.0.10 255.255.255.0
  no shutdown 
+ exit
  
 ```
 
