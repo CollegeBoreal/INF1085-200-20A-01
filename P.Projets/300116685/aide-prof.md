@@ -25,8 +25,8 @@ Seems Windows 10 in-built ssh has turned off by default several older (less secu
 $ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc 192.168.1.31
 ```
 
-  -c cipher_spec
-               Selects the cipher specification for encrypting the session.
-               cipher_spec is a comma-separated list of ciphers listed in order of
-               preference.  See the Ciphers keyword in ssh_config(5) for more infor-
-               mation.
+    -c cipher_spec
+                 Selects the cipher specification for encrypting the session.
+                 cipher_spec is a comma-separated list of ciphers listed in order of
+                 preference.  See the Ciphers keyword in ssh_config(5) for more infor-
+                 mation.
