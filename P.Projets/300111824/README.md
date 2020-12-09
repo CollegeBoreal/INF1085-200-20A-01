@@ -47,7 +47,10 @@ $ sudo apt-get install samba -y
 
 
 ## Étape 4: ouvrir smb remplace son contenu par le suivant
-![image](capture.PNG 4.PNG)
+
+![image](IMAGES/Image4a.PNG) 
+
+
 ```
 [global]  
 workgroup = workgroup
@@ -107,14 +110,14 @@ $ sudo service smbd restart
   (administrateur @ ubuntu2004: - $ 
   
  
-## 8éme étapes : maintenant vous pouvez accéder à ce partage samba sur le client Windows / MacOS
+## 8éme étape : maintenant vous pouvez accéder à ce partage samba sur le client Windows / MacOS
   
              se connecter au serveur 
              
              smb://10.13.237.66
             
              Entre votre nom et mots de passe dans le serveur 10.13.237.66
-![image](IMAGES/Capture.PNG)
+![image](IMAGES/Capture8.PNG)
 
 # Nom d'utilisateur 
   # blevie  
