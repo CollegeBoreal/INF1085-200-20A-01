@@ -22,7 +22,7 @@ $ ssh 192.168.1.31
 Seems Windows 10 in-built ssh has turned off by default several older (less secure) ciphers. Still, if you need them, you can enable them:
 
 ```
-$ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc 192.168.1.31
+$ ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  aes256-cbc 192.168.1.31
 ```
 
     -c cipher_spec
