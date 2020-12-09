@@ -66,37 +66,75 @@ Modifiez cette ligne comme suit :
 **Les principaux changements sont les suivants :
 
 S’assurer que motion est toujours en cours d’exécution en tant que démon en arrière-plan :
+
         *daemon on
 
 Le fichier journal va être enregistré dans le répertoire /tmp sinon l’utilisateur autostart ne pourra pas accéder au répertoire /home/pi :
+
         *logfile /tmp/motion.log
 
 Pour avoir une vidéosurveillance de bonne qualité la définition est fixée à 1280 x 720 pixels :
-        *width 1280
+         width 1280
          height 720
+         
 
 La vidéosurveillance peut se contenter de 2 images par seconde. Le flux vidéo continu est inutile :
-**framerate 2
+
+        framerate 2
+        
 
 Nous ne voulons pas de films sans fin. Au lieu de cela, nous voulons avoir au plus des séquences vidéo de 10 minutes maximum. Cette option de configuration qui s’appelait max_movie_time a été renommée  max_mpeg_time dans motion. Si vous utilisez la version motion-mmal, cela fonctionne. Si vous obtenez une erreur Unknown config option  “max_mpeg_time” modifiez l’option en max_movie_time ou assurez-vous d’utiliser vraiment la version motion-mmal comme indiqué ci-dessus.
-**max_mpeg_time 600
+
+        max_mpeg_time 600
+        
 
 Certains lecteurs multimédia comme VLC sont incapables de lire les films enregistrés. En utilisant le codec msmpeg4 les films sont lus par tous les lecteurs.
-**ffmpeg_video_codec msmpeg4
+
+       ffmpeg_video_codec msmpeg4
+       
 
 Pour pouvoir lire le flux vidéo en direct de n’importe où il faut l’autoriser. Sinon, seul localhost (le Raspberry Pi lui-même) serait autorisé à accéder à la diffusion en direct :
-**stream_localhost off
+
+        stream_localhost off
+        
 
 Si vous voulez protéger le flux vidéo le flux avec un login et un mot de passe, ajoutez l’option suivante :
-**stream_auth_method 2
-stream_authentication LOGIN:MOT_DE_PASSE
+
+        stream_auth_method 2
+        stream_authentication LOGIN:MOT_DE_PASSE
 
 Après avoir réalisé vos modifications de paramètres dans motion.conf, redémarrez le Raspberry Pi pour qu’ils soient pris en compte :
-**sudo reboot
+         sudo reboot
 
 Après le redémarrage, la LED rouge de la caméra devrait être allumée, indiquant que motion utilise la caméra pour détecter tout mouvement.
 
 ## MONTER ET ACTIVER LA CAMERA SUR LE PI
+
+Sur le Pi , vous verrez "camera" ecrit devant un port, c'est la que vous mettrez votre caméra
+(image)
+
+Apres avoir intaller vootre camera , verifier si elle est fonctionne en utilisant la commande suivante:
+)Vous pouvez mettre ce que vous voulez à la place de test)
+
+        $raspistill -o test.jpg
+        
+ Normalement le pop-up suivant devrait s'ouvrir 
+ (image)
+ 
+Sinon entrez la commande suivante pour verifier que le Pi detecte et supporte bien la camera:
+
+       $vcgencmd get camera
+(image)
+       
+Si l'un des résultats affiche 0 veuillez vérifier si vous avez bien connecter/brancher votre caméra sinon prenez en une autre.
+
+### Maintenant on va enable notre camera
+ A l'aide de la commande suivante 
+    raspi
+        
+        
+        
+        
 
 
 
