@@ -1,6 +1,6 @@
 ## Reseau local  d'entreprise Amir Abdullahi 
 
-![image](images/inter-lan.png)
+![image](images/inter13.png)
 
 :bookmark:  Objctif : du projet est configuration routage inter-vlan 
 ------------------------------------------------------------------------------
@@ -24,28 +24,36 @@ exit
 enable secret cisco
 do wr
 ``````
+#configuration SSH du routeur 
+```
+ip domain-name borealc.on.ca 
+crypto key generate rsa
+transport input ssh
+login local
+```
 Etape 2 : configure mode priviligie d'un routeur cisco 
 -------------------------------------------------------
 ```
 config t 
-interface fastEthernet 0/0
-ip address 10.13.237.147  255.255.255.0
+interface Ge 0/0/0
+ip address 192.168.0.1 255.255.255.0
 no shutdown
 exit
+interface Ge 0/0/1
+ip address 10.13.237.200  255.255.255.0
 do wr
 ```
 
 2.Switch 
 ------------
-Etape 3: configure de base switch 
+Etape : configure de base switch 
 ---------------------------------
-Switch 0 est un mode server 
+ 
 ````
 en
 config t
 hostname S0 
 enable secret cisco
-no ip domain-lookup
 line console 0
 password cisco
 login 
@@ -55,32 +63,16 @@ login
 exit
 do wr
 ````
-
+configuration SSH du commutateur (switch )
+```
+ip domain-name borealc.on.ca 
+crypto key generate rsa
+transport input ssh
+login local
+```
   utiliser le meme commande de base les autres swith
 
-
-Etape 4: configuration du protocole VTP 
-----------------------------------------
-```
-vtp mode server 
-vtp domain service_12 
-vtp password cisco
-do wr
-```
-``idem mettez les autres switch vtp mode client ``
-
-Etape 5: configuration Port trunck 
----------------------------------
-
-```
-interface range fa0/21-23
-switchport mode trunk
-no shutdown 
-exit 
-do wr
-```
-
-Etape 6: configuration vlan 
+Etape : configuration vlan 
 -----------------------------
 ```
 vlan 99
@@ -99,10 +91,16 @@ vlan 30
 name guest
 exit
 ```
-"une fois que vous configurez le protocole VTP la memoire switch server transmettre le mise a jour a les autres switch client"
+configuration address ip du vlan 1
+```
+ int vlan 1
+ ip address 192.168.0.10 255.255.255.0
+ no shutdown 
+ 
+```
 
-Etape 7: Configuration interface vlan pour les trois switch client  
-------------------------------------------------------------------
+Etape : Configuration interface vlan  
+------------------------------------
 ```
 interface rang fa0/1-9
 switchport mode access 
