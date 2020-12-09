@@ -10,38 +10,39 @@ Etape 1: configure de base  d'un routeur cisco
 ------------------------------------
 
 ```
-en
+R1#en
 config t
 hostname R1
-line console 0
-password cisco 
-login
-exit
-line vty 0 4
-password cisco 
-login 
-exit 
-enable secret cisco
-do wr
+R1(config)line console 0
+R1(config)password cisco 
+R1(config)login
+R1(config)exit
+R1(config)line vty 0 4
+R1(config)password cisco 
+R1(config)login 
+R1(config)#exit 
+R1(config)#enable secret cisco
+R1(config)#do wr
 ``````
 #configuration SSH du routeur 
 ```
-ip domain-name borealc.on.ca 
-crypto key generate rsa
-transport input ssh
-login local
+R1(config)#ip domain-name borealc.on.ca 
+R1(config)#crypto key generate rsa
+R1(config)#transport input ssh
+R1(config)#login local
+# ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  aes256-cbc 192.168.0.1
 ```
 Etape 2 : configure mode priviligie d'un routeur cisco 
 -------------------------------------------------------
 ```
 config t 
-interface Ge 0/0/0
-ip address 192.168.0.1 255.255.255.0
-no shutdown
-exit
-interface Ge 0/0/1
-ip address 10.13.237.200  255.255.255.0
-do wr
+R1(config)#interface Ge 0/0/0
+R1(config)#ip address 192.168.0.1 255.255.255.0
+R1(config)#no shutdown
+R1(config)#exit
+R1(config)# interface Ge 0/0/1
+R1(config)#ip address 10.13.237.200  255.255.255.0
+R1(config)#do wr
 ```
 
 2.Switch 
