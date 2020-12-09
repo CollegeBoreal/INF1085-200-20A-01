@@ -69,7 +69,7 @@ read only =no
 create mask=644
 ```
 
-## 5ème étapes: Ensuite, nous devons créer un répertoire partagé
+## 5ème étape: Ensuite, nous devons créer un répertoire partagé
 
 
 ![image](IMAGES/samba5.PNG)
@@ -82,7 +82,7 @@ create mask=644
  
  
  
-## 6éme étapes: modifier les autorisations du répertoire pour le rendre accessible en écriture
+## 6ème étape: modifier les autorisations du répertoire pour le rendre accessible en écriture
 
 
 ![image](IMAGES/samba6.PNG)
@@ -95,7 +95,7 @@ $ ls /var/samba/shares/public/ -la
 ```
        
        
-## 7éme étapes: 
+## 7ème étape: 
 
 redémarrez le service samba pour que les modifications prennent effet
 
@@ -110,7 +110,7 @@ $ sudo service smbd restart
   (administrateur @ ubuntu2004: - $ 
   
  
-## 8éme étape : maintenant vous pouvez accéder à ce partage samba sur le client Windows / MacOS
+## 8ème étape : maintenant vous pouvez accéder à ce partage samba sur le client Windows / MacOS
   
              se connecter au serveur 
              
