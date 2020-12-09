@@ -47,7 +47,7 @@ $ sudo apt-get install samba -y
 
 
 ## Étape 4: ouvrir smb remplace son contenu par le suivant
-![image](capture .PNG4.PNG)
+![image](IMAGES/capture.PNG4.PNG)
 ```
 [global]  
 workgroup = workgroup
@@ -114,7 +114,7 @@ $ sudo service smbd restart
              smb://10.13.237.66
             
              Entre votre nom et mots de passe dans le serveur 10.13.237.66
-
+![image](IMAGES/capture.PNG)
 
 
 
