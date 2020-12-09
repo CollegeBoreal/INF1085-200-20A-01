@@ -47,7 +47,7 @@ $ sudo apt-get install samba -y
 
 
 ## Étape 4: ouvrir smb remplace son contenu par le suivant
-![image](IMAGES/Capture.PNG4.PNG)
+![image](IMAGES/Capture.PNG 4.PNG)
 ```
 [global]  
 workgroup = workgroup
