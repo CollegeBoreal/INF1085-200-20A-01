@@ -30,3 +30,13 @@ $ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -c aes256-cbc 192.168.1.31
                  cipher_spec is a comma-separated list of ciphers listed in order of
                  preference.  See the Ciphers keyword in ssh_config(5) for more infor-
                  mation.
+
+    -o option
+                 Can be used to give options in the format used in the configuration
+                 file.  This is useful for specifying options for which there is no
+                 separate command-line flag.  For full details of the options listed
+                 below, and their possible values, see ssh_config(5).
+                 
+                 ....
+                 KexAlgorithms
+
