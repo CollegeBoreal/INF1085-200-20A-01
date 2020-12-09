@@ -68,7 +68,7 @@ Modifiez cette ligne comme suit :
 
         *start_motion_daemon=yes
 
-**Les principaux changements sont les suivants :
+**Les principaux changements sont les suivants** :
 
 S’assurer que motion est toujours en cours d’exécution en tant que démon en arrière-plan :
 
