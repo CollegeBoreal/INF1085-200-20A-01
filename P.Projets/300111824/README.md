@@ -119,10 +119,10 @@ $ sudo service smbd restart
              Entre votre nom et mots de passe dans le serveur 10.13.237.66
 ![image](IMAGES/Capture8.PNG)
 
-# Nom d'utilisateur 
-  # blevie  
-# MOTS DE PASSE
-# Blevie1986$
+### Nom d'utilisateur:
+blevie  
+### Mot de passe:
+Blevie1986$
 
 
 
