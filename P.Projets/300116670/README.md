@@ -184,7 +184,8 @@ Où 8080 est le port qui est configuré dans le fichier motion.conf. Vous pouvez
 
 **Connexion SSH**
 
-Il est aussi possible de configurer SSH sur votre Pi ainsi vous pourrez travailler depuis un terminal sur votre ordinateur. (ajouter un lien)
+Il est aussi possible de configurer SSH sur votre Pi ainsi vous pourrez travailler depuis un terminal sur votre ordinateur.  
+Cliquer ici pour un tutoriel bien détaillé[==>](https://raspberry-pi.fr/connecter-ssh-raspberry-pi/)
 
 :loudspeaker: :heavy_exclamation_mark: :loudspeaker: :heavy_exclamation_mark:
 Soyez sûr que les permissions sur les fichiers sont correctes : lorsque vous installez motion via ssh en étant connecté en tant qu’utilisateur “pi”, vous devez vous assurer de donner à l’utilisateur «motion» les autorisations pour exécuter motion comme service après le redémarrage :
