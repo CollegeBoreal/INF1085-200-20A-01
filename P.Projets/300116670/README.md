@@ -121,11 +121,25 @@ Sur le Pi , vous verrez "camera" ecrit devant un port, c'est la que vous mettrez
 
  <img src="IMG_0418.jpg" width="250">   <img src="IMG_0417.jpg" width="250">  <img src="IMG_0411.jpg" width="250">
  
+ 
+ **Maintenant on va enable notre camera**
 
-Apres avoir intaller vootre camera , verifier si elle est fonctionne en utilisant la commande suivante:
-)Vous pouvez mettre ce que vous voulez à la place de test)
+ A l'aide de la commande suivante 
+ 
+    sudo raspi-config
 
-        $raspistill -o test.jpg
+Interfacing options>Pi Camera> Enable , utiliser Tabulation pour defiler dans les menus.
+
+  <img src="https://cdn.shopify.com/s/files/1/0176/3274/files/raspi-config-1.jpg?v=1588172694" width="250">  
+  
+  <img src="https://cdn.shopify.com/s/files/1/0176/3274/files/raspi-config-2.jpg?v=1588172756" width="250">
+ 
+ 
+ 
+ Apres avoir intaller vootre camera , verifier si elle fonctionne en utilisant la commande suivante:
+(Vous pouvez mettre ce que vous voulez à la place de test)
+
+        $raspistill -v -o test.jpg
         
  Normalement le pop-up suivant devrait s'ouvrir 
  
@@ -134,33 +148,33 @@ Apres avoir intaller vootre camera , verifier si elle est fonctionne en utilisan
 Sinon entrez la commande suivante pour verifier que le Pi detecte et supporte bien la camera:
 
        $vcgencmd get camera
-(image)
-       
+
 Si l'un des résultats affiche 0 veuillez vérifier si vous avez bien connecter/brancher votre caméra sinon prenez en une autre.
 
-### Maintenant on va enable notre camera
 
- A l'aide de la commande suivante 
- 
-    raspi
         
         
-        
-        
+## Accéder au flux vidéo
 
-
-
-
-## Accéder au flux vidéo 
+**Trouver l'adresse IP**
 
 Afin d'acceder au flux video il vous faut vore addresse ip. Tapez la commande suivante dans votre terminal
 
       $ip address
       
-Maintenant, vous pouvez accéder à la diffusion en direct de la caméra depuis n’importe quel navigateur via l’url http://adresse_IP_du_raspberry:8080 .
+ <img src="IMG_0427.jpg" width="250"> 
+ 
+ 
+ Notre adresse IP est **172.20.10.6**
+ 
+ 
+Maintenant, vous pouvez accéder à la diffusion en direct de la caméra depuis n’importe quel navigateur via l’url **http://adresse_IP_du_raspberry:8080** . 
+
+(image)
+
 Où 8080 est le port qui est configuré dans le fichier motion.conf. Vous pouvez faire votre propre réglage pour le port en modifiant le paramètre “stream_port” dans motion.conf.
 
-(mettre image)
+:warning: Votre Pi et l'appareil sur lequel vous acceder à l'enregistrement video doivent etre dans le meme reseau pour fonctionner. Sinon pour avoir acces a votre flux video n'importe ou, utilisez un VPN.
 
 ## CONFIGURATION SSH
 
