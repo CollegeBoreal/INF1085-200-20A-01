@@ -1,10 +1,12 @@
-# INSTALLER UNE CAMERA DE SURVEILLANCE AVEC MOTION SUR RASPBERRY PI 4 :camera:
+# INSTALLER UNE CAMERA DE SURVEILLANCE AVEC MOTION SUR RASPBERRY PI 4 :policeman:
 
 C’est un projet de Christoph BUENGER. L’objectif de ce projet est la réalisation d’une caméra de vidéosurveillance à l'aide d'un Raspberry Pi (Picam) et le flux vidéo est diffusé sur un PC ou sur un smartphone.
 Le prix doit rester raisonnable d’où l’utilisation d'un Pi.
- 
 
-## :pushpin: SOMMAIRE
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMfqzJsfxzjgg5b1eI1yaEppEiftr2Ts3Cow&usqp=CAU" width="250"> 
+
+
+ ## :pushpin: SOMMAIRE
 
 I/Matériel et Prerequis nécessaire
 
@@ -12,9 +14,9 @@ II/Installer MOTION
 
 III/Monter et activer la camera sur le pi 
 
-V/Accéder au flux vidéo 
+IV/Accéder au flux vidéo 
 
-VII/ 
+V/ Quelques plus
 
 
 ## Materiel et prerequis
@@ -43,13 +45,15 @@ Au prealale, vous devrez vous equipez des elements suivants:
 
 Un très bon logiciel de détection de mouvement et/ou de surveillance avec de nombreuses options de configuration est motion. Il est open-source et gratuit ce qui rajoute encore à ses qualités.
 
-   ### Tout d'abord, effectuer les mises a jour
+Acceder à votre terminal (image)
+
+  **Tout d'abord, effectuer les mises a jour**
 
        $sudo apt update
 
        $sudo apt full-upgrade
 
-Pour l’installer il faut utiliser la ligne de commande (en se connectant au Raspberry Pi en tant qu’utilisateur “pi“):
+Pour installer MOTION il faut utiliser la ligne de commande (en se connectant au Raspberry Pi en tant qu’utilisateur “pi“):
 
        $sudo apt-get install motion
 
@@ -174,9 +178,13 @@ Maintenant, vous pouvez accéder à la diffusion en direct de la caméra depuis 
 
 Où 8080 est le port qui est configuré dans le fichier motion.conf. Vous pouvez faire votre propre réglage pour le port en modifiant le paramètre “stream_port” dans motion.conf.
 
-:warning: Votre Pi et l'appareil sur lequel vous acceder à l'enregistrement video doivent etre dans le meme reseau pour fonctionner. Sinon pour avoir acces a votre flux video n'importe ou, utilisez un VPN.
+:warning: **Votre Pi et l'appareil sur lequel vous acceder à l'enregistrement video doivent etre dans le meme reseau pour fonctionner. Sinon pour avoir acces a votre flux video n'importe ou, utilisez un VPN.**
 
-## CONFIGURATION SSH
+## Quelques PLus 
+
+**Connexion SSH**
+
+Il est aussi possible de configurer SSH sur votre Pi ainsi vous pourrez travailler depuis un terminal sur votre ordinateur. (ajouter un lien)
 
 :loudspeaker: :heavy_exclamation_mark: :loudspeaker: :heavy_exclamation_mark:
 Soyez sûr que les permissions sur les fichiers sont correctes : lorsque vous installez motion via ssh en étant connecté en tant qu’utilisateur “pi”, vous devez vous assurer de donner à l’utilisateur «motion» les autorisations pour exécuter motion comme service après le redémarrage :
