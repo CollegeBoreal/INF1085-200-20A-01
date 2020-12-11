@@ -25,12 +25,9 @@
 
 <img src="images/PopularBootLoader.png" width="719" height="453"></img>
 
-:m: Boot Process
+## :a: Boot Process
 
 <img src="images/BootProcess.png" width="620" height="631"></img>
-
-
-
 
 
 Le bon vieux metal qui nous détourne de la virtualisation.
