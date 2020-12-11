@@ -2,18 +2,16 @@
 ## ÉTAPE 1 : PRÉ-REQUIS
 
 
-:a:
-
-:one: ACTIVER L'INTERFACE DE LA CAMÉRA
+:a: ACTIVER L'INTERFACE DE LA CAMÉRA
 
 
-`sudo raspi-config`
+`% sudo raspi-config`
 
 
 ![image](activer_camera.png)
 
 
-### :point_down: choississez "Interface Options    Configure connections to peripherals"  :point_down:
+### :b: :point_down: choississez "Interface Options    Configure connections to peripherals"  :point_down:
 
 
 ![image](interface_camera.png)
