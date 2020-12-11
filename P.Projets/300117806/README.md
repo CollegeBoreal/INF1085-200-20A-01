@@ -92,7 +92,7 @@ Rules updated (v6)
 ```
 
 
-###Apres installation de samba, Verifions l'adresse de la machine
+### Apres installation de samba, Verifions l'adresse de la machine
 
 
 
