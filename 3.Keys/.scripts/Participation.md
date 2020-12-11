@@ -30,11 +30,3 @@
 | 11 | 300117784 - <image src='https://avatars0.githubusercontent.com/u/54910102?s=460&v=4' width=20 height=20></image> | `ssh bertrand@10.13.237.77` | :heavy_check_mark: | :tada: |
 | 12 | 300117806 - <image src='https://avatars0.githubusercontent.com/u/54910103?s=460&v=4' width=20 height=20></image> | `ssh hassana@10.13.237.76` | :heavy_check_mark: | :tada: |
 | 13 | 300118524 - <image src='https://avatars0.githubusercontent.com/u/56364857?s=460&v=4' width=20 height=20></image> | `ssh zoureni@10.13.237.19` | :heavy_check_mark: | :tada: |
-
-:x: Error
-
-|:hash:| Boréal :id:                | Interne            | ssh | Docker Engine |
-|------|----------------------------|--------------------|-----|---------------|
-| 1 | 300111824 - <image src='https://avatars0.githubusercontent.com/u/54911706?s=460&v=4' width=20 height=20></image> | `ssh blevie@10.13.237.66` | :x: | :x: |
-| 9 | 300117444 - <image src='https://avatars0.githubusercontent.com/u/54910261?s=460&v=4' width=20 height=20></image> | `ssh idir@10.13.237.97` | :x: | :x: |
-| 10 | 300117782 - <image src='https://avatars0.githubusercontent.com/u/56364697?s=460&v=4' width=20 height=20></image> | `ssh serve@10.13.237.85` | :x: | :x: |
