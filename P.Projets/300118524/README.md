@@ -1,6 +1,6 @@
 # Projet
 ## ÉTAPE 1 : PRÉ-REQUIS
-- :A:
+- :a:
 
 ACTIVER L'INTERFACE DE LA CAMÉRA
 
