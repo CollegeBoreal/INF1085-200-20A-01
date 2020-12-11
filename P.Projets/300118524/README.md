@@ -1,5 +1,5 @@
 # Projet
-## ÉTAPE 1 : PRÉ-REQUIS
+## ÉTAPE :one: : PRÉ-REQUIS
 
 
 ### :a: ACTIVER L'INTERFACE DE LA CAMÉRA
@@ -23,13 +23,13 @@
 - voilà l'interface caméra est activé
 
 
-ÉTAPE 2 : CONFIGURATION DE LA RASPBERRY
+## ÉTAPE :2: : CONFIGURATION DE LA RASPBERRY
 
 
 - obtenir la mise àjour la raspberry
 
 
-`sudo apt-get update`
+`% sudo apt-get update`
 
 
 - installer la mise àjour la raspberry (choississez une commande)
@@ -44,7 +44,7 @@
 vous pouvez rajouter `-y` à la fin de la commande choisi pour que le systéme fasse *yes* aux questions lors de la MAJ
 
 
-## ÉTAPE 2 : VÉRIFIER SI L'INTERFACE CAMÉRA ET LA CAMÉRA PHYSIQUE
+## ÉTAPE :three: : VÉRIFIER SI L'INTERFACE CAMÉRA ET LA CAMÉRA PHYSIQUE
 
 
 `raspistill -o test.jpg`
