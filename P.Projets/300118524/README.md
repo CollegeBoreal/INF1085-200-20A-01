@@ -5,6 +5,7 @@
 ![image](activer_camera.png)
 ### :point_down: choississez "Interface Options    Configure connections to peripherals"  :point_down:
 ![image](interface_camera.png)
+![image](yes_camera.png)
 ÉTAPE 2 : CONFIGURATION DE LA RASPBERRY
 `![image](interface_camera)`
 ÉTAPE 3 : INSTALLATION  DES APPLICATIONS NÉCESSAIRES
