@@ -16,29 +16,45 @@ boreal@10.13.237.76 /home/Hassana $ sudo apt-get install samba
 ```
 
 ### Installation Verifier
+
+
 ```
 boreal@10.13.237.76 /home/Hassana $ whereis samba
 ```
+
+
 ```
 samba: /usr/sbin/samba /usr/lib/x86_64-linux-gnu/samba /etc/samba /usr/share/samba /usr/share/man/man7/samba.7.gz /usr/share/man/man8/samba.8.gz
 ```
+
 sama est installer, 
 
 
 ### Suite a la creation d'un repertoire à partager
+
+
 ```
 boreal@10.13.237.76 /home/Hassana $ mkdir /home/hassana/sharefolder/
 ```
 
+
 ### Fichier de configuration et Sauvegarde
+
+
+
 ```
 boreal@10.13.237.76 /home/Hassana $ sudo cp /etc/samba/smb.conf /etc/smb.conf.org
+```
+
 ```
 boreal@10.13.237.76 /home/Hassana $ sudo nano /etc/samba/smb.conf
 ```
 
 
 ### AJOUT
+
+
+
 ```
 
 [sharefolder]
@@ -49,27 +65,45 @@ boreal@10.13.237.76 /home/Hassana $ sudo nano /etc/samba/smb.conf
 ```          
           
  ###  Enregistrement et redemarrage de Samba
+ 
+ 
+ 
  ```
  boreal@10.13.237.76 /home/Hassana $ sudo service smbd restart 
  ```
+ 
+ 
  ### Configuration du password: Compte d'utilisateur
+ 
+ 
+ 
 ```
 boreal@10.13.237.76 /home/Hassana $ sudo smbpasswd -a hassana
 New SMB password: exit
 ```
 
 ### Mise a jour du pare-feu pour samba
+
+
 ```
 boreal@10.13.237.76 /home/Hassana $ sudo ufw allow samba
 Rules updated
 Rules updated (v6)
 ```
+
+
 ###Apres installation de samba, Verifions l'adresse de la machine
+
+
+
 ```
 root@boreal:~# ip add
 ```
 
 ### Adresse de la machine
+
+
+
 ```
 10.13.237.76
 ```
