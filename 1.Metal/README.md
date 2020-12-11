@@ -7,6 +7,9 @@
 |----|---|---|---|
 | <img src="images/BIOS-MBR1.png" width="214" height="219"></img> | <img src="images/BIOS-MBR2.png" width="214" height="219"></img> | <img src="images/BIOS-MBR3.png" width="214" height="219"></img> | <img src="images/BIOS-MBR4.png" width="214" height="219"></img> |
 
+
+<img src="images/BIOS-HP-PROLIANT.png" width="725" height="405"></img>
+
 <img src="images/MBR.png" width="675" height="277"></img>
 
 <img src="images/PartitionBootSector.png" width="583" height="267"></img>
