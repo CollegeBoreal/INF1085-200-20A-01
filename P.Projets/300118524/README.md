@@ -17,6 +17,9 @@
 ![image](interface_camera.png)
 
 
+### :c: choississez "yes"
+
+
 ![image](yes_camera.png)
 
 
