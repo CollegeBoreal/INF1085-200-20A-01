@@ -30,7 +30,7 @@
 
 
 
-![image](1.PNG)
+![image](images/1.PNG)
 
 
 
@@ -41,7 +41,7 @@
 :~$ chmod -v +x openvpn-ubuntu-install.sh
 
 
-![image](2.PNG)
+![image](images/2.PNG)
 
 
 
@@ -51,11 +51,11 @@
 :~$ nano openvpn-ubuntu-install.sh
 
 
-![image](3.1.PNG)
+![image](images/3.1.PNG)
 
 
 
-![image](3.PNG)
+![image](images/3.PNG)
 
 
 
@@ -65,7 +65,7 @@
 :~$ sudo ./openvpn-ubuntu-install.sh
 
 
-![image](4.PNG)
+![image](images/4.PNG)
 
 
 
@@ -77,14 +77,14 @@
    
    
    
-![image](5.PNG)
+![image](images/5.PNG)
 
 
   -- Une fois que la configuration sera terminé, vous pouvez vérifier dans les deux dernières lignes, le chemain pour avoir au script créé par votre serveur      pour votre clien nomé morti.ovpn. oon va l'utiliser pour importer ce script dans notre client-OpenVPN.
   
   
   
- ![image](6.PNG)
+ ![image](images/6.PNG)
   
 -- Maintenant votre Openvpn-serveur ets prêt, et vous pouvez vérifier son statut en utilisant la commande suivante:
   
@@ -92,7 +92,7 @@
 
 --le statut du serveur, c'est active(running) 
 
-![image](7.PNG)
+![image](images/7.PNG)
 
 
 
@@ -112,7 +112,7 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
 
 --:~$ ip addr
 
-![image](8.PNG)
+![image](images/8.PNG)
 
 
 
@@ -123,7 +123,7 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
 -- > choco install openvpn 
 
 
-![image](21.PNG)
+![image](images/21.PNG)
 
 
 
@@ -135,7 +135,7 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
 
 
 
-![image](100.PNG)
+![image](images/100.PNG)
 
 
 -- Maintenant c'est le moment d'arriver à notre serveur et prendre notre script de configuration.
@@ -143,24 +143,24 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
 
  -- ssh morti@10.13.237.100 "sudo -S cat /root/morti.ovpn" > morti.ovpn
  
- ![image](9.PNG)
+ ![image](images/9.PNG)
  
  
- ![image](10.PNG)
+ ![image](images/10.PNG)
  
  
  
  -- Maintenant, d'abord il faut touver ce fichier sur votre ordinateur:
  
  
- ![image](11.PNG)
+ ![image](images/11.PNG)
  
  
  -- À la suite, il faut le mettre dans le fichier de config de votre OpenVPN.
  
  
  
-  ![image](12.PNG)
+  ![image](images/12.PNG)
   
   
  
@@ -168,49 +168,49 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
    
    
    
-   ![image](13.PNG)
+   ![image](images/13.PNG)
    
    
-   ![image](14.PNG) 
+   ![image](images/14.PNG) 
    
    
  -- Maintenant, OpenVPN va créer connexion entre votre ordinateur et votre serveur en utilisant ce fichier: 
  
  
-  ![image](15.PNG)
+  ![image](images/15.PNG)
   
   
   -- Dès que la connexion est établie, vous pouvez vérifier votre address IP, et l'interface Point-to-point créée dans l'intervalle 10.8.0.0/24
   
   
-   ![image](17.PNG)
+   ![image](images/17.PNG)
    
  
  -- vous pouvez toujours vérifier le statut de votre OpenVPN en cliquant sur :
  
  
-   ![image](19.PNG)
+   ![image](images/19.PNG)
  
  
  -- en utilasant la commande ifconfig, vous pouvez vous assurer que vous avez reçu la bonne adresse IP:  
  
  
-    ![image](16.PNG)
+    ![image](images/16.PNG)
  
  
  -- en utilisant la commande tracert et addresse Ip de l'interface de votre serveur, vous pouvez vous assurer que c'est une connection point-to-point.
  
-  ![image](18.PNG)
+  ![image](images/18.PNG)
  
  
  --Maintenat, on va installer firewalld sur notre serveur.
  
- ![image](24.PNG)
+ ![image](images/24.PNG)
  
  
  -- on peut vérifier le statut de notre firewall en utilisant la commande suivante:
  
-  ![image](26.PNG)
+  ![image](images/26.PNG)
  
  
  -- il y a deux méthodes pour donner l'autorité à un spécifique protocole pour passer de notre firewall, soit par son numéro de porte, soit par son nom. je vais vous montrer
@@ -230,7 +230,7 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
 
   morti@morti:~$ sudo firewall-cmd --permanent --add-service=ssh
 
-  ![image](27.PNG) 
+  ![image](images/27.PNG) 
   
   -- quand vous ajoutez une nouvelle règle à votre firewall, faites le commande reload pour vous assurer qu'il a été ajoutée:
   
@@ -248,20 +248,20 @@ pour changer le statut de votre serveur, vous pouvez utiliser les commandes suiv
 
  morti@morti:~$ sudo firewall-cmd --add-rich-rule='rule family="ipv4" source address="10.8.0.2" port protocol="tcp" port="22" accept'
 
-   ![image](29.PNG)
+   ![image](images/29.PNG)
    
    -- on arrive sur notre ordinateur et cette fois-ce, on utilise SSH avec address IP de notre OpenVPN, à la place de 10.13.237...
    
-   ![image](30.PNG)
+   ![image](images/30.PNG)
    
-   ![image](31.PNG)
+   ![image](images/31.PNG)
    
    --Dans ces deux dernières photos je vous montre que quand mon OpenVPN est étaind je peux pas arriver à mon serveur, mais quand il est allumé, mon SSH marche.
    
    
-   ![image](32.PNG)
+   ![image](images/32.PNG)
    
    
-   ![image](33.PNG)
+   ![image](images/33.PNG)
    
    
