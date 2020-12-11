@@ -1,13 +1,13 @@
-# OROJET DE OPENVPN #
+# OROJET D'INSTALLATAION D'OPENVPN SUR NOTRE SERVEUR ET NOTRE OPENVPN CLIENT #
 
---Dans ce fichier, je vais vous expliquer comment installer OpenVPN-server et sur votre serveur, apres le configurer pour recevoir un script dans lequel il y a des clées codées, 
+:pushpin: --Dans ce fichier, je vais vous expliquer comment installer OpenVPN-server et sur votre serveur, apres le configurer pour recevoir un script dans lequel il y a des clées codées, 
   avec lequel, votre OpenVPN -client peut se connecter à ce serveur sur une connexion point-to-point. après je vous explique comment préparer votre ordinateur pour être capable   de se connecter à son serveur.
  
- -- À la fin, je vais vous montrer comment vous assurer que vous êtes connecté à votre serveur à partir de votre OpenVPN en utilisant:
+ :pushpin:-- À la fin, je vais vous montrer comment vous assurer que vous êtes connecté à votre serveur à partir de votre OpenVPN en utilisant:
  
- -- 1- La commande TRACERT
+ :pushpin:-- 1- La commande TRACERT
  
- -- 2- Firewalld. D'abord je vous explique comment installer firewalld sur votre serveur,et comment le configurer. Et après, le configurer d'une manière que seulement une           spécifique address IP ait l'autorité de le conneceter. À la suite, vous utilisez SSH et l'address IP de l'interface de votre OpenVPN pour vous connecter à votre serveur.
+ :pushpin:-- 2- Firewalld. D'abord je vous explique comment installer firewalld sur votre serveur,et comment le configurer. Et après, le configurer d'une manière que seulement une           spécifique address IP ait l'autorité de le conneceter. À la suite, vous utilisez SSH et l'address IP de l'interface de votre OpenVPN pour vous connecter à votre serveur.
  
 
 
