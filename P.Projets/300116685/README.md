@@ -9,7 +9,6 @@
 Etape 1: configure de base  d'un routeur cisco 
 ------------------------------------
 
-![image](1.PNG)
 ```
 R1#en
 config t
@@ -19,9 +18,9 @@ R1(config)password cisco
 R1(config)login
 R1(config)exit
 R1(config)line vty 0 4
-R1(config)password cisco 
-R1(config)login 
-R1(config)#exit 
+R1(config-line)password cisco 
+R1(config-line)login 
+R1(config-line)#exit 
 R1(config)#enable secret cisco
 R1(config)#do wr
 ``````
@@ -29,21 +28,24 @@ R1(config)#do wr
 ```
 R1(config)#ip domain-name borealc.on.ca 
 R1(config)#crypto key generate rsa
-R1(config)#transport input ssh
-R1(config)#login local
+R1(config)line vty 0 4
+R1(config-line)#transport input ssh
+R1(config-line)#login local
+R1(config-line)#exit
 $ ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  amirali11@10.13.237.200
 ```
 Etape 2 : configure mode priviligie d'un routeur cisco 
 -------------------------------------------------------
-```
-config t 
+``` 
 R1(config)#interface Ge 0/0/0
-R1(config)#ip address 192.168.0.1 255.255.255.0
-R1(config)#no shutdown
-R1(config)#exit
+R1(config-if)#ip address 192.168.0.1 255.255.255.0
+R1(config-if)#no shutdown
+R1(config-if)#exit
 R1(config)# interface Ge 0/0/1
-R1(config)#ip address 10.13.237.200  255.255.255.0
+R1(config-if)#ip address 10.13.237.200  255.255.255.0
+R1(config-if)#exit
 R1(config)#do wr
+R1(config-if)#exit
 R1# ip route 0.0.0.0 0.0.0.0 Ge0/0/1
 ```
 
@@ -53,13 +55,13 @@ Etape : configure de base switch
 ---------------------------------
  
 ````
-en
-config t
-hostname S0 
-enable secret cisco
-line console 0
-password cisco
-login 
+Switch>en
+Switch#config t
+Switch(config)hostname S0 
+S0(config )enable secret cisco
+S0(config)line console 0
+S0(confi-line)password cisco
+S0(confi-line)login 
 line vty 0 15
 password cisco
 login
