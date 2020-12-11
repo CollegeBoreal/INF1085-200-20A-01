@@ -1,6 +1,6 @@
 # Projet
 ÉTAPE 1 : PRÉ-REQUIS
-:A:ACTIVER L'INTERFACE DU MODULE DE LA CAMÉRA
+:A: ACTIVER L'INTERFACE DU MODULE DE LA CAMÉRA
 `sudo raspi-config`
 ![image](activer_camera.png)
 ### Next :point_down:
