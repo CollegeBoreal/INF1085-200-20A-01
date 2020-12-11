@@ -110,7 +110,9 @@ root@boreal:~# ip add
 
 ### Verifions le sharehome a partir de windows
 
-``` Run
+
+```
+Run
 ```
 
 
