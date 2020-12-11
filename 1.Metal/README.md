@@ -1,13 +1,27 @@
 # Metal
 
 
-:m: MBR Boot Process
+:m: MBR 
 
 | | | | |
 |----|---|---|---|
 | <img src="images/BIOS-MBR1.png" width="214" height="219"></img> | <img src="images/BIOS-MBR2.png" width="214" height="219"></img> | <img src="images/BIOS-MBR3.png" width="214" height="219"></img> | <img src="images/BIOS-MBR4.png" width="214" height="219"></img> |
 
 <img src="images/MBR.png" width="675" height="277"></img>
+
+<img src="images/Bootloader.png" width="675" height="277"></img>
+
+<img src="images/PartitionBootSector.png" width="675" height="277"></img>
+
+<img src="images/PopularBootLoader.png" width="675" height="277"></img>
+
+:m: Boot Process
+
+<img src="images/BootProcess.png" width="675" height="277"></img>
+
+
+
+
 
 Le bon vieux metal qui nous détourne de la virtualisation.
 
