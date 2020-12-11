@@ -10,9 +10,10 @@ Samba est un logiciel d'interopérabilité qui implémente le protocole proprié
 
 ### Comment installer Samba
 
+```
 boreal@10.13.237.76 /home/Hassana $ sudo apt update
 boreal@10.13.237.76 /home/Hassana $ sudo apt-get install samba
-
+```
 
 ### Installation Verifier
 
