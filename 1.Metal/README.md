@@ -27,7 +27,7 @@
 
 :m: Boot Process
 
-<img src="images/BootProcess.png" width="675" height="277"></img>
+<img src="images/BootProcess.png" width="620" height="631"></img>
 
 
 
