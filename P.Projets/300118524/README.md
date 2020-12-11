@@ -19,11 +19,27 @@ vous pouvez rajouter `-y` à la fin de la commande choisi pour que le systéme f
 ``
 
 `![image](interface_camera)`
-ÉTAPE 3 : INSTALLATION  DES APPLICATIONS NÉCESSAIRES
+## ÉTAPE 3 : INSTALLATION  DES APPLICATIONS NÉCESSAIRES
 - on utilisera *motion* pour notre projet
 `sudo apt-get install motion`
-ÉTAPE 4 : CONFIGURATION DES APPLICATIONS INSTALLÉES
+## ÉTAPE 4 : CONFIGURATION DES APPLICATIONS INSTALLÉES
 `sudo nano /etc/motion/motion.conf`
+##### voici les configurations à modifier :point down:
+> daemon   on
+> framerate   10
+> stream_port   8081
+> stream_quality   100
+> stream_localhost   off
+> stream_motion   off
+> stream_maxrate (de 10 à 30)
+> webcontrol_localhost   off
+> quality   100
+> width   640
+> height   480
+> post_capture   5
+> pre_capture   2
+> ffmpeg_output_movies  OFF
+> output_pictures   OFF
 
 ÉTAPE 5 : VÉRIFICATION FINALE
 ``
