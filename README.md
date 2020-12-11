@@ -1,7 +1,9 @@
 # INF1085-200-20A-01
 Administration Linux
 
-## Devoirs:
+## :date: [Épreuves](.epreuves)
+
+## :one: [Devoirs](Devoirs)
 
 |No| Date   | Cours              | Intitulé                            |  Pratique                                                     |
 |--|--------|:-------------------|:------------------------------------|:--------------------------------------------------------------|
@@ -22,7 +24,7 @@ Administration Linux
 |  |                                                                  | Savoir Faire:                                                  | 
 |  |                                                                  | Savoir Etre:                                                   | 
 
-## Déroulement de cours:
+## :two: Déroulement de cours:
 
 |No| Date   | Cours                                          | Intitulé                                |  Commentaires     |
 |--|:------:|:-----------------------------------------------|:----------------------------------------|:------------------|
@@ -37,7 +39,7 @@ Administration Linux
 |09|20-11-02|[5.Linux](5.Linux)                              | Boot                                    | Chapitre 3, 4, 5  |
 |10|20-11-09|[6.Shell](6.Shell)                              |                                         |                   |
 |11|20-11-16|                                                |                                         |                   |
-|12|20-11-23|                                                |                                         |                   |
+|12|20-11-23|[7.Archive](7.Archive)                          |                                         |  Chapitre 4       |
 |13|20-12-30|                                                |                                         |                   |
 |14|20-12-07|                                                |                                         |                   |
 |15|20-12-14| Fin des cours                                  |                                         |                   |

@@ -24,9 +24,9 @@ $ ip address
 ## Step 3 : Telecharger et exercuter openvpn-install.sh
 :heavy_check_mark: Pour notre cas nous allons utiliser le wget command pour le télécharger:
 ```
-$ wget https://git.io/vpn -0 openvpn-ubuntu-install.sh
+$ wget https://git.io/vpn -O openvpn-ubuntu-install.sh
 ```
-<img src="images/2.JPG" width="451" heigth="300"></img>
+<img src="images/2.JPG" width="551" heigth="400"></img>
 
 
 :heavy_check_mark: Après avoir téléchargé le script, nous devons le rendre exécutable avec la commande suivante:
@@ -34,7 +34,7 @@ $ wget https://git.io/vpn -0 openvpn-ubuntu-install.sh
 $ chmod -v +x openvpn-ubuntu-install.sh
 ```
 
-<img src="images/3.JPG" width="451" heigth="300"></img>
+<img src="images/3.JPG" width="551" heigth="400"></img>
 
  
 :heavy_check_mark: Une fois que nous avons demandé la permission a notre serveur pour exécuter le script on peut ouvrir notre script avec l’éditeur nano/vim.
@@ -42,7 +42,7 @@ $ chmod -v +x openvpn-ubuntu-install.sh
 $ nano openvpn-ubuntu-install.sh
 ```
 
-<img src="images/4.JPG" width="451" heigth="300"></img>
+<img src="images/4.JPG" width="751" heigth="600"></img>
 
  
 :heavy_check_mark: Nous pouvons maintenant exécuter notre script avec la commande suivante:
@@ -50,9 +50,9 @@ $ nano openvpn-ubuntu-install.sh
 $ sudo ./openvpn-ubuntu-install.sh
 ```
 
-<img src="images/5.JPG" width="451" heigth="300"></img>
+<img src="images/5.JPG" width="651" heigth="500"></img>
 
-<img src="images/6.JPG" width="451" heigth="300"></img>
+<img src="images/6.JPG" width="651" heigth="500"></img>
 
  
 :heavy_check_mark: Avant l’installation de l’openvpn vous devez répondre a une série de questions a savoir:
@@ -80,35 +80,35 @@ $ sudo systemctl statut openvpn-server@server.service
 
 :heavy_check_mark: Pour notre cas nous allons juste voir le statut de notre OpenVPN:
 ```
-$ sudo systemctl status openvpn-server@serve.service
+$ sudo systemctl status openvpn-server@server.service
 ```
 
-<img src="images/10.JPG" width="451" heigth="300"></img>
+<img src="images/10.JPG" width="751" heigth="600"></img>
 
-<img src="images/8.JPG" width="451" heigth="300"></img>
+<img src="images/8.JPG" width="751" heigth="600"></img>
 
 :heavy_check_mark: Quand nous faisons de nouveau la commande IP a on peut remarquer que notre OpenVPN a été bien créer. Nous remarquons donc tunnel point to point avec l’adresse IP qu’il nous a attribuée 
 ```
 10.8.0.1/24
 ```
 
-<img src="images/9.JPG" width="451" heigth="300"></img>
+<img src="images/9.JPG" width="751" heigth="600"></img>
 
 
-## Step 4: Connection a notre OpenVPN serveur a partir de notre ordinateur portable qui est considerer comme client:
+## Step 4: Copie de notre fichier OpenVPN sur notre ordinateur portable qui est considerer comme client:
 ```
-$ ssh nathalie@10.13.237.23 “sudo -S cat /root/nathalie.ovpn” > nathalie.ovpn
+$ ssh nathalie@10.13.237.23 "sudo -S cat /root/nathalie.ovpn" > nathalie.ovpn
 ```
 :heavy_check_mark: Âpres faire ls pour voir ou est localise votre openvpn dans votre ordinateur
 
-<img src="images/11.JPG" width="451" heigth="300"></img>
+<img src="images/11.JPG" width="551" heigth="400"></img>
 
 ## Step 5: installation OPENVPN dans notre ordinateur portable
 :heavy_check_mark: Utiliser power shell pour installer openvpn dans votre ordinateur avec la commande suivante:
 ```
 Ps> Choco install openvpn
 ```
-<img src="images/12.JPG" width="451" heigth="300"></img>
+<img src="images/12.JPG" width="551" heigth="400"></img>
 
  
 :bulb: Trouvez l’emplacement du fichier installer dans votre ordinateur. Ouvrir le fichier changer l’adresse IP publique par votre adresse IP privée.
@@ -145,6 +145,9 @@ Aussi en faisant la commande IP a dans notre server on vois clairement nos deux 
 <img src="images/20.JPG" width="451" heigth="300"></img> 
 
 <img src="images/21.JPG" width="451" heigth="300"></img>
+
+:heavy_check_mark: La nouvelle version de OPENVPN permet une configuration sans authentification. Toute fois si vous voulez l'authentification vous devez l'acheter dans le site de OPENVPN (https://www.privatetunnel.com/pricing/). La version que nous avons utiliser ici est la version gratuite. Pour ce connecter a notre OPENVPN vous devez vous servir de la cles que nous avons mis dans le read.txt de notre fichier.
+
   
 ## :sparkles: References :sparkles: :
 

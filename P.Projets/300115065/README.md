@@ -131,10 +131,21 @@ abdel@fadde:/root$
 Pour connecter le partage Samba via la ligne de commande Linux, nous aurons besoin de l'outil `smbclient`. 
 Pour installer smbclient, on exécute la commande suivante en tant que sudo :
 ```
-abdel@fadde:/root$ sudo apt-get install smbclient
-[sudo] password for abdel: abdel
-abdel is not in the sudoers file.  This incident will be reported.
+fadde@fadde:~$ sudo apt-get install smbclient
+[sudo] password for fadde:
+
 ```
 
+```
+fadde@fadde:~$ sudo smbclient //localhost/sharefiles -U abdel
+Enter WORKGROUP\abdel's password:
+Try "help" to get a list of possible commands.
+smb: \>
+```
 
-
+On Windows:
+```
+Start button -> Run
+Type: \\10.13.237.98\sharefiles
+```
+![image](samba.png)

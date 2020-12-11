@@ -18,6 +18,8 @@
  :~$ sudo apt-get upgrade
  
  ![image](22.PNG)
+ 
+
 
 
 
