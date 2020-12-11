@@ -2,7 +2,7 @@
 ÉTAPE 1 : PRÉ-REQUIS
 :A:ACTIVER L'INTERFACE DU MODULE DE LA CAMÉRA
 `sudo raspi-config`
-![image](images/activer_camera)
+![image](activer_camera.PNG)
 ### Next :point_down:
 ÉTAPE 2 : CONFIGURATION DE LA RASPBERRY
 `![image](images/activer_camera)`
