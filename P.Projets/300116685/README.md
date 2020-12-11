@@ -1,6 +1,6 @@
 ## Reseau local  d'entreprise Amir Abdullahi 
 
-![image](images/inter13.PNG)
+![image](inter13.PNG)
 
 :bookmark:  Objctif : du projet est configuration routage inter-vlan 
 ------------------------------------------------------------------------------
