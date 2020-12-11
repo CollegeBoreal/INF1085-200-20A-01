@@ -16,6 +16,11 @@ $ ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  amirali11@10.13.237.200
 
 `pwd: Terminal@11`
 
+```
+R1# ip route 0.0.0.0 0.0.0.0 Ge0/0/1
+```
+
+
 
 ```
 R1#en
