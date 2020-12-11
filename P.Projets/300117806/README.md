@@ -27,7 +27,7 @@ boreal@10.13.237.76 /home/Hassana $ whereis samba
 samba: /usr/sbin/samba /usr/lib/x86_64-linux-gnu/samba /etc/samba /usr/share/samba /usr/share/man/man7/samba.7.gz /usr/share/man/man8/samba.8.gz
 ```
 
-sama est installer, 
+samba est installer, 
 
 
 ### Suite a la creation d'un repertoire à partager
