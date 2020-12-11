@@ -1,22 +1,29 @@
 # Metal
 
 
-:m: MBR 
+:m: BIOS/MBR/BootSector/BootLoader 
 
 | | | | |
 |----|---|---|---|
 | <img src="images/BIOS-MBR1.png" width="214" height="219"></img> | <img src="images/BIOS-MBR2.png" width="214" height="219"></img> | <img src="images/BIOS-MBR3.png" width="214" height="219"></img> | <img src="images/BIOS-MBR4.png" width="214" height="219"></img> |
 
+#### :one: BIOS
 
 <img src="images/BIOS-HP-PROLIANT.png" width="725" height="405"></img>
 
+#### :two: MBR
+
 <img src="images/MBR.png" width="675" height="277"></img>
+
+#### :three: BootSector - Partition Disk
 
 <img src="images/PartitionBootSector.png" width="583" height="267"></img>
 
+#### :three: BootLoader
+
 <img src="images/Bootloader.png" width="945" height="423"></img>
 
-<img src="images/PopularBootLoader.png" width="675" height="277"></img>
+<img src="images/PopularBootLoader.png" width="719" height="453"></img>
 
 :m: Boot Process
 
