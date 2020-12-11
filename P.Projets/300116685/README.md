@@ -9,6 +9,14 @@
 Etape 1: configure de base  d'un routeur cisco 
 ------------------------------------
 
+
+```
+$ ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  amirali11@10.13.237.200
+```
+
+`pwd: Terminal@11`
+
+
 ```
 R1#en
 config t
@@ -30,7 +38,6 @@ R1(config)#ip domain-name borealc.on.ca
 R1(config)#crypto key generate rsa
 R1(config)#transport input ssh
 R1(config)#login local
-# ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  aes256-cbc 192.168.0.1
 ```
 Etape 2 : configure mode priviligie d'un routeur cisco 
 -------------------------------------------------------
