@@ -1,14 +1,29 @@
 # Projet
-ÉTAPE 1 : PRÉ-REQUIS
-- :A: ACTIVER L'INTERFACE DU MODULE DE LA CAMÉRA
+## ÉTAPE 1 : PRÉ-REQUIS
+- :A: ACTIVER L'INTERFACE DE LA CAMÉRA
 `sudo raspi-config`
 ![image](activer_camera.png)
 ### :point_down: choississez "Interface Options    Configure connections to peripherals"  :point_down:
 ![image](interface_camera.png)
 ![image](yes_camera.png)
+- voilà l'interface caméra est activé
 ÉTAPE 2 : CONFIGURATION DE LA RASPBERRY
+- obtenir la mise àjour la raspberry
+`sudo apt-get update`
+- installer la mise àjour la raspberry (choississez une commande)
+`sudo apt-get upgrade` pour faire la MAJ sécurité (ou fondamentale)
+`sudo apt-get full upgrade` pour faire la MAJ totale
+vous pouvez rajouter `-y` à la fin de la commande choisi pour que le systéme fasse *yes* aux questions lors de la MAJ
+## ÉTAPE 2 : VÉRIFIER SI L'INTERFACE CAMÉRA ET LA CAMÉRA PHYSIQUE
+`raspistill -o test.jpg`
+``
+
 `![image](interface_camera)`
 ÉTAPE 3 : INSTALLATION  DES APPLICATIONS NÉCESSAIRES
+- on utilisera *motion* pour notre projet
+`sudo apt-get install motion`
 ÉTAPE 4 : CONFIGURATION DES APPLICATIONS INSTALLÉES
+`sudo nano /etc/motion/motion.conf`
+
 ÉTAPE 5 : VÉRIFICATION FINALE
 ``
