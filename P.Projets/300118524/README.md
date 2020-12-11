@@ -26,7 +26,11 @@ vous pouvez rajouter `-y` à la fin de la commande choisi pour que le systéme f
 `sudo nano /etc/motion/motion.conf`
 ##### voici les configurations à modifier :point down:
 > daemon   on
+
+
 > framerate   10
+
+
 > stream_port   8081
 > stream_quality   100
 > stream_localhost   off
