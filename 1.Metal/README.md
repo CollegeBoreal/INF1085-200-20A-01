@@ -3,6 +3,7 @@
 
 :m: MBR Boot Process
 
+| | | | |
 |----|---|---|---|
 | <img src="images/BIOS-MBR1.png" width="214" height="219"></img> | <img src="images/BIOS-MBR2.png" width="214" height="219"></img> | <img src="images/BIOS-MBR3.png" width="214" height="219"></img> | <img src="images/BIOS-MBR4.png" width="214" height="219"></img> |
 
