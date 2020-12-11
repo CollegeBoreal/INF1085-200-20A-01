@@ -17,7 +17,7 @@
  
  :~$ sudo apt-get upgrade
  
- ![image](22.PNG)
+ ![image](images/22.PNG)
  
 
 
