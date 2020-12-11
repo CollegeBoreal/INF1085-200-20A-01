@@ -3,7 +3,7 @@
 
 :m: MBR Boot Process
 
-<img src="images/BOOT-MBR1.png" width="500" height="400"></img>
+<img src="images/BOOT-MBR1.png" width="214" height="219"></img>
 
 Le bon vieux metal qui nous détourne de la virtualisation.
 
