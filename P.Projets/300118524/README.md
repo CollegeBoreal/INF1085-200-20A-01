@@ -2,7 +2,7 @@
 ## ÉTAPE 1 : PRÉ-REQUIS
 
 
-:a: ACTIVER L'INTERFACE DE LA CAMÉRA
+### :a: ACTIVER L'INTERFACE DE LA CAMÉRA
 
 
 `% sudo raspi-config`
