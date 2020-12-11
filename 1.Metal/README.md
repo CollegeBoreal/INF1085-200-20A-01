@@ -9,9 +9,9 @@
 
 <img src="images/MBR.png" width="675" height="277"></img>
 
-<img src="images/Bootloader.png" width="675" height="277"></img>
+<img src="images/PartitionBootSector.png" width="583" height="267"></img>
 
-<img src="images/PartitionBootSector.png" width="675" height="277"></img>
+<img src="images/Bootloader.png" width="675" height="277"></img>
 
 <img src="images/PopularBootLoader.png" width="675" height="277"></img>
 
