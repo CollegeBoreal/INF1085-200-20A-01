@@ -21,9 +21,9 @@
 
 #### :three: BootLoader
 
-<img src="images/Bootloader.png" width="945" height="423"></img>
+<img src="images/Bootloader.png" width="472" height="211"></img>
 
-<img src="images/PopularBootLoader.png" width="719" height="453"></img>
+<img src="images/PopularBootLoader.png" width="359" height="226"></img>
 
 ## :a: Boot Process
 
