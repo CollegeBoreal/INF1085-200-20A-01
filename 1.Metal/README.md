@@ -3,7 +3,7 @@
 
 ## :o: BIOS :+1: MBR :+1: BootSector :+1: BootLoader 
 
-| [BIOS](README.md#-one-BIOS) | | | |
+| [BIOS](README.md#one-bios) | | | |
 |----|---|---|---|
 | <img src="images/BIOS-MBR1.png" width="214" height="219"></img> | <img src="images/BIOS-MBR2.png" width="214" height="219"></img> | <img src="images/BIOS-MBR3.png" width="214" height="219"></img> | <img src="images/BIOS-MBR4.png" width="214" height="219"></img> |
 
