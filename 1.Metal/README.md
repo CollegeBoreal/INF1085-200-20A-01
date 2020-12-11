@@ -9,11 +9,11 @@
 
 #### :one: BIOS
 
-<img src="images/BIOS-HP-PROLIANT.png" width="725" height="405"></img>
+<img src="images/BIOS-HP-PROLIANT.png" width="362" height="202"></img>
 
 #### :two: MBR
 
-<img src="images/MBR.png" width="675" height="277"></img>
+<img src="images/MBR.png" width="337" height="138"></img>
 
 #### :three: BootSector - Partition Disk
 
