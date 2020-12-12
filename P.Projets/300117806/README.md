@@ -102,8 +102,6 @@ root@boreal:~# ip add
 
 ### Adresse de la machine
 
-
-
 ```
 10.13.237.76
 ```
@@ -114,6 +112,7 @@ root@boreal:~# ip add
 ```
 Run
 ```
+
 ![image](samba/1.PNG)
 
 
