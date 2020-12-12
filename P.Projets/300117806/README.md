@@ -113,7 +113,7 @@ root@boreal:~# ip add
 Run
 ```
 
-![image](samba/1.PNG)
+![image](image samba1.PNG)
 
 
 ### Nom Utilisateur
