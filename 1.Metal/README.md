@@ -13,6 +13,8 @@
 
 #### :two: MBR
 
+Qu'est-ce que le [Master Boot Record](https://en.wikipedia.org/wiki/Master_boot_record)
+
 <img src="images/MBR.png" width="337" height="138"></img>
 
 #### :three: BootSector - Partition Disk
