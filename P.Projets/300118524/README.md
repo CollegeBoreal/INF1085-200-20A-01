@@ -72,15 +72,15 @@ vous pouvez rajouter `-y` à la fin de la commande choisi pour que le systéme f
 ##### voici les configurations à modifier :point down:
 
 
-> daemon   on
+- daemon   on
 
 
-- pouvoir lancer motion en tant que daemon, et pouvoir ainsi libérer un terminal
+> pouvoir lancer motion en tant que daemon, et pouvoir ainsi libérer un terminal
 
 
-> framerate   10
+- framerate   10
 
-- Ce chiffre montre le nombre d’images enregistrées par seconde. Chiffre élevé = RAM consommée.
+> Ce chiffre montre le nombre d’images enregistrées par seconde. Chiffre élevé = RAM consommée.
 
 
 > stream_port   8081
