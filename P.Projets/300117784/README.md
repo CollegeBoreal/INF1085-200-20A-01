@@ -54,8 +54,8 @@ $ sudo nextcloud.occ user:add Bertrand
 ```
 # :closed_lock_with_key: User And Password 
 
-:one: User : BertrandMoyou  Password : Canada2020+
-:two: User : BriceRobert    Password : Canada2021+
+## :one:User : BertrandMoyou  Password : Canada2020+
+## :two:User : BriceRobert    Password : Canada2021+
 
 ```
 # Autorisation d'Utilisation des Disques Amovibles sur NEXTCLOUD:round_pushpin:
