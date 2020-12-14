@@ -26,7 +26,7 @@
 voilà l'interface caméra est activé
 
 
-## ÉTAPE :TWO: : CONFIGURATION DE LA RASPBERRY
+## ÉTAPE :two: : CONFIGURATION DE LA RASPBERRY
 
 
 - obtenir la mise àjour la raspberry
@@ -41,7 +41,7 @@ voilà l'interface caméra est activé
 `sudo apt-get upgrade` pour faire la MAJ sécurité (ou fondamentale)
 
 
-`sudo apt-get full upgrade` pour faire la MAJ totale
+`sudo apt-get full-upgrade` pour faire la MAJ totale
 
 
 - vous pouvez rajouter `-y` à la fin de la commande choisi pour que le systéme fasse *yes* aux questions lors de la MAJ
@@ -51,6 +51,9 @@ voilà l'interface caméra est activé
 
 
 `raspistill -o test.jpg`
+
+
+- cette commande affiche l'image en temps réel de la caméra
 ``
 
 `![image](interface_camera)`
