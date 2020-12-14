@@ -57,51 +57,52 @@ Etape : configure de base switch
 ````
 Switch>en
 Switch#config t
-Switch(config)hostname S0 
-S0(config )enable secret cisco
-S0(config)line console 0
-S0(confi-line)password cisco
-S0(confi-line)login 
-line vty 0 15
-password cisco
-login
-exit
-do wr
+Switch(config)#hostname S0 
+S0(config )#enable secret cisco
+S0(config)#line console 0
+S0(confi-line)#password cisco
+S0(confi-line)#login 
+S0(confi-line)#line vty 0 15
+S0(confi-line)#password cisco
+S0(confi-line)#login
+S0(confi-line)#exit
+S0(config)#do wr
 ````
 configuration SSH du commutateur (switch )
 ```
-ip domain-name borealc.on.ca 
-crypto key generate rsa
-transport input ssh
-login local
+S0(config)#ip domain-name borealc.on.ca 
+S0(config)#crypto key generate rsa
+S0(config)#line vty 0 4
+S0(confi-line)#transport input ssh
+S0(config-line)#login local
 ```
   utiliser le meme commande de base les autres swith
 
 Etape : configuration vlan 
 -----------------------------
 ```
-vlan 99
-name management
-exit
+Switch(config)#vlan 99
+Switch(config-vlan)#name management
+Switch(config-vlan)#exit
 
-vlan 10
+Switch(config)#vlan 10
 name faculty-staff
 exit
 
-vlan 20
+Switch(config)#vlan 20
 name dev
 exit
 
-vlan 30
+Switch(config)#vlan 30
 name guest
 exit
 ```
 #configuration address ip du vlan 1
 ```
- int vlan 1
- ip address 192.168.0.10 255.255.255.0
- no shutdown 
- exit
+ Switch(config)#int vlan 1
+ Switch(config-if)#ip address 192.168.0.10 255.255.255.0
+Switch(config-if)# no shutdown 
+Switch(config-if)# exit
  
 ```
 
