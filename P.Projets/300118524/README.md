@@ -23,10 +23,10 @@
 ![image](yes_camera.png)
 
 
-- voilà l'interface caméra est activé
+voilà l'interface caméra est activé
 
 
-## ÉTAPE :2: : CONFIGURATION DE LA RASPBERRY
+## ÉTAPE :TWO: : CONFIGURATION DE LA RASPBERRY
 
 
 - obtenir la mise àjour la raspberry
@@ -44,7 +44,7 @@
 `sudo apt-get full upgrade` pour faire la MAJ totale
 
 
-vous pouvez rajouter `-y` à la fin de la commande choisi pour que le systéme fasse *yes* aux questions lors de la MAJ
+- vous pouvez rajouter `-y` à la fin de la commande choisi pour que le systéme fasse *yes* aux questions lors de la MAJ
 
 
 ## ÉTAPE :three: : VÉRIFIER SI L'INTERFACE CAMÉRA ET LA CAMÉRA PHYSIQUE
