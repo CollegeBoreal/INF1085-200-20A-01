@@ -60,7 +60,7 @@ voilà l'interface caméra est activé
 ## ÉTAPE 3 : INSTALLATION  DES APPLICATIONS NÉCESSAIRES
 
 
-- on utilisera *motion* pour notre projet
+- on utilisera **motion** pour notre projet
 
 
 `sudo apt-get install motion`
@@ -86,10 +86,13 @@ voilà l'interface caméra est activé
 > Ce chiffre montre le nombre d’images enregistrées par seconde. Chiffre élevé = RAM consommée.
 
 
-> stream_port   8081
+- stream_port   8081
 
+> Le port par defaut du mini serveur web.
 
-> stream_quality   100
+- stream_quality   100
+
+> Pourcentage de qualité des images streamées.
 
 
 > stream_localhost   off
@@ -98,19 +101,29 @@ voilà l'interface caméra est activé
 > stream_motion   off
 
 
-> stream_maxrate (de 10 à 30)
+- stream_maxrate (de 10 à 30)
+
+> Ce chiffre montre le nombre d’images streamées par seconde. Chiffre élevé = RAM consommée
 
 
-> webcontrol_localhost   off
+- webcontrol_localhost   off
+
+> Si le paramètres est passé à « on », on autorise l’accès uniquement local au serveur de stream
 
 
-> quality   100
+- quality   100
+
+> Pourcentage de qualité des images enregistrées
 
 
-> width   640
+- width   640
+
+> Indique la largeur des images enregistrées et streamées
 
 
-> height   480
+- height   480
+
+> Indique la hauteur des images enregistrées et streamées
 
 
 > post_capture   5
