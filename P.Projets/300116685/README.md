@@ -129,6 +129,7 @@ switchport access vlan 30
 exit
 do wr
 ```
+:address ip sever linux 192.168.0.240:
 
 
 GRACIAS 
