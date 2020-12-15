@@ -146,7 +146,6 @@ voilà l'interface caméra est activé
 
 
 ```diff
-- no par 
-- yes 
+- no par yes 
 ```
 ``
