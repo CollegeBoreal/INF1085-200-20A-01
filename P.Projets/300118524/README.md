@@ -73,70 +73,70 @@ voilà l'interface caméra est activé
 
 ##### voici les configurations à modifier 
 
-:point down: :point down:
+:point_down: :point_down: :point_down:
 
 
-- daemon   on
+- **daemon   on**
 
 
-> pouvoir lancer motion en tant que daemon, et pouvoir ainsi libérer un terminal
+pouvoir lancer motion en tant que daemon, et pouvoir ainsi libérer un terminal
 
 
-- stream_port   8081
+- **stream_port   8081**
 
-> Le port par defaut du mini serveur web.
+:exclamation: Le port par defaut du mini serveur web.
 
 
-- stream_maxrate (de 10 à 30)
+- **stream_maxrate (de 10 à 30)**
 
-> Ce chiffre montre le nombre d’images streamées par seconde. Chiffre élevé = RAM consommée
+Ce chiffre montre le nombre d’images streamées par seconde. Chiffre élevé = RAM consommée
 
-- webcontrol_localhost   off
+- **webcontrol_localhost   off**
 
-> Si le paramètres est passé à « on », on autorise l’accès uniquement local au serveur de stream
+Si le paramètres est passé à « on », on autorise l’accès uniquement local au serveur de stream
 
-- post_capture   5 (au choix)
+- **post_capture   5 (au choix)**
 
-> nombre de photos après l'enregistrement de la vidéo 
+nombre de photos après l'enregistrement de la vidéo 
 
-- pre_capture   2 (au choix)
+- **pre_capture   2 (au choix)
 
 nombre de photo avant l'enregistrement de la vidéo
 
-- target_dir /var/lib/motion/
+- **target_dir /var/lib/motion/
 
-> Indique le chemin d’enregistrement des images et des vidéos. vous pouvez modifiez le chemin. exemple installer samba puis créer un dossier où le pi va stocker les enregistrements
+:exclamation: Indique le chemin d’enregistrement des images et des vidéos. vous pouvez modifiez le chemin. exemple installer samba puis créer un dossier où le pi va stocker les enregistrements
 
-- ffmpeg_output_movies  ON
+- **ffmpeg_output_movies  ON
 
-> pour permettre au pi d'enregistrer
+pour permettre au pi d'enregistrer
 
-- quality   100
+- **quality   100
 
-> Pourcentage de qualité des images enregistrées
-
-
-- width   640
-
-> Indique la largeur des images enregistrées et streamées
+Pourcentage de qualité des images enregistrées
 
 
-- height   480
+- **width   640
 
-> Indique la hauteur des images enregistrées et streamées
-
-- stream_quality   100
-
-> Pourcentage de qualité des images streamées.
-
-- framerate   10
-
-> Ce chiffre montre le nombre d’images enregistrées par seconde. Chiffre élevé = RAM consommée.
-
-> stream_localhost   off
+Indique la largeur des images enregistrées et streamées
 
 
-> stream_motion   off
+- **height   480
+
+Indique la hauteur des images enregistrées et streamées
+
+- **stream_quality   100
+
+Pourcentage de qualité des images streamées.
+
+- **framerate   10
+
+Ce chiffre montre le nombre d’images enregistrées par seconde. Chiffre élevé = RAM consommée.
+
+- **stream_localhost   off
+
+
+- **stream_motion   off
 
 
 ## ÉTAPE :five: : ACTIVÉ MOTION AU BOOT
@@ -144,11 +144,11 @@ nombre de photo avant l'enregistrement de la vidéo
 `sudo nano /etc/default/motion`
 
 
-- remplacer no par yes 
+- remplacer no :x: par yes :white_check_mark:
 
 
 ```diff
-- no :x: par yes :white_check_mark: 
+- no  par yes  
 ```
 
 ## ÉTAPE :six: : REDÉMARRER MOTION
