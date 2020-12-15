@@ -99,44 +99,44 @@ Si le paramètres est passé à « on », on autorise l’accès uniquement loca
 
 nombre de photos après l'enregistrement de la vidéo 
 
-- **pre_capture   2 (au choix)
+- **pre_capture   2 (au choix)**
 
 nombre de photo avant l'enregistrement de la vidéo
 
-- **target_dir /var/lib/motion/
+- **target_dir /var/lib/motion/**
 
 :exclamation: Indique le chemin d’enregistrement des images et des vidéos. vous pouvez modifiez le chemin. exemple installer samba puis créer un dossier où le pi va stocker les enregistrements
 
-- **ffmpeg_output_movies  ON
+- **ffmpeg_output_movies  ON**
 
 pour permettre au pi d'enregistrer
 
-- **quality   100
+- **quality   100**
 
 Pourcentage de qualité des images enregistrées
 
 
-- **width   640
+- **width   640**
 
 Indique la largeur des images enregistrées et streamées
 
 
-- **height   480
+- **height   480**
 
 Indique la hauteur des images enregistrées et streamées
 
-- **stream_quality   100
+- **stream_quality   100**
 
 Pourcentage de qualité des images streamées.
 
-- **framerate   10
+- **framerate   10**
 
 Ce chiffre montre le nombre d’images enregistrées par seconde. Chiffre élevé = RAM consommée.
 
-- **stream_localhost   off
+- **stream_localhost   off**
 
 
-- **stream_motion   off
+- **stream_motion   off**
 
 
 ## ÉTAPE :five: : ACTIVÉ MOTION AU BOOT
