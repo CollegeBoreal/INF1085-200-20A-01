@@ -137,5 +137,19 @@ voilà l'interface caméra est activé
 
 > output_pictures   OFF
 
-ÉTAPE 5 : VÉRIFICATION FINALE
+ÉTAPE :five: : ACTIVÉ MOTION AU BOOT
+
+`sudo nano /etc/default/motion`
+
+
+- remplacer no par yes 
+
+
+```diff
+- no in red
++ yes in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
 ``
