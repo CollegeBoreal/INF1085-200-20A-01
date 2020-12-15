@@ -126,18 +126,26 @@ voilà l'interface caméra est activé
 > Indique la hauteur des images enregistrées et streamées
 
 
-> post_capture   5
+- post_capture   5 (au choix)
+
+> nombre de photos après l'enregistrement de la vidéo 
+
+- pre_capture   2 (au choix)
+
+nombre de photo avant l'enregistrement de la vidéo
+
+- target_dir /var/lib/motion/
+
+> Indique le chemin d’enregistrement des images et des vidéos. vous pouvez modifiez le chemin. exemple installer samba puis créer un dossier où le pi va stocker les enregistrements
+
+- ffmpeg_output_movies  ON
+
+> pour permettre au pi d'enregistrer
 
 
-> pre_capture   2
 
 
-> ffmpeg_output_movies  OFF
-
-
-> output_pictures   OFF
-
-ÉTAPE :five: : ACTIVÉ MOTION AU BOOT
+## ÉTAPE :five: : ACTIVÉ MOTION AU BOOT
 
 `sudo nano /etc/default/motion`
 
@@ -146,6 +154,23 @@ voilà l'interface caméra est activé
 
 
 ```diff
-- no par yes 
+- no :x: par yes :white_check_mark: 
 ```
-``
+
+## ÉTAPE :six: : REDÉMARRER MOTION
+
+`systemctl restart motion.service`
+
+## ÉTAPE :seven: : RÉCUPÉRER L'ADRESSE IP DU PI
+
+`ip address`
+
+## ÉTAPE :eight: : VISIONNER LA VIDÉO
+
+- aller dans votre navigateur et tapez:
+
+`l'adresse ip du PI:stream_port`
+
+- exemple **192.168.10.32:8081**
+
+## VOILÀ
