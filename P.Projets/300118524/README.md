@@ -146,10 +146,7 @@ voilà l'interface caméra est activé
 
 
 ```diff
-- no in red
-+ yes in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
+- no par 
+- yes 
 ```
 ``
