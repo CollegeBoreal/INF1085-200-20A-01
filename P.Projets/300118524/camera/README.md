@@ -8,19 +8,19 @@
 `% sudo raspi-config`
 
 
-![image](activer_camera.png)
+![image](images/activer_camera.png)
 
 
 ### :point_down: choississez "Interface Options    Configure connections to peripherals"  :point_down:
 
 
-![image](interface_camera.png)
+![image](images/interface_camera.png)
 
 
 ### choississez "yes"
 
 
-![image](yes_camera.png)
+![image](images/yes_camera.png)
 
 
 voilà l'interface caméra est activé
