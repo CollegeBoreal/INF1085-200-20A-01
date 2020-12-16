@@ -1,6 +1,6 @@
-# Ce projet consiste de faire défiler sur un écran des informations 
+# CE PROJET CONSISTE DE FAIRE DÉFILER SUR UN ÉCRAN DES INFORMATIONS  
 
-## Les prérequis 
+## LES PRÉ-REQUIS 
 
 - Un Raspberry (dans mon cas une Raspberry pi 4)
 
@@ -10,7 +10,7 @@
 
 - Un réseau internet privé
 
-## Objectif
+## OBJECTIF
 
 - Diapositive statique en jpeg ou PNG
 
