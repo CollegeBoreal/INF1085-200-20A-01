@@ -79,55 +79,27 @@ S0(config-line)#login local
   utiliser le meme commande de base les autres swith
 
 Etape : configuration vlan 
------------------------------
-```
-Switch(config)#vlan 99
-Switch(config-vlan)#name management
-Switch(config-vlan)#exit
+--------------------------
 
-Switch(config)#vlan 10
-name faculty-staff
-exit
-
-Switch(config)#vlan 20
-name dev
-exit
-
-Switch(config)#vlan 30
-name guest
-exit
-```
 #configuration address ip du vlan 1
 ```
  Switch(config)#int vlan 1
  Switch(config-if)#ip address 192.168.0.10 255.255.255.0
 Switch(config-if)# no shutdown 
 Switch(config-if)# exit
+```
  
+
+Configuration protocole DHCP 
+-----------------------------
 ```
+R1#config terminal 
+R1#(config)# ip dhcp pool boreal
+R1#(dhcp-config)# Network 192.168.0.0 255.255.255.0 
+R1#(dhcp-config)# default-router 192.168.0.1 
+R1#(dhcp-config)# domain-name borealc.on.ca 
+R1#(dhcp-config)#exit
 
-Etape : Configuration interface vlan  
-------------------------------------
-```
-interface rang fa0/1-9
-switchport mode access 
-switchport access vlan 20 
-exit 
-interface rang fa0/10-15
-switchport mode access 
-switchport access vlan 10 
-exit 
-
-interface rang fa0/16-20
-switchport mode access 
-switchport access vlan 99
-exit 
-
-interface rang fa0/21-22
-switchport mode access 
-switchport access vlan 30
-exit
-do wr
 ```
 :address ip sever linux 192.168.0.240:
 
