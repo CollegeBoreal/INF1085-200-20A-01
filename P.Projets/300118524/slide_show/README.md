@@ -24,45 +24,45 @@
 
 **`Sudo apt-get update`**
 
-`Sudo apt upgrade`
+**`Sudo apt upgrade`**
 
 - INSTALLER SAMBA
 
 SAMBA permet le partage de dossiers avec la ou les machines Windows sur le réseau.
 
-> sudo apt install samba samba-common-bin smbclient cifs-utils
+**`sudo apt install samba samba-common-bin smbclient cifs-utils`**
 
 - INSTALLER fbi
 
 > fbi est un utilitaire unix qui affiche des graphiques sur l’écran. La particularité est qu’il n'exécute pas de gestionnaire de fenêtres.
 
-`sudo apt install fbi`
+**`sudo apt install fbi`**
 
 - INSTALLER inotify-tools
 
 > inotify-tools permet au diaporama de regarder le dossier partagé pour tout changement.
 
-`sudo apt install inotify-tools`
+**`sudo apt install inotify-tools`**
 
 - INSTALLER cec-utils
 
 > cec-utils permet au Raspberry Pi d'allumer et d'éteindre le téléviseur via le câble HDMI.
 
-`sudo apt installer cec-utils`
+**`sudo apt installer cec-utils`**
 
 - TÉLÉCHARGER les petits utilitaires que Dean Grannes a écrits pour lire le diaporama
 
-`git clone https://github.com/dgrannes/raspi_slideshow.git`
+**`git clone https://github.com/dgrannes/raspi_slideshow.git`**
 
 ## CONFIGURATION DU DOSSIER PARTAGÉ *SAMBA* 
 
 > Par défaut, le code du diaporama recherche le répertoire / shared / Presentation. Nous devons créer ce répertoire.
 
-`sudo mkdir -p /shared/Presentation`
+**`sudo mkdir -p /shared/Presentation`**
 
 Puis, nous devons modifier les autorisations de ce répertoire pour que n'importe qui sur ce raspberry puisse lire, écrire et exécuter.
 
-`sudo chmod a+rwx /shared/Presentation`
+**`sudo chmod a+rwx /shared/Presentation`**
 
 
 
