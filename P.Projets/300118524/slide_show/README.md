@@ -68,10 +68,64 @@
 
 - Puis, nous devons modifier les autorisations de ce répertoire pour que n'importe qui sur ce raspberry puisse lire, écrire et exécuter.
 
-**`sudo chmod a+rwx /shared/Presentation`**
+**`sudo chmod a+rwx /shared/Presentation`** :exclamation: **a** représente **all(owner, group, others)**
 
+> partage le répertoire */ shared* comme un répertoire qui est *lisible* et *inscriptible* par n'importe qui sur le réseau local
 
+- ajoute des lignes de configuration dans le fichier smb.conf
 
+**`cat raspi_slideshow/add_to_smb.conf >> /etc/samba/smb.conf`**
 
+> concatène le fichier add_to_smb.conf(dans le repertoire cloné) à la fin de /etc/samba/smb.conf
 
+##  Modifier le mot de passe et configurer l'exécution automatique
 
+- Cliquez sur le menu du raspberry en haut à gauche, sélectionnez Préférences/  Raspberry Pi Configuration
+
+- "Change Password " si vous le souhaitez :bomb::bomb::bomb: 
+
+- choississez Boot "To CLI" :fire::fire::fire:
+
+> Le Raspberry Pi ne démarrera pas un gestionnaire de fenêtres, mais s'exécutera simplement sur l'écran
+
+- Définir la connexion automatique Auto Login à "Login as user 'pi'"
+
+> Le Raspberry Pi se connectera automatiquement en tant qu'utilisateur pi
+
+- configurer le diaporama pour qu'il s'exécute lors du démarrage
+
+**`nano .bashrc`**
+
+- à la fin du fichier et rajoutez la ligne suivante :point_down::point_down:
+
+**`python3 raspi_slideshow / play_slideshow.py`**
+
+> Le Raspberry Pi démarrera le shell bash, qui lit le fichier .bashrc, et la dernière ligne de ce fichier dit d'exécuter le diaporama.
+
+:anger:Vous pouvez accéder au terminal bash avec Ctrl-C pendant le diaporama:anger:
+
+vous pouvez démarrer le gestionnaire de fenêtres à partir du terminal bash avec :point_right: **`startx`**
+
+## Configuration de la machine Windows
+
+- Ouvrez votre explorateur de fichier Windows
+
+  - ÉTAPE 1 : Cliquez sur "Ce PC"
+  
+  - ÉTAPE 2 : Cliquez sur "Connecter un lecteur réseau"
+  
+  - ÉTAPE 3 : Dans le champ Dossier, saisir: **`\\ {nom_du_Raspberry_Pi} \ shared`**
+  
+  - ÉTAPE 4 : Choisir à quelle lettre on veut connecter le lecteur, *par exemple "Z:"* 
+  
+  - ÉTAPE 5 : Cocher se "Se reconnecter lors de la connexion"
+  
+  Si vous voulez protéger votre dossier par mot de passe, vous devez cochez "Se connecter à l'aide d'informations d'identification différentes" et en entrant le   nom d'utilisateur et mot de passe du Raspberry Pi.
+  
+:clap::clap::clap: Le Pi affiche UNIQUEMENT le contenu du dossier Présentation, et rien au niveau supérieur (\ shared)
+
+- 120 secondes est le temps configuré pour que le raspberry pour réinitialiser les diapositives(diapositives ajoutées, supprimées ou modifiées)
+
+  > Cela donne à la personne le temps de faire toutes les modifications nécessaires sans réinitialiser après chaque diapositive ajouté
+
+## CRÉER DES IMAGES jpeg OU png AVEC Powerpoint ET LES FAIRE AFFICHER
