@@ -105,7 +105,7 @@ R1#(dhcp-config)#exit
 :address ip sever linux 192.168.0.240:
 
 
-GRACIAS.
+GRACIAS 
 
 "MERCI BORIS ET MORTI ainsi les camarades de classe ":avocado:
 ---------------------------------------------------------------
