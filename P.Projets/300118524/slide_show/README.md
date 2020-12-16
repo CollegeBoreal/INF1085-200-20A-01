@@ -20,31 +20,37 @@
 
 ## AJOUT DE LOGICIELS 
 
-- Faire une mise à jour du système 
+- obtenir une mise à jour du système 
 
-**`Sudo apt-get update`**
+**`% sudo apt-get update`**
 
-**`Sudo apt upgrade`**
+- installer la mise àjour la raspberry (choississez une commande) :point_down:
 
-- INSTALLER SAMBA
+**`sudo apt-get upgrade`** pour faire la MAJ sécurité (ou fondamentale)
 
-SAMBA permet le partage de dossiers avec la ou les machines Windows sur le réseau.
+**`sudo apt-get full-upgrade`** pour faire la MAJ totale
+
+- vous pouvez rajouter `-y` à la fin de la commande choisi pour que le systéme fasse *yes* aux questions lors de la MAJ
+
+- INSTALLER SAMBA :point_down:
+
+> SAMBA permet le partage de dossiers avec la ou les machines Windows sur le réseau.
 
 **`sudo apt install samba samba-common-bin smbclient cifs-utils`**
 
-- INSTALLER fbi
+- INSTALLER fbi :point_down:
 
 > fbi est un utilitaire unix qui affiche des graphiques sur l’écran. La particularité est qu’il n'exécute pas de gestionnaire de fenêtres.
 
 **`sudo apt install fbi`**
 
-- INSTALLER inotify-tools
+- INSTALLER inotify-tools :point_down:
 
 > inotify-tools permet au diaporama de regarder le dossier partagé pour tout changement.
 
 **`sudo apt install inotify-tools`**
 
-- INSTALLER cec-utils
+- INSTALLER cec-utils :point_down:
 
 > cec-utils permet au Raspberry Pi d'allumer et d'éteindre le téléviseur via le câble HDMI.
 
@@ -60,7 +66,7 @@ SAMBA permet le partage de dossiers avec la ou les machines Windows sur le rése
 
 **`sudo mkdir -p /shared/Presentation`**
 
-Puis, nous devons modifier les autorisations de ce répertoire pour que n'importe qui sur ce raspberry puisse lire, écrire et exécuter.
+- Puis, nous devons modifier les autorisations de ce répertoire pour que n'importe qui sur ce raspberry puisse lire, écrire et exécuter.
 
 **`sudo chmod a+rwx /shared/Presentation`**
 
