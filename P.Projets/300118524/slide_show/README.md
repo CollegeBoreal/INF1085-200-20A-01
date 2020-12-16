@@ -22,7 +22,7 @@
 
 - Faire une mise à jour du système 
 
-`Sudo apt-get update`
+**`Sudo apt-get update`**
 
 `Sudo apt upgrade`
 
