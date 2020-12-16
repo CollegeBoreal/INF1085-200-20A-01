@@ -33,6 +33,7 @@ R1(config-line)#transport input ssh
 R1(config-line)#login local
 R1(config-line)#exit
 $ ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  amirali11@10.13.237.200
+Password:Terminal@11
 ```
 Etape 2 : configure mode priviligie d'un routeur cisco 
 -------------------------------------------------------
