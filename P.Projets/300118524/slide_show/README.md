@@ -129,3 +129,7 @@ vous pouvez démarrer le gestionnaire de fenêtres à partir du terminal bash av
   > Cela donne à la personne le temps de faire toutes les modifications nécessaires sans réinitialiser après chaque diapositive ajouté
 
 ## CRÉER DES IMAGES jpeg OU png AVEC Powerpoint ET LES FAIRE AFFICHER
+
+# Références
+
+[slideshow](https://www.instructables.com/Raspberry-Pi-Bulletin-Board/)
