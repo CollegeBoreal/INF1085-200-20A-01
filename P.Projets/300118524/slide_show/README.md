@@ -130,6 +130,18 @@ vous pouvez démarrer le gestionnaire de fenêtres à partir du terminal bash av
 
 ## CRÉER DES IMAGES jpeg OU png AVEC Powerpoint ET LES FAIRE AFFICHER
 
+- ouvrez powerpoint puis créer vos diapositives 
+
+- cliquez sur **Fichier** puis sur  **Exporter**
+
+- enregistrez le diapositive au format PNG ou JPEG.
+
+> Cela produira les diapositives sous forme de fichiers individuels sous formes diapositive1 --diapositive2 ainsi de suite
+
+- glisser et déposer des fichiers individuels dans la lettre de lecteur que vous avez utilisée /Presentation
+
+- la présentation est organisée par ordre alphabétique donc renommez les diapositives selon l'ordre que vous voulez
+
 # Références
 
 [slideshow](https://www.instructables.com/Raspberry-Pi-Bulletin-Board/)
