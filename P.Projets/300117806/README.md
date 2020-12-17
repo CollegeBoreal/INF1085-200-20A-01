@@ -109,20 +109,36 @@ root@boreal:~# ip add
 ### Verifions le sharehome a partir de windows
 
 
+
+
 ```
 
+
+
+
 Run
+````
+
+
+
+
 
 ![image](run.png)
 
+
+
 ![image](sharehome.png)
+
+
+
 
 ![image](samba.png)
 
 
 
 
-```
+
+
 
 
 ### Nom Utilisateur
