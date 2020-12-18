@@ -1,5 +1,13 @@
 # Samba - 10.13.237.18
 
+\\10.13.237.18\sharefolder
+
+Domain: WORKGROUP
+user: luxury
+pwd:
+
+Documentation manquante
+
 ### :zero: Entrer les informations de connexion
 
 ![image](images/10.13.237.18_4.png)
