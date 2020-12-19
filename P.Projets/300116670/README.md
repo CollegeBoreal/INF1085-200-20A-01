@@ -40,12 +40,12 @@ Au prealale, vous devrez vous equipez des elements suivants:
 |<img src="IMG_0406.jpg" width="250">| <img src="IMG_0407.jpg" width="250">         |  <img src="IMG_0408.jpg" width="250"> 
 
 
-**PREREQUI:INSTALLER RASPBIAN**
+**PREREQUIS: COMMENT INSTALLER RASPBIAN**
 Si vous n'avez pas Raspbian ,voici quelques etapes pour l'installer:
 
-_Telecharger Raspberry Pi Imager (derniere version de preference
+_Telecharger Raspberry Pi Imager(derniere version de preference)  , rendez-vous sur le site officiel de raspberry pi. Une fois Raspberry pi imager installe,choisissez les parametres de votre choix tout en selectionnant la carte SD sur laquelle vous allez installer votre OS et lancer le telechargement.
 
-<img src="Screenshot.jpg" width="250">
+<img src="Screenshot(645).png" width="250">
 
 
 ## INSTALLER MOTION
