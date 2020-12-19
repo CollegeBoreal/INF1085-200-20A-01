@@ -40,6 +40,13 @@ Au prealale, vous devrez vous equipez des elements suivants:
 |<img src="IMG_0406.jpg" width="250">| <img src="IMG_0407.jpg" width="250">         |  <img src="IMG_0408.jpg" width="250"> 
 
 
+**PREREQUI:INSTALLER RASPBIAN**
+Si vous n'avez pas Raspbian ,voici quelques etapes pour l'installer:
+
+_Telecharger Raspberry Pi Imager (derniere version de preference
+
+<img src="Screenshot.jpg" width="250">
+
 
 ## INSTALLER MOTION
 
@@ -52,6 +59,7 @@ Acceder à votre terminal (image)
        $sudo apt update
 
        $sudo apt full-upgrade
+       
 
 Pour installer MOTION il faut utiliser la ligne de commande (en se connectant au Raspberry Pi en tant qu’utilisateur “pi“):
 
@@ -73,6 +81,9 @@ Modifiez cette ligne comme suit :
         *start_motion_daemon=yes
 
 **Les principaux changements sont les suivants** :
+Ensuite modifier le fichier suivant
+
+       $sudo nano /etc/motion/motion.conf
 
 S’assurer que motion est toujours en cours d’exécution en tant que démon en arrière-plan :
 
