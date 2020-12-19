@@ -45,7 +45,7 @@ Si vous n'avez pas Raspbian ,voici quelques etapes pour l'installer:
 
 _Telecharger Raspberry Pi Imager(derniere version de preference)  , rendez-vous sur le site officiel de raspberry pi. Une fois Raspberry pi imager installe,choisissez les parametres de votre choix tout en selectionnant la carte SD sur laquelle vous allez installer votre OS et lancer le telechargement.
 
-<img src="Screenshot(649).png" width="250">
+<img src="Screenshot (649).png" width="250">
 
 
 ## INSTALLER MOTION
