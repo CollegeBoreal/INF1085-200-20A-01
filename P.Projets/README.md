@@ -49,4 +49,6 @@
 
 :pushpin: `Camera` Se référer aux dossiers d'étudiants
 
+# :b: Autres Projets sur le Pi
 
+[:strawberry:](.projet-pi)
