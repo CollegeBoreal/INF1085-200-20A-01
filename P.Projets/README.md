@@ -51,4 +51,4 @@
 
 # :b: Autres Projets sur le Pi
 
-[:strawberry:](.projet-pi)
+[:+1: :strawberry:](.projet-pi)
