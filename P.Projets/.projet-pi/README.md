@@ -6,6 +6,7 @@
 
   https://github.com/raspberrypi/firmware/wiki/Mailbox-property-interface
   
+```  
   $ tvservice --status --name --json --modes=CEA
 [
 { "code":1, "width":640, "height":480, "rate":60, "aspect_ratio":"4:3", "scan":"p", "3d_modes":[] },
@@ -26,8 +27,11 @@
 ]
 state 0xa [HDMI CUSTOM RGB lim 16:9], 1920x1080 @ 60.00Hz, progressive
 device_name=WET-WD55UDR101
-pi@isaha:~ $ cat /etc/rpi-issue
+```
+
+```
+$ cat /etc/rpi-issue
 Raspberry Pi reference 2019-07-10
 Generated using pi-gen, https://github.com/RPi-Distro/pi-gen, 175dfb027ffabd4b8d5080097af0e51ed9a4a56c, stage5
-
+```
 
