@@ -50,6 +50,3 @@
 :pushpin: `Camera` Se référer aux dossiers d'étudiants
 
 
-# References
-
-[MagicMirror](https://docs.magicmirror.builders)
