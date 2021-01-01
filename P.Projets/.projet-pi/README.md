@@ -4,6 +4,14 @@
 
 - [ ] :two: [RPiPlay](https://github.com/FD-/RPiPlay)
 
+```
+$ tvservice --list
+1 attached device(s), display ID's are : 
+Display Number 2, type HDMI 0
+```
+
+  https://github.com/raspberrypi/firmware/issues/1243 (HDMI1 no sound use HDMI0)
+
   https://github.com/raspberrypi/firmware/wiki/Mailbox-property-interface
   
 ```  
