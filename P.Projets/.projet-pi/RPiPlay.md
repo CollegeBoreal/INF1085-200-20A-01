@@ -6,7 +6,30 @@
 https://github.com/FD-/RPiPlay
 
 
-## :two: Install 
+## :two: Install as a service
+
+```
+$ sudo su -
+```
+
+```
+cat <<EOF > /etc/systemd/system/RPiPlay.service
+[Unit]
+Description=RPiPlay service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=pi
+ExecStart=/usr/local/bin/rpiplay -n "Bathroom TV" -b auto -l
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
+
 
 ## :three: TroubleShooting
 
