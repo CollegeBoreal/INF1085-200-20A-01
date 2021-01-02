@@ -13,7 +13,7 @@ $ rpiplay -n "Washroom TV" &
 ```
 
 ```bash
-cat <<EOF > /etc/systemd/system/RPiPlay.service
+sudo cat <<EOF > /etc/systemd/system/RPiPlay.service
 [Unit]
 Description=RPiPlay service
 After=network.target
@@ -23,7 +23,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=pi
-ExecStart=/usr/local/bin/-n "Bathroom TV" 
+ExecStart=/usr/local/bin/rpiplay -n "Bathroom TV" 
 
 [Install]
 WantedBy=multi-user.target
