@@ -25,7 +25,7 @@ StartLimitIntervalSec=0
 Type=simple
 Restart=always
 RestartSec=1
-User=pi
+User=root
 ExecStart=/usr/local/bin/rpiplay -n "Bathroom TV" 
 
 [Install]
