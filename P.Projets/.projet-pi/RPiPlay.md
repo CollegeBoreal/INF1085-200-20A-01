@@ -1,6 +1,14 @@
 # RPIPlay
 
 
+## :one: CCompile and install the project
+
+https://github.com/FD-/RPiPlay
+
+
+## :three: TroubleShooting
+
+
 ```
 $ tvservice --list
 1 attached device(s), display ID's are : 
