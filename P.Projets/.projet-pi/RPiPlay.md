@@ -3,7 +3,24 @@
 
 ## :one: CCompile and install the project
 
-https://github.com/FD-/RPiPlay
+For downloading the code, use these commands:
+
+git clone https://github.com/FD-/RPiPlay.git
+cd RPiPlay
+
+For building on a fresh Raspbian Stretch or Buster install, these steps should be run:
+
+```
+$ sudo apt-get install cmake
+$ sudo apt-get install libavahi-compat-libdnssd-dev
+$ sudo apt-get install libplist-dev
+$ sudo apt-get install libssl-dev
+$ Vmkdir build
+$ cd build
+$ cmake ..
+$ make
+```
+
 
 
 ## :two: Install as a service
