@@ -21,9 +21,14 @@ $ cmake ..
 $ make
 ```
 
+To make a global install `/usr/local/bin/rpiplay`
+
+```
+$ sudo make install
+```
 
 
-## :two: Install as a service
+## :two: Install as a service 
 
 ```
 $ sudo su -
