@@ -6,6 +6,8 @@
 https://github.com/FD-/RPiPlay
 
 
+## :two: Install 
+
 ## :three: TroubleShooting
 
 
