@@ -11,3 +11,21 @@ Installer https://github.com/FD-/RPiPlay comme example
 $ rpiplay -n "Washroom TV" &
 
 ```
+
+```bash
+cat <<EOF > /etc/systemd/system/RPiPlay.service
+[Unit]
+Description=RPiPlay service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=pi
+ExecStart=/usr/local/bin/-n "Bathroom TV" 
+
+[Install]
+WantedBy=multi-user.target
+EOF
+```
