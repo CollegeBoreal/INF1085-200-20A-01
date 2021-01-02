@@ -35,7 +35,7 @@ $ sudo su -
 ```
 
 ```
-cat <<EOF > /etc/systemd/system/RPiPlay.service
+# cat <<EOF > /etc/systemd/system/RPiPlay.service
 [Unit]
 Description=RPiPlay service
 After=network.target
@@ -52,6 +52,21 @@ WantedBy=multi-user.target
 EOF
 ```
 
+```
+$ sudo systemctl enable RPiPlay
+```
+
+- [ ] Reboot
+
+```
+$ rpiplay -n "Bathroom TV" -b auto -l
+```
+
+-n is the name of the ApplePlay Server
+
+-b is for enabling the black window at startup (auto) means only required when there is an ApplePlay Connection
+
+-l is for low latency (which seems to work better when using video)
 
 ## :three: TroubleShooting
 
