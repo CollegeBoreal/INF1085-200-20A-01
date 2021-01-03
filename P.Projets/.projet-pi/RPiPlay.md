@@ -1,7 +1,7 @@
 # RPIPlay
 
 
-## :one: CCompile and install the project
+## :one: Compile and install the project
 
 For downloading the code, use these commands:
 
@@ -30,9 +30,13 @@ $ sudo make install
 
 ## :two: Install as a service 
 
+- [ ] Get `root` prompt
+
 ```
 $ sudo su -
 ```
+
+- [ ] Install the `RPiPlay` Servicee
 
 ```
 # cat <<EOF > /etc/systemd/system/RPiPlay.service
@@ -40,23 +44,28 @@ $ sudo su -
 Description=RPiPlay service
 After=network.target
 StartLimitIntervalSec=0
+
 [Service]
 Type=simple
 Restart=always
 RestartSec=1
 User=pi
+# -l : Low Latency parameter is required since it doesn't drop video frames
 ExecStart=/usr/local/bin/rpiplay -n "Bathroom TV" -b auto -l
 
 [Install]
 WantedBy=multi-user.target
-EOF
 ```
+
+- [ ] Enable the service at boot time
 
 ```
 $ sudo systemctl enable RPiPlay
 ```
 
 - [ ] Reboot
+
+### :gear: What about `rpiplay`
 
 ```
 $ rpiplay -n "Bathroom TV" -b auto -l
