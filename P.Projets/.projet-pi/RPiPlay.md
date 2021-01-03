@@ -5,8 +5,9 @@
 
 For downloading the code, use these commands:
 
-git clone https://github.com/FD-/RPiPlay.git
-cd RPiPlay
+```
+$ git clone https://github.com/FD-/RPiPlay.git && cd RPiPlay
+```
 
 For building on a fresh Raspbian Stretch or Buster install, these steps should be run:
 
