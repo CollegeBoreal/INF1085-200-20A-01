@@ -4,3 +4,5 @@
 
 - [ ] :two: [RPiPlay](RPiPlay.md)
 
+- [ ] :three: [Plex Media Server](https://www.ionos.ca/digitalguide/server/configuration/raspberry-pi-plex/)
+
