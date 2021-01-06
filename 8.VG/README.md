@@ -34,7 +34,7 @@ $ sudo lvs
 
 ## :b: Scanning PV, VG, LV
 
-`scan` option scans the system and outputs minimal information about the `volumes` it finds
+`scan` option scans the system and outputs `minimal` information about the `volumes` it finds
 
 ### :round_pushpin: Physical Volume
 
