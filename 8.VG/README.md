@@ -5,8 +5,9 @@ https://www.digitalocean.com/community/tutorials/how-to-use-lvm-to-manage-storag
 
 https://www.digitalocean.com/community/tutorials/an-introduction-to-lvm-concepts-terminology-and-operations
 
+## :a: Listing PV, VG, LV
 
-## :one: Physical Volume
+### :round_pushpin: Physical Volume
 
 ```
 $ sudo pvs
@@ -15,7 +16,7 @@ $ sudo pvs
 ```
 
 
-## :two: Volume Group
+### :round_pushpin: Volume Group
 
 ```
 $ sudo vgs
@@ -23,7 +24,22 @@ $ sudo vgs
   ubuntu-vg   1   1   0 wz--n- <272.40g <136.20g
 ```
 
-## :three: Logical Volume
+### :round_pushpin: Logical Volume
+
+```
+$ sudo lvs
+  LV        VG        Attr       LSize    Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
+  ubuntu-lv ubuntu-vg -wi-ao---- <136.20g 
+```
+
+## :b: Scanning PV, VG, LV
+
+
+### :round_pushpin: Physical Volume
+
+### :round_pushpin: Volume Group
+
+### :round_pushpin: Logical Volume
 
 ```
 $ sudo lvmdiskscan
