@@ -174,8 +174,12 @@ lvm>
        lvmsystemid(7) lvmreport(7) lvmraid(7) lvmthin(7) lvmcache(7)
 
 
-## Install lmv2
+## :gear: Install lmv2
 
 ```
 $ sudo apt-get install lvm2
 ```
+
+# References
+
+:strawberry: https://raspberrypi.stackexchange.com/questions/85958/easy-backups-and-snapshots-of-a-running-system-with-lvm
