@@ -75,6 +75,8 @@ $ sudo lvdisplay
 
 ## :a: Scripting PV, VG, LV
 
+`??s` command is highly configurable and can display information in many different formats. It is frequently used in when scripting or automation is needed.
+
 ### :round_pushpin: Physical Volume
 
 ```
@@ -102,7 +104,7 @@ $ sudo lvs
 
 ## :b: Scanning PV, VG, LV
 
-`scan` option scans the system and outputs `minimal` information about the `volumes` it finds
+`??scan` option scans the system and outputs `minimal` information about the `volumes` it finds
 
 ### :round_pushpin: Physical Volume
 
