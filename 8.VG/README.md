@@ -5,7 +5,75 @@ https://www.digitalocean.com/community/tutorials/how-to-use-lvm-to-manage-storag
 
 https://www.digitalocean.com/community/tutorials/an-introduction-to-lvm-concepts-terminology-and-operations
 
-## :a: Listing PV, VG, LV
+
+## :a: Displaying (Human Readable) PV, VG, LV
+
+### :round_pushpin: Physical Volume
+
+```
+$ sudo pvdisplay
+  --- Physical volume ---
+  PV Name               /dev/sda3
+  VG Name               ubuntu-vg
+  PV Size               <272.40 GiB / not usable 0   
+  Allocatable           yes 
+  PE Size               4.00 MiB
+  Total PE              69734
+  Free PE               34867
+  Allocated PE          34867
+  PV UUID               PEFNgZ-yJVF-RMSj-fbhw-beAv-ZOQ2-Hfo8ui
+```
+
+
+### :round_pushpin: Volume Group
+
+```
+$ sudo vgdisplay
+  --- Volume group ---
+  VG Name               ubuntu-vg
+  System ID             
+  Format                lvm2
+  Metadata Areas        1
+  Metadata Sequence No  2
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                1
+  Open LV               1
+  Max PV                0
+  Cur PV                1
+  Act PV                1
+  VG Size               <272.40 GiB
+  PE Size               4.00 MiB
+  Total PE              69734
+  Alloc PE / Size       34867 / <136.20 GiB
+  Free  PE / Size       34867 / <136.20 GiB
+  VG UUID               8sb1LI-88DD-xtxe-0HcR-9RzL-v7LF-Ns6pLg
+```
+
+### :round_pushpin: Logical Volume
+
+```
+$ sudo lvdisplay
+  --- Logical volume ---
+  LV Path                /dev/ubuntu-vg/ubuntu-lv
+  LV Name                ubuntu-lv
+  VG Name                ubuntu-vg
+  LV UUID                JlDYcN-hq2d-VqFp-mbhc-YN5r-Mtjv-SpQMMH
+  LV Write Access        read/write
+  LV Creation host, time ubuntu-server, 2020-10-29 23:43:59 +0000
+  LV Status              available
+  # open                 1
+  LV Size                <136.20 GiB
+  Current LE             34867
+  Segments               1
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently set to     256
+  Block device           253:0
+```
+
+## :a: Scripting PV, VG, LV
 
 ### :round_pushpin: Physical Volume
 
