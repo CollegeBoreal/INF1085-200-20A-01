@@ -153,3 +153,13 @@ $ sudo lvmdiskscan
        vgcfgbackup(8) vgcfgrestore(8)  vgchange(8)  vgck(8)  vgcreate(8)  vgconvert(8)  vgdis‐
        play(8)  vgexport(8)  vgextend(8)  vgimport(8) vgimportclone(8) vgmerge(8) vgmknodes(8)
        vgreduce(8) vgremove(8) vgrename(8) vgs(8) vgscan(8) vgsplit(8)
+
+       lvcreate(8) lvchange(8) lvconvert(8) lvdisplay(8) lvextend(8)  lvreduce(8)  lvremove(8)
+       lvrename(8) lvresize(8) lvs(8) lvscan(8)
+
+       lvm-fullreport(8)   lvm-lvpoll(8)  lvm2-activation-generator(8)  blkdeactivate(8)  lvm‐
+       dump(8)
+
+       dmeventd(8) lvmpolld(8) lvmlockd(8) lvmlockctl(8) cmirrord(8) lvmdbusd(8)
+
+       lvmsystemid(7) lvmreport(7) lvmraid(7) lvmthin(7) lvmcache(7)
