@@ -172,3 +172,10 @@ lvm>
        dmeventd(8) lvmpolld(8) lvmlockd(8) lvmlockctl(8) cmirrord(8) lvmdbusd(8)
 
        lvmsystemid(7) lvmreport(7) lvmraid(7) lvmthin(7) lvmcache(7)
+
+
+## Install lmv2
+
+```
+$ sudo apt-get install lvm2
+```
