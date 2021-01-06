@@ -73,7 +73,7 @@ $ sudo lvdisplay
   Block device           253:0
 ```
 
-## :a: Scripting PV, VG, LV
+## :b: Scripting PV, VG, LV
 
 `??s` command is highly configurable and can display information in many different formats. It is frequently used in when scripting or automation is needed.
 
@@ -102,7 +102,7 @@ $ sudo lvs
   ubuntu-lv ubuntu-vg -wi-ao---- <136.20g 
 ```
 
-## :b: Scanning PV, VG, LV
+## :ab: Scanning PV, VG, LV
 
 `??scan` option scans the system and outputs `minimal` information about the `volumes` it finds
 
