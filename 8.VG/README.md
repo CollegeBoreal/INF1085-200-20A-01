@@ -145,6 +145,15 @@ $ sudo lvmdiskscan
 
 ## :o: Main
 
+### :round_pushpin: LVM CLI
+
+```
+$ sudo lvm
+lvm> 
+```
+
+### :round_pushpin: Other Commands
+
        lvm(8) lvm.conf(5) lvmconfig(8)
 
        pvchange(8)  pvck(8)  pvcreate(8) pvdisplay(8) pvmove(8) pvremove(8) pvresize(8) pvs(8)
