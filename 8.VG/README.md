@@ -108,7 +108,18 @@ $ sudo lvs
 
 ### :round_pushpin: Physical Volume
 
+```
+$ sudo pvscan
+  PV /dev/sda3   VG ubuntu-vg       lvm2 [<272.40 GiB / <136.20 GiB free]
+  Total: 1 [<272.40 GiB] / in use: 1 [<272.40 GiB] / in no VG: 0 [0   ]
+```
+
 ### :round_pushpin: Volume Group
+
+```
+$ sudo vgscan
+  Found volume group "ubuntu-vg" using metadata type lvm2
+```
 
 ### :round_pushpin: Logical Volume
 
@@ -131,3 +142,14 @@ $ sudo lvmdiskscan
   0 LVM physical volume whole disks
   1 LVM physical volume
 ```
+
+## :o: Main
+
+       lvm(8) lvm.conf(5) lvmconfig(8)
+
+       pvchange(8)  pvck(8)  pvcreate(8) pvdisplay(8) pvmove(8) pvremove(8) pvresize(8) pvs(8)
+       pvscan(8)
+
+       vgcfgbackup(8) vgcfgrestore(8)  vgchange(8)  vgck(8)  vgcreate(8)  vgconvert(8)  vgdis‐
+       play(8)  vgexport(8)  vgextend(8)  vgimport(8) vgimportclone(8) vgmerge(8) vgmknodes(8)
+       vgreduce(8) vgremove(8) vgrename(8) vgs(8) vgscan(8) vgsplit(8)
