@@ -30,10 +30,11 @@ R1(config)#ip domain-name borealc.on.ca
 R1(config)#crypto key generate rsa
 R1(config)line vty 0 4
 R1(config-line)#transport input ssh
+R1(config-line)#transport input ssh
 R1(config-line)#login local
 R1(config-line)#exit
-$ ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  amirali11@10.13.237.200
-Password:Terminal@11
+$ ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  amirali12@10.13.237.200
+Password:Terminal@12
 ```
 Etape 2 : configure mode priviligie d'un routeur cisco 
 -------------------------------------------------------
@@ -75,6 +76,7 @@ S0(config)#ip domain-name borealc.on.ca
 S0(config)#crypto key generate rsa
 S0(config)#line vty 0 4
 S0(confi-line)#transport input ssh
+S0(confi-line)#transport output ssh
 S0(config-line)#login local
 ```
   utiliser le meme commande de base les autres swith
