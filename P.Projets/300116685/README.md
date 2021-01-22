@@ -78,6 +78,8 @@ S0(config)#line vty 0 4
 S0(confi-line)#transport input ssh
 S0(confi-line)#transport output ssh
 S0(config-line)#login local
+S0(config-line)# username amirali11 password Terminal@11
+
 ```
   utiliser le meme commande de base les autres swith
 
