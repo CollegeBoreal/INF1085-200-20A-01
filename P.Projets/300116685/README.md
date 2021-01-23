@@ -108,7 +108,8 @@ R1#(dhcp-config)#exit
 ```
 :address ip sever linux 192.168.0.240:
 
-:book: Referrence https://www.astarox.com/blog/configuration-ssh-cisco-b12.html
+#:o: Referrence https://www.astarox.com/blog/configuration-ssh-cisco-b12.html
+
 
 
 
