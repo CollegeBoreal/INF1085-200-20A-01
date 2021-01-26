@@ -109,6 +109,7 @@ R1#(dhcp-config)#exit
 :address ip sever linux 192.168.0.240:
 
 #:o: Referrence https://www.astarox.com/blog/configuration-ssh-cisco-b12.html
+https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package ()
 
 
 
