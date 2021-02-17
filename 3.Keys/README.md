@@ -28,8 +28,8 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD2pLhMqFGKffSdYvNCMAyM7598oBY+m/3q5AMXmb7I
 
 :two: Renseigner son utilisateur dans le tableau ci-dessous (i.e. MONUSER@10.13.237.126 => brice@10.13.237.126)
 
-|:hash:| :id:      | Interne                 | ssh              | Docker Engine    | 
-|------|-----------|-------------------------|------------------|------------------|
+|:hash:| :id:      | Interne                 | ssh              | Docker Engine    | Unit :hash: |
+|------|-----------|-------------------------|------------------|------------------|-------------|
 | 00   | 300098957 - <image src="https://avatars0.githubusercontent.com/u/62551735?s=400&v=4" width=20 height=20></image> | `ssh ubuntu@10.13.237.9` |:heavy_check_mark:|:heavy_check_mark: |
 | 01   | 300111441 - <image src="https://avatars2.githubusercontent.com/u/55207099?s=400&v=4" width=20 height=20></image> | `ssh luxury@10.13.237.18`   |:x:|:x:|
 | 02   | 300111824 - <image src="https://avatars2.githubusercontent.com/u/54911706?s=400&v=4" width=20 height=20></image> | `ssh blevie@10.13.237.66`   |:heavy_check_mark:|:heavy_check_mark:|
