@@ -2,7 +2,7 @@
 
 Créer sa machine virtuelle en suivant la documentation ci-dessous: 
 
-- [ ] [Générique](https://github.com/CollegeBoreal/Tutoriels/tree/master/2.Microservices/2.VM/1.Docker-Machine/0.Generic)
+- [ ] [Générique](https://github.com/CollegeBoreal/Tutoriels/tree/main/2.MicroServices/2.VM/1.Docker-Machine/0.Generic)
 
 ## Liste des machines
 
