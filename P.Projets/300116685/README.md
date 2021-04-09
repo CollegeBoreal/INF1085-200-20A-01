@@ -30,9 +30,11 @@ R1(config)#ip domain-name borealc.on.ca
 R1(config)#crypto key generate rsa
 R1(config)line vty 0 4
 R1(config-line)#transport input ssh
+R1(config-line)#transport input ssh
 R1(config-line)#login local
 R1(config-line)#exit
-$ ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  amirali11@10.13.237.200
+$ ssh -oKexAlgorithms=+diffie-hellman-group14-sha1  amirali12@10.13.237.200
+Password:Terminal@12
 ```
 Etape 2 : configure mode priviligie d'un routeur cisco 
 -------------------------------------------------------
@@ -57,77 +59,59 @@ Etape : configure de base switch
 ````
 Switch>en
 Switch#config t
-Switch(config)hostname S0 
-S0(config )enable secret cisco
-S0(config)line console 0
-S0(confi-line)password cisco
-S0(confi-line)login 
-line vty 0 15
-password cisco
-login
-exit
-do wr
+Switch(config)#hostname S0 
+S0(config )#enable secret cisco
+S0(config)#line console 0
+S0(confi-line)#password cisco
+S0(confi-line)#login 
+S0(confi-line)#line vty 0 15
+S0(confi-line)#password cisco
+S0(confi-line)#login
+S0(confi-line)#exit
+S0(config)#do wr
 ````
 configuration SSH du commutateur (switch )
 ```
-ip domain-name borealc.on.ca 
-crypto key generate rsa
-transport input ssh
-login local
+S0(config)#ip domain-name borealc.on.ca 
+S0(config)#crypto key generate rsa
+S0(config)#line vty 0 4
+S0(confi-line)#transport input ssh
+S0(confi-line)#transport output ssh
+S0(config-line)#login local
+S0(config-line)# username amirali11 password Terminal@11
+
 ```
   utiliser le meme commande de base les autres swith
 
 Etape : configuration vlan 
------------------------------
-```
-vlan 99
-name management
-exit
+--------------------------
 
-vlan 10
-name faculty-staff
-exit
-
-vlan 20
-name dev
-exit
-
-vlan 30
-name guest
-exit
-```
 #configuration address ip du vlan 1
 ```
- int vlan 1
- ip address 192.168.0.10 255.255.255.0
- no shutdown 
- exit
+ Switch(config)#int vlan 1
+ Switch(config-if)#ip address 192.168.0.10 255.255.255.0
+Switch(config-if)# no shutdown 
+Switch(config-if)# exit
+```
  
-```
 
-Etape : Configuration interface vlan  
-------------------------------------
+Configuration protocole DHCP 
+-----------------------------
 ```
-interface rang fa0/1-9
-switchport mode access 
-switchport access vlan 20 
-exit 
-interface rang fa0/10-15
-switchport mode access 
-switchport access vlan 10 
-exit 
+R1#config terminal 
+R1#(config)# ip dhcp pool boreal
+R1#(dhcp-config)# Network 192.168.0.0 255.255.255.0 
+R1#(dhcp-config)# default-router 192.168.0.1 
+R1#(dhcp-config)# domain-name borealc.on.ca 
+R1#(dhcp-config)#exit
 
-interface rang fa0/16-20
-switchport mode access 
-switchport access vlan 99
-exit 
-
-interface rang fa0/21-22
-switchport mode access 
-switchport access vlan 30
-exit
-do wr
 ```
+:address ip sever linux 192.168.0.240:
+
+#:o: Referrence https://www.astarox.com/blog/configuration-ssh-cisco-b12.html
+https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package ()
+
+
 
 
 GRACIAS 

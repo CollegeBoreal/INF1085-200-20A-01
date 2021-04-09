@@ -57,7 +57,7 @@ boreal@10.13.237.76 /home/Hassana $ sudo nano /etc/samba/smb.conf
 
 ```
 
-[sharefolder]
+[sharehome]
           comment = samba on ubuntu
           path = /home/luxury/sharefolder
           browseable = yes
@@ -102,8 +102,6 @@ root@boreal:~# ip add
 
 ### Adresse de la machine
 
-
-
 ```
 10.13.237.76
 ```
@@ -111,9 +109,36 @@ root@boreal:~# ip add
 ### Verifions le sharehome a partir de windows
 
 
+
+
 ```
+
+
+
+
 Run
-```
+````
+
+
+
+
+
+![image](run.png)
+
+
+
+![image](sharehome.png)
+
+
+
+
+![image](samba.png)
+
+
+
+
+
+
 
 
 ### Nom Utilisateur
